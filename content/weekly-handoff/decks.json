@@ -1,0 +1,70 @@
+{
+  "_comment": "Finished Geebs carousel decks by posting date. refresh-weekly-board-sections.py puts the deck title, comment keyword and Drive folder on that day's calendar card. A day with no entry keeps the 'Deck coming' wording.",
+  "decks": {
+    "2026-09-27": {
+      "title": "A gym habit, measured: about 6 weeks at 4+ sessions a week",
+      "keyword": "STICK",
+      "url": "https://drive.google.com/drive/folders/1B7z1jrwZEkeaz-PNhU2xDCF_VxrgpHzS"
+    },
+    "2026-09-28": {
+      "title": "Cardio for fat loss: HIIT and steady cardio cut the same fat",
+      "keyword": "RECOMP",
+      "url": "https://drive.google.com/drive/folders/1pqTyd2XKuIxhmuFcB2fAIIGF-P0m_WiZ"
+    },
+    "2026-09-29": {
+      "title": "Coming back after time off: 3-week breaks didn't cost lifters their gains",
+      "keyword": "RESTART",
+      "url": "https://drive.google.com/drive/folders/11yA9vR0VQsGY4C5K94fkWPty6sM8sG27"
+    },
+    "2026-09-30": {
+      "title": "Training on a busy schedule: three 13-minute sessions a week built the same strength",
+      "keyword": "BUSY",
+      "url": "https://drive.google.com/drive/folders/1mEI-6KDQ3IGrdyjDeD-KX1zpIz5OGbck"
+    },
+    "2026-10-01": {
+      "title": "Recomp: in a 40% deficit, the high-protein group gained muscle and lost more fat",
+      "keyword": "RECOMP",
+      "url": "https://drive.google.com/drive/folders/18b7TE_uKFWkJGmxPa_MchIZR4v2b7osL"
+    },
+    "2026-10-02": {
+      "title": "Food tracking: people who couldn't lose on 1,200 calories were eating 47% more than they logged",
+      "keyword": "DEFICIT",
+      "url": "https://drive.google.com/drive/folders/1cJknnYCvwAXJDQhHKBlyzM5sDbVvGTBo"
+    },
+    "2026-10-03": {
+      "title": "Grocery shopping: the same meals, ultra-processed, added 508 calories a day",
+      "keyword": "MACROS",
+      "url": "https://drive.google.com/drive/folders/1ZNOIDskaK4wfyaw2L3EY5OLB5zZJuZtH"
+    },
+    "2026-10-09": {
+      "title": "Supplements: four things on the shelf survived the research — ten findings on why, and what the studies say about the rest",
+      "keyword": "GAINS",
+      "url": "https://drive.google.com/drive/folders/1C0--DHftxKEdZzbFbYCTWE8MxOrgeqrh"
+    },
+    "2026-10-18": {
+      "title": "Recomp, settled by the research: in a 40% deficit, the high protein group gained muscle and lost more fat.",
+      "keyword": "RECOMP",
+      "url": "https://drive.google.com/drive/folders/18WO1tKsaB4MFPX5LirICIuuk2hUFXAdq"
+    },
+    "2026-10-20": {
+      "title": "Signs stress is killing your gains. And 6 ways to bring it down.",
+      "keyword": "BUSY",
+      "url": "https://drive.google.com/drive/folders/1x01yz48dVVlSclNjBUC7jmjZxsmzX6CW"
+    },
+    "2026-10-21": {
+      "title": "Restaurant meals, measured in a lab: 1,205 calories on average, and 92% were more than one meal's worth.",
+      "keyword": "DEFICIT",
+      "url": "https://drive.google.com/drive/folders/1ZkJWBkBMeC_WLyzOA4YJk-h0sX66Kuun"
+    },
+    "2026-10-22": {
+      "title": "Cardio for fat loss, settled by 13 trials: HIIT and steady cardio cut the same fat. HIIT just took less time.",
+      "keyword": "RECOMP",
+      "url": "https://drive.google.com/drive/folders/1pqTyd2XKuIxhmuFcB2fAIIGF-P0m_WiZ"
+    },
+    "2026-10-23": {
+      "title": "Grocery shopping, settled by the research: the same meals, ultra-processed, added 508 calories a day.",
+      "keyword": "DEFICIT",
+      "url": "https://drive.google.com/drive/folders/1ZNOIDskaK4wfyaw2L3EY5OLB5zZJuZtH"
+    }
+  }
+}

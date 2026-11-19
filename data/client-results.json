@@ -1,0 +1,220 @@
+{
+  "aggregateProof": [
+    {
+      "label": "Tracked 16-week average",
+      "value": "25 lb",
+      "detail": "Average fat loss across 15 completed clients tracked over 16 weeks. Individual results vary."
+    },
+    {
+      "label": "Verified Google Rating",
+      "value": "5.0",
+      "detail": "Across 30 verified Google Business Profile client reviews in Englewood, CO."
+    },
+    {
+      "label": "Human Coaching",
+      "value": "100%",
+      "detail": "Every workout feedback, check-in, and nutrition adjustment is handled 1-on-1 by Steve or Kris."
+    }
+  ],
+  "transformations": [
+    {
+      "id": "joe-first-month",
+      "name": "Joe",
+      "metric": "-15 lbs",
+      "timeframe": "1 month",
+      "badge": "45 LB DISC · -15 LBS",
+      "headline": "Joe's first month.",
+      "quote": "I'm really happy with how the first month went and think you are on point with your coaching. Thanks so much I'm excited for the next couple months.",
+      "context": "Joe recorded two photos at 200 lbs and 185 lbs, one month apart. Weights and progress photos shared with permission.",
+      "image": "/results/client-win-joe-15lb-1month.jpg",
+      "width": 1200,
+      "height": 1732,
+      "alt": "Coaching client Joe before and after photos one month apart with his message about the first month of coaching"
+    },
+    {
+      "id": "conor-three-months",
+      "name": "Conor",
+      "metric": "+5 lbs muscle",
+      "timeframe": "3 months",
+      "badge": "25 LB DISC · +5 LBS MUSCLE",
+      "headline": "Conor after three months.",
+      "quote": "These results are real man, all thanks to the attention that you give me. You've really helped me a lot through this process!",
+      "context": "Conor put 5 pounds of lean muscle on in 3 months with customized progressive overload and dialed nutrition.",
+      "image": "/results/client-win-conor-5lb-muscle-3mo.jpg",
+      "width": 1200,
+      "height": 1878,
+      "alt": "Coaching client Conor before and after photos three months apart with his message about the coaching process"
+    },
+    {
+      "id": "sam-strength-confidence",
+      "name": "Sam",
+      "metric": "Recomp & Strength",
+      "timeframe": "Ongoing",
+      "badge": "COMPETITION DISC · RECOMP",
+      "headline": "Sam fell back in love with the gym.",
+      "quote": "These workouts have helped me build strength, confidence, and the physique I was working toward. The intentional structure and intensity of the program has made me fall in love with the gym again.",
+      "context": "Structured progression restored training consistency, physique definition, and confidence in the gym.",
+      "image": "/results/client-win-sam-strength-confidence.jpg",
+      "width": 1200,
+      "height": 1883,
+      "alt": "Coaching client Sam before and after photos with his message about building strength and confidence"
+    },
+    {
+      "id": "client-36-lbs-under-200",
+      "name": "Anonymous Athlete",
+      "metric": "-36 lbs",
+      "timeframe": "234 to 198 lb",
+      "badge": "45 LB DISC · -36 LBS",
+      "headline": "Down 36 pounds and under 200 for the first time in years.",
+      "quote": "I feel good in the mirror. And thanks the encouragement.",
+      "context": "Dropped from 234 lbs to 198 lbs through steady habit stacking, high-protein tracking, and progressive resistance training.",
+      "image": "/results/client-36-lbs-under-200-cropped.jpg",
+      "width": 1320,
+      "height": 1500,
+      "alt": "Athlete milestone screenshot showing 36 lb weight drop under 200 lbs"
+    },
+    {
+      "id": "traveling-transformation",
+      "name": "Traveling Client",
+      "metric": "Side & Back Recomp",
+      "timeframe": "Custom Plan",
+      "badge": "25 LB DISC · RECOMP",
+      "headline": "Front, side and back, before and after.",
+      "quote": "Maintained workout intensity and clean meal defaults while traveling frequently for work.",
+      "context": "Full body recomposition achieved while navigating frequent business travel and changing hotel gym access.",
+      "image": "/results/client-win-traveling-transformation.jpg",
+      "width": 1200,
+      "height": 1486,
+      "alt": "Coaching client side and back before and after transformation photos"
+    },
+    {
+      "id": "new-program-results",
+      "name": "New Program Athlete",
+      "metric": "Physique Definition",
+      "timeframe": "New Phase",
+      "badge": "TF IRON · NEW PHASE",
+      "headline": "Loving the results so far.",
+      "quote": "Loving the results I'm seeing so far with the new program! Appreciate you as always brotha.",
+      "context": "Progressive overload adjustments and focused exercise selection producing visible physique definition.",
+      "image": "/results/client-win-new-program-results.jpg",
+      "width": 1200,
+      "height": 1859,
+      "alt": "Coaching client before and after photos with his message about results on the new program"
+    }
+  ],
+  "stories": [
+    {
+      "id": "justin-online-2-months-10-lbs",
+      "name": "Justin",
+      "age": 24,
+      "coachingLength": "2 months coached",
+      "headline": "Down 10 pounds and carrying more confidence into daily life.",
+      "quote": "Since training with Kris, I've lost 10 lb, which has definitely given me more confidence. I'm also noticing changes in my daily life: I am not as tired during work and I can lift things easier than before.",
+      "outcome": "2 months · down 10 lb, more energy, higher daily work stamina",
+      "screenshot": "/results/justin-online-weight-loss-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 530
+    },
+    {
+      "id": "jon-miller-6-months-first-pull-ups",
+      "name": "Jon Miller",
+      "age": 27,
+      "coachingLength": "6 months coached",
+      "headline": "From zero pull-ups to five on his own.",
+      "quote": "Kris helped me improve my form and my confidence, and he kept me accountable with my diet. Before I couldn't do a single pull-up, and now I can do five all on my own.",
+      "outcome": "6 months · clean movement mechanics, diet accountability, 5 strict pull-ups",
+      "screenshot": "/results/jon-miller-pull-up-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 400
+    },
+    {
+      "id": "jhoan-rincon-3-months-technique-health",
+      "name": "Jhoan Rincon",
+      "age": 46,
+      "coachingLength": "3 months coached",
+      "headline": "Better technique, better health, and support to keep going.",
+      "quote": "Kris has a natural talent for coaching and for making me understand the proper technique for each exercise and exactly which muscles we are working. Most importantly, he changed the way I view my life, encouraging me to take better care of my body, my mind, and my health.",
+      "outcome": "3 months · joint-friendly over-40 technique, weekly adherence, renewed vitality",
+      "screenshot": "/results/jhoan-rincon-coaching-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 900
+    },
+    {
+      "id": "thomas-13-weeks-weight-gain",
+      "name": "Thomas",
+      "age": 19,
+      "coachingLength": "13 weeks coached",
+      "headline": "Thirteen weeks in, gaining lean weight and building gym confidence.",
+      "quote": "At first it was hard to maintain a calorie goal, much less a protein goal, but now it has been really easy because I have the accountability I need. Without guidance on exercises, I wouldn't have known what to do at the gym. Now I see a noticeable difference in my physique.",
+      "outcome": "13 weeks · lean weight gain, reliable protein targets, clear gym direction",
+      "screenshot": "/results/thomas-13-weeks-weight-gain-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 650
+    },
+    {
+      "id": "jordan-miller-6-months-28-pull-ups",
+      "name": "Jordan Miller",
+      "age": 27,
+      "coachingLength": "6 months coached",
+      "headline": "From no pull-ups to a 28-rep best.",
+      "quote": "Kris has done a phenomenal job guiding me in building my chest and arms while helping me understand the proper form and intensity for each set. He has held me accountable with my diet. I went from being unable to do a pull-up to doing multiple, with a best record of 28.",
+      "outcome": "6 months · chest & arm development, diet accountability, 28-rep pull-up PR",
+      "screenshot": "/results/jordan-miller-6-months-pull-ups-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 740
+    },
+    {
+      "id": "juan-online-4-5-months",
+      "name": "Juan",
+      "age": 28,
+      "coachingLength": "4-5 months coached",
+      "headline": "Stronger, leaner, and training with a healthier mindset.",
+      "quote": "You have helped me increase my strength, my workout intensity, form, and now my nutrition. Since starting, I've slowly lost weight, gained more muscle, and developed a daily habit of working out with a positive/healthier mindset.",
+      "outcome": "4-5 months · progressive strength overload, form refinement, nutrition habits",
+      "screenshot": "/results/juan-online-testimonial-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 320
+    },
+    {
+      "id": "gonzalo-fort-lauderdale-11-weeks",
+      "name": "Gonzalo",
+      "location": "Fort Lauderdale",
+      "coachingLength": "11 weeks coached",
+      "headline": "Thank you for changing my life.",
+      "quote": "Your lifting philosophy, the eating protocol, the sauna, the cardio, is all stacking. Even sleep has been better. I am feeling FANTASTIC, way more energetic, like a million dollars.",
+      "outcome": "11 weeks · strength, recovery stacking, sleep optimization, high daily energy"
+    }
+  ],
+  "messages": [
+    {
+      "id": "anthony-online-accountability",
+      "name": "Anthony",
+      "tag": "Nutrition Accountability",
+      "headline": "Ready to track every day.",
+      "context": "A live nutrition push where Kris lays out the food targets and Anthony commits to daily tracking, meal prep, and workout reporting.",
+      "screenshot": "/results/anthony-online-accountability-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 400
+    },
+    {
+      "id": "jordan-miller-training-reaction",
+      "name": "Jordan",
+      "tag": "Session Reaction",
+      "headline": "Pushed hard and feeling amazing.",
+      "context": "Post-session real-time feedback after coaching pushed the workout intensity and Jordan reported immediate positive momentum.",
+      "screenshot": "/results/jordan-miller-training-reaction-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 640
+    },
+    {
+      "id": "janica-winn-gymrat-prayer",
+      "name": "Janica",
+      "tag": "Athlete Culture",
+      "headline": "The Gymrat Prayer.",
+      "context": "Authentic training culture message highlighting the trust, humor, and mutual dedication built through consistent coaching sessions.",
+      "screenshot": "/results/janica-winn-gymrat-prayer-cropped.jpg",
+      "screenshotWidth": 589,
+      "screenshotHeight": 670
+    }
+  ]
+}

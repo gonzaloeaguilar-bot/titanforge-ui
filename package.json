@@ -1,0 +1,26 @@
+{
+  "name": "titanforge-canonical-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "verify:ui-integrity": "node scripts/verify-ui-integrity.mjs"
+  },
+  "dependencies": {
+    "date-fns": "^4.4.0",
+    "gray-matter": "^4.0.3",
+    "next": "16.3.0",
+    "next-mdx-remote": "^6.0.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "playwright": "^1.64.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.titanforgefit.com"
+        }
+      ],
+      "destination": "https://titanforgefit.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/apply",
+      "destination": "/apply",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/2026-08-14-the-3-llm-cto-system-how-we-fully-automated-a-client-s-content-pipeline",
+      "destination": "/resources",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/answer-engine-readiness",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/chatgpt-perplexity-gemini-citation-readiness",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/evidence-and-proof",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/source-of-truth-and-entity-proof",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/citable-answer-formats-and-fitness-glossary",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/answer-engine-query-and-brand-fact-sheets",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/refer-a-friend-and-coaching-credits",
+      "destination": "/referral",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-titan-forge-referral-program-works",
+      "destination": "/referral",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-to-earn-free-coaching-months",
+      "destination": "/referral",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/who-to-refer-for-fitness-coaching",
+      "destination": "/referral",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/titan-forge-coaching-plans-and-tiers",
+      "destination": "/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-the-coaching-prepay-discount-works",
+      "destination": "/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/when-to-stop-a-workout",
+      "destination": "/science/how-close-to-failure-to-train",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/beginner-strength-training",
+      "destination": "/blog/2026-08-09-hypertrophy-vs-strength-what-actually-builds-muscle-for-beginners",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/training-volume-and-recovery",
+      "destination": "/science/how-many-sets-per-muscle-per-week",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-to-build-muscle-without-dirty-bulking",
+      "destination": "/science/can-you-build-muscle-and-lose-fat-at-the-same-time",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/dynamic-warmup-before-strength-training",
+      "destination": "/resources/exercise-order-in-strength-training",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/calorie-deficit-basics-for-beginners",
+      "destination": "/science/energy-balance-is-not-negotiable",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/safe-exercise-progression-for-beginners",
+      "destination": "/science/progressive-overload-what-it-really-means",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-to-start-with-titan-forge-coaching",
+      "destination": "/coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/pre-workout-supplements-and-caffeine",
+      "destination": "/science/caffeine-and-training-performance",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/protein-fiber-and-satiety-for-fat-loss",
+      "destination": "/science/fibre-satiety-and-appetite",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/personal-trainer-vs-online-fitness-coach",
+      "destination": "/vs/personal-trainer",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/weekly-fitness-check-ins-that-change-the-plan",
+      "destination": "/coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-to-handle-social-events-while-dieting",
+      "destination": "/blog/2026-08-09-how-to-track-macros-eating-out-with-clients",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/how-to-choose-personal-trainer-parker-co",
+      "destination": "/for/parker-personal-training",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/evidence-based-fitness-coaching-sources",
+      "destination": "/guides/how-we-read-a-study",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/fitness-accountability-systems-that-work",
+      "destination": "/coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/what-to-expect-from-online-coaching",
+      "destination": "/for/online-coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/range-of-motion-and-strength-training",
+      "destination": "/science/range-of-motion-and-growth",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/when-to-adjust-workout-and-nutrition-plan",
+      "destination": "/coaching",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/what-happens-if-fitness-coaching-is-not-the-right-fit",
+      "destination": "/start",
+      "statusCode": 301
+    },
+    {
+      "source": "/resources/strength-training-after-40-without-beating-up-joints",
+      "destination": "/for/strength-training-with-joint-pain",
+      "statusCode": 301
+    },
+    {
+      "source": "/collections/beginner-fitness",
+      "destination": "/blog/2026-08-09-hypertrophy-vs-strength-what-actually-builds-muscle-for-beginners",
+      "statusCode": 301
+    },
+    {
+      "source": "/pages/apply",
+      "destination": "/apply",
+      "permanent": true
+    },
+    {
+      "source": "/pages/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/pages/personal-training-center",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/pages/supplements",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/pages/accessories",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/pages/mens-clothing",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/pages/womens-clothing",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/products/bone-heart-support",
+      "destination": "https://shop.titanforgefit.com/products/bone-heart-support",
+      "permanent": true
+    },
+    {
+      "source": "/products/testosterone-booster",
+      "destination": "https://shop.titanforgefit.com/products/testosterone-booster",
+      "permanent": true
+    },
+    {
+      "source": "/products/resveratrol-50-600mg",
+      "destination": "https://shop.titanforgefit.com/products/resveratrol-50-600mg",
+      "permanent": true
+    },
+    {
+      "source": "/products/ashwagandha",
+      "destination": "https://shop.titanforgefit.com/products/ashwagandha",
+      "permanent": true
+    },
+    {
+      "source": "/products/multivitamin-bear-gummies-adult",
+      "destination": "https://shop.titanforgefit.com/products/multivitamin-bear-gummies-adult",
+      "permanent": true
+    },
+    {
+      "source": "/products/sleep-well-gummies-adult",
+      "destination": "https://shop.titanforgefit.com/products/sleep-well-gummies-adult",
+      "permanent": true
+    },
+    {
+      "source": "/products/l-glutamine-powder",
+      "destination": "https://shop.titanforgefit.com/products/l-glutamine-powder",
+      "permanent": true
+    },
+    {
+      "source": "/products/probiotic-40-billion-with-prebiotics",
+      "destination": "https://shop.titanforgefit.com/products/probiotic-40-billion-with-prebiotics",
+      "permanent": true
+    },
+    {
+      "source": "/products/ultra-cleanse-smoothie-greens",
+      "destination": "https://shop.titanforgefit.com/products/ultra-cleanse-smoothie-greens",
+      "permanent": true
+    },
+    {
+      "source": "/products/geebs-science-based-community",
+      "destination": "/products/titan-forge-science-based-community",
+      "permanent": true
+    },
+    {
+      "source": "/products/geebs-science-titan-app-membership",
+      "destination": "/products/titan-forge-community-fitbudd-app",
+      "permanent": true
+    },
+    {
+      "source": "/collections",
+      "destination": "https://shop.titanforgefit.com/collections",
+      "permanent": true
+    },
+    {
+      "source": "/collections/all",
+      "destination": "https://shop.titanforgefit.com/collections/all",
+      "permanent": true
+    },
+    {
+      "source": "/collections/accessories",
+      "destination": "https://shop.titanforgefit.com/collections/accessories",
+      "permanent": true
+    },
+    {
+      "source": "/collections/mens-clothing",
+      "destination": "https://shop.titanforgefit.com/collections/mens-clothing",
+      "permanent": true
+    },
+    {
+      "source": "/collections/womens-clothing",
+      "destination": "https://shop.titanforgefit.com/collections/womens-clothing",
+      "permanent": true
+    },
+    {
+      "source": "/collections/titan-pump-covers",
+      "destination": "https://shop.titanforgefit.com/collections/titan-pump-covers",
+      "permanent": true
+    },
+    {
+      "source": "/collections/titan-pump-covers/:slug*",
+      "destination": "https://shop.titanforgefit.com/collections/titan-pump-covers/:slug*",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/news",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/news/:slug*",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/how-answer-engines-evaluate-fitness-coaching-pages",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/fitness-claims-that-need-evidence",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/ai-crawler-access-and-robots-for-fitness-sites",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/google-ai-overviews-gemini-and-fitness-content",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/how-to-build-citable-fitness-faqs",
+      "destination": "/faq",
+      "permanent": true
+    },
+    {
+      "source": "/resources/production-indexing-checklist-for-fitness-coaches",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/chatgpt-search-readiness-for-fitness-coaches",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/perplexity-citation-readiness-for-fitness-coaches",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/google-ai-mode-readiness-after-fitness-site-launch",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/robots-txt-noindex-and-ai-citation-gates",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/search-console-sitemap-and-ai-citation-monitoring",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/titan-forge-source-of-truth-for-ai-citations",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources/entity-consistency-for-fitness-coaching-brand",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources/structured-data-that-matches-visible-fitness-content",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/google-business-profile-reviews-and-local-proof",
+      "destination": "/for/parker-personal-training",
+      "permanent": true
+    },
+    {
+      "source": "/resources/google-business-profile-reviews-and-local-proof/index.html",
+      "destination": "/for/parker-personal-training",
+      "permanent": true
+    },
+    {
+      "source": "/resources/shopify-product-data-and-merchant-proof",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/resources/shopify-product-data-and-merchant-proof/index.html",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/resources/what-makes-a-fitness-answer-citable",
+      "destination": "/faq",
+      "permanent": true
+    },
+    {
+      "source": "/resources/answer-engine-ready-fitness-summaries",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/how-to-audit-citation-snippets-after-launch",
+      "destination": "/resources",
+      "permanent": true
+    },
+    {
+      "source": "/resources/titan-forge-fitness-brand-fact-sheet",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources/titan-forge-coaching-offers-overview",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/resources/what-titan-forge-coaching-includes",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/resources/what-titan-forge-coaching-does-not-guarantee",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/resources/what-certifications-matter-for-personal-trainers",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/resources/how-to-verify-online-fitness-coaching-claims",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/resources/privacy-and-boundaries-in-online-fitness-coaching",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/resources/fitness-coaching-onboarding-checklist",
+      "destination": "/apply",
+      "permanent": true
+    },
+    {
+      "source": "/resources/how-long-does-online-fitness-coaching-take-to-work",
+      "destination": "/coaching",
+      "permanent": true
+    },
+    {
+      "source": "/policies/privacy-policy",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/policies/terms-of-service",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/policies/refund-policy",
+      "destination": "/refund-policy",
+      "permanent": true
+    },
+    {
+      "source": "/policies/shipping-policy",
+      "destination": "/shipping-policy",
+      "permanent": true
+    },
+    {
+      "source": "/policies/subscription-policy",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/cart",
+      "destination": "https://shop.titanforgefit.com/cart",
+      "permanent": false
+    },
+    {
+      "source": "/cart/:slug*",
+      "destination": "https://shop.titanforgefit.com/cart/:slug*",
+      "permanent": false
+    },
+    {
+      "source": "/account",
+      "destination": "https://shop.titanforgefit.com/account",
+      "permanent": false
+    },
+    {
+      "source": "/account/:slug*",
+      "destination": "https://shop.titanforgefit.com/account/:slug*",
+      "permanent": false
+    },
+    {
+      "source": "/checkout",
+      "destination": "https://shop.titanforgefit.com/checkout",
+      "permanent": false
+    },
+    {
+      "source": "/checkout/:slug*",
+      "destination": "https://shop.titanforgefit.com/checkout/:slug*",
+      "permanent": false
+    },
+    {
+      "source": "/checkouts/:slug*",
+      "destination": "https://shop.titanforgefit.com/checkouts/:slug*",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://titanforge-site.vercel.app/api/:path*"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+/* ============================================================
+   TITAN FORGE FITNESS — Design Tokens
+   "Built Here. Forged Within."
+   Cold steel structure · one point of ember heat
+   ============================================================ */
+
+/* Fonts are NOT @imported here: an @import made the cross-origin font CSS
+   render-blocking and held the home page's first paint (2026-10-07). The Next
+   layout loads it without blocking; static shells link it in their <head>. */
+
+:root {
+  /* — Surfaces (cool charcoal, never muddy black) — */
+  --bg:        #131619;   /* page base */
+  --bg-1:      #181B1F;   /* raised surface */
+  --bg-2:      #1F242A;   /* card */
+  --bg-3:      #272D34;   /* elevated card / hover */
+  --bg-inset:  #0E1013;   /* recessed / footer */
+
+  /* — Forged steel ramp (lead accent) — */
+  --steel-100: #EAEDF0;
+  --steel-200: #C3CAD1;
+  --steel-300: #9BA3AB;   /* primary steel accent */
+  --steel-400: #757D86;
+  --steel-500: #565D65;
+
+  /* — Ember (the single point of heat — CTA + key proof only) — */
+  --ember:     #E2552E;
+  --ember-hot: #F2683F;
+  --ember-deep:#B23E1E;
+  --ember-glow: rgba(226, 85, 46, 0.28);
+
+  /* — Brass (whisper accent, rules & marks only) — */
+  --brass:     #C8893B;
+
+  /* — Text — */
+  --text:      #ECEFF2;
+  --text-2:    #AEB6BE;   /* secondary copy */
+  --text-3:    #79818A;   /* muted / captions */
+
+  /* — Lines & strokes — */
+  --line:      rgba(255,255,255,0.09);
+  --line-2:    rgba(255,255,255,0.16);
+  --line-ember:rgba(226,85,46,0.55);
+
+  /* — Type — */
+  --display: 'Oswald', 'Arial Narrow', sans-serif;   /* condensed athletic */
+  --body:    'Hanken Grotesk', system-ui, sans-serif;
+  --mono:    'JetBrains Mono', ui-monospace, monospace;
+
+  /* — Radius (sharp / lightly rounded only) — */
+  --r-sm: 2px;
+  --r:    4px;
+  --r-lg: 6px;
+
+  /* — Shadows — */
+  --shadow:    0 18px 40px -22px rgba(0,0,0,0.8);
+  --shadow-lg: 0 40px 90px -40px rgba(0,0,0,0.9);
+
+  /* — Layout — */
+  --maxw: 1240px;
+  --gut:  clamp(20px, 5vw, 72px);
+}
+
+/* ============================================================
+   PRIMITIVES — shared helpers used across pages
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+.tf-eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel-300);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.tf-eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background: var(--ember);
+}
+.tf-eyebrow--center::before { display: none; }
+
+.tf-display {
+  font-family: var(--display);
+  font-weight: 600;
+  line-height: 0.92;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+/* Brushed steel sheen for big headlines */
+.tf-steel-text {
+  background: linear-gradient(176deg, #ffffff 0%, #C3CAD1 38%, #8A929B 72%, #B7BEC6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+@media (max-width: 560px) {
+  .tf-steel-text {
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: var(--steel-100);
+    color: var(--steel-100);
+  }
+}
+
+.tf-ember { color: var(--ember); }
+
+/* Subtle film grain overlay — apply to a fixed/absolute layer */
+.tf-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Photography placeholder — dark, textured, labelled */
+.tf-photo {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 70% 20%, rgba(155,163,171,0.10), transparent 60%),
+    linear-gradient(155deg, #20252B 0%, #161A1E 55%, #0F1215 100%);
+  isolation: isolate;
+}
+.tf-photo::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.035) 0 2px, transparent 2px 9px);
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  z-index: 1;
+  pointer-events: none;
+}
+.tf-photo::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(14,16,19,0.08) 0%, rgba(14,16,19,0.32) 48%, rgba(14,16,19,0.72) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+.tf-photo__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--photo-pos, center);
+  filter: saturate(0.92) contrast(1.08) brightness(0.86);
+  z-index: 0;
+}
+.tf-photo__tag {
+  position: absolute;
+  left: 16px; bottom: 14px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  display: flex; align-items: center; gap: 8px;
+  z-index: 4;
+}
+.tf-photo__tag::before {
+  content: "";
+  width: 7px; height: 7px;
+  border: 1px solid var(--steel-400);
+}
+
+/* Hairline forge rule with ember tick */
+.tf-rule {
+  height: 1px;
+  background: var(--line);
+  position: relative;
+}
+.tf-rule::before {
+  content: "";
+  position: absolute; left: 0; top: 0;
+  width: 64px; height: 1px;
+  background: var(--ember);
+}

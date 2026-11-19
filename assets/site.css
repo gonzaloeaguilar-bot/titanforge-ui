@@ -1,0 +1,264 @@
+/* ============================================================
+   TITAN FORGE — Site-wide component styles
+   (loads after tokens.css)
+   ============================================================ */
+
+html { scroll-behavior: smooth; }
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html, body { max-width: 100%; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+::selection { background: var(--ember); color: #fff; }
+main:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--ember); outline-offset: 4px; }
+
+@keyframes titan-fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes titan-rise {
+  from { transform: translateY(18px); }
+  to { transform: translateY(0); }
+}
+@keyframes titan-fade-down {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* No opacity in this one: it animates .appshell__main and .crawler-page, the
+   containers of the first screen. Starting them at opacity 0 kept the hero out
+   of the first paint, so the LCP was whatever sat outside them (the chat
+   button) and arrived only once the fade ran — 8.4 s of mobile render delay in
+   Lighthouse 12, 2026-10-07. Motion animates the container, never gates it. */
+@keyframes titan-fade-soft {
+  from { filter: saturate(0.92) blur(4px); }
+  to { opacity: 1; filter: saturate(1) blur(0); }
+}
+
+.crawler-page {
+  animation: titan-fade-soft .34s cubic-bezier(.2,.7,.2,1) both;
+}
+html.js .crawler-page {
+  display: none;
+}
+
+.appshell__nav {
+  animation: titan-fade-down .42s cubic-bezier(.2,.7,.2,1) both;
+  position: relative;
+  z-index: 100;
+}
+
+.appshell__main {
+  animation: titan-fade-soft .42s cubic-bezier(.2,.7,.2,1) both;
+  position: relative;
+  z-index: 1;
+}
+
+.appshell__main > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: titan-fade-up .62s cubic-bezier(.2,.7,.2,1) forwards;
+}
+
+/* The first child is the first screen (the home hero and every page's lead
+   section): it rises into place but is visible from the first frame. */
+.appshell__main > *:nth-child(1) { opacity: 1; animation-name: titan-rise; animation-delay: 0s; }
+.appshell__main > *:nth-child(2) { animation-delay: .1s; }
+.appshell__main > *:nth-child(3) { animation-delay: .16s; }
+.appshell__main > *:nth-child(4) { animation-delay: .22s; }
+.appshell__main > *:nth-child(5) { animation-delay: .28s; }
+.appshell__main > *:nth-child(n+6) { animation-delay: .34s; }
+
+.appshell__foot {
+  animation: titan-fade-up .46s cubic-bezier(.2,.7,.2,1) .14s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crawler-page,
+  .appshell__nav,
+  .appshell__main,
+  .appshell__main > *,
+  .appshell__main > *:nth-child(1),
+  .appshell__foot {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+.skip-link {
+  position: fixed; left: 16px; top: -80px; z-index: 1000;
+  transition: top .18s ease;
+  background: var(--ember); color: #fff; border: 1px solid var(--ember-hot);
+  padding: 12px 16px; font-family: var(--mono); font-size: 12px;
+  letter-spacing: 0.1em; text-transform: uppercase; box-shadow: 0 16px 40px rgba(0,0,0,0.32);
+}
+.skip-link:focus, .skip-link:focus-visible { top: 12px; outline-color: #fff; }
+
+/* ---- Layout ---- */
+.wrap { max-width: var(--maxw); margin: 0 auto; padding-inline: var(--gut); }
+.section { padding-block: clamp(44px, 6vw, 88px); position: relative; }
+.section--tight { padding-block: clamp(32px, 4vw, 56px); }
+.section--inset { background: var(--bg-inset); }
+.section--raised { background: var(--bg-1); }
+
+/* ---- Buttons ---- */
+.btn {
+  font-family: var(--mono); font-size: 13px; font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; padding: 16px 26px; border: 1px solid transparent;
+  cursor: pointer; display: inline-flex; align-items: center; gap: 11px;
+  transition: transform .18s ease, background .2s ease, border-color .2s ease, box-shadow .25s ease, color .2s ease;
+  background: none; line-height: 1; white-space: nowrap;
+}
+.btn .arr { transition: transform .22s ease; font-family: var(--body); font-size: 1.05em; }
+.btn:hover .arr { transform: translateX(4px); }
+.btn--ember { background: var(--ember); color: #fff; box-shadow: 0 14px 30px -16px var(--ember-glow); }
+.btn--ember:hover { background: var(--ember-hot); box-shadow: 0 18px 38px -14px var(--ember-glow); transform: translateY(-1px); }
+.btn--ember:active { transform: translateY(0); background: var(--ember-deep); }
+.btn--ghost { color: var(--text); border-color: var(--line-2); }
+.btn--ghost:hover { border-color: var(--steel-300); background: rgba(255,255,255,0.03); transform: translateY(-1px); }
+.btn--ghost:active { transform: translateY(0); }
+.btn--steel { background: var(--steel-100); color: #14171a; }
+.btn--steel:hover { background: #fff; transform: translateY(-1px); }
+.btn--sm { padding: 12px 18px; font-size: 12px; }
+.btn--block { width: 100%; justify-content: center; }
+
+/* ---- Section header ---- */
+.shead { max-width: 760px; }
+.shead--center { margin-inline: auto; text-align: center; }
+.shead h2 {
+  font-family: var(--display); text-transform: uppercase; font-weight: 600;
+  font-size: clamp(34px, 5.2vw, 60px); line-height: 0.96; letter-spacing: 0.005em;
+  margin: 18px 0 0;
+}
+.shead p { color: var(--text-2); font-size: 17px; line-height: 1.6; margin: 20px 0 0; max-width: 56ch; }
+.shead--center p { margin-inline: auto; }
+
+/* ---- Generic card ---- */
+.card {
+  background: var(--bg-2); border: 1px solid var(--line);
+  padding: 30px; position: relative; transition: border-color .22s ease, background .22s ease, transform .22s ease;
+}
+.card:hover { border-color: var(--line-2); background: var(--bg-3); transform: translateY(-3px); }
+
+/* ---- Index number ---- */
+.idx { font-family: var(--mono); font-size: 12px; letter-spacing: 0.18em; color: var(--text-3); }
+
+/* ---- Pill / tag ---- */
+.tag {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--steel-200); border: 1px solid var(--line-2); padding: 6px 11px; display: inline-flex; gap: 7px; align-items: center;
+}
+
+/* ---- Reveal-on-scroll ---- */
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* ============================================================
+   NAV
+   ============================================================ */
+.nav { position: sticky; top: 0; z-index: 50; background: rgba(19,22,25,0.72);
+       backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+.nav__in { display: flex; align-items: center; justify-content: space-between; height: 70px;
+           max-width: 1340px; margin: 0 auto; padding-inline: clamp(18px, 4vw, 40px); }
+.brand { display: flex; align-items: center; gap: 11px; min-height: 44px; font-family: var(--display); font-weight: 700;
+         font-size: 21px; letter-spacing: 0.04em; text-transform: uppercase; min-width: 0; }
+.brand__logo { display: block; width: clamp(150px, 15vw, 224px); max-height: 28px; height: auto;
+               object-fit: contain; filter: brightness(1.45) contrast(1.04); opacity: 0.96; }
+.nav__links { display: flex; gap: clamp(16px, 2vw, 30px); align-items: center; }
+.nav__links a { font-size: 13.5px; color: var(--text-2); position: relative; padding: 6px 0; transition: color .18s ease; }
+.nav__links a::after { content: ""; position: absolute; left: 0; bottom: -2px; height: 1px; width: 0;
+                       background: var(--ember); transition: width .22s ease; }
+.nav__links a:hover { color: var(--text); }
+.nav__links a:hover::after, .nav__links a.active::after { width: 100%; }
+.nav__links a.active { color: var(--text); }
+.nav__right { display: flex; align-items: center; gap: 14px; }
+.nav__burger { display: none; background: none; border: 1px solid var(--line-2); width: 42px; height: 42px;
+               cursor: pointer; align-items: center; justify-content: center; }
+.nav__burger span { display: block; width: 18px; height: 1.5px; background: var(--text); position: relative; }
+.nav__burger span::before, .nav__burger span::after { content: ""; position: absolute; left: 0; width: 18px; height: 1.5px; background: var(--text); }
+.nav__burger span::before { top: -6px; } .nav__burger span::after { top: 6px; }
+
+/* mobile drawer */
+.drawer { position: fixed; top: 70px; right: 0; bottom: 0; left: 0; width: 100%; height: calc(100vh - 70px); height: calc(100dvh - 70px);
+          z-index: 60; background: var(--bg); overflow-y: auto; -webkit-overflow-scrolling: touch;
+          opacity: 0; visibility: hidden; pointer-events: none;
+          transition: opacity .22s ease, visibility .22s ease; display: flex; flex-direction: column; }
+.drawer.open { opacity: 1; visibility: visible; pointer-events: auto; }
+.drawer a { font-family: var(--display); text-transform: uppercase; font-size: 30px; padding: 18px var(--gut);
+            border-bottom: 1px solid var(--line); color: var(--text-2); }
+.drawer a.active { color: var(--text); }
+.drawer__cta { padding: 24px var(--gut); display: flex; flex-direction: column; gap: 12px; margin-top: auto; }
+.drawer .btn--ember { color: #fff; }
+.drawer .btn--ghost { color: var(--text); }
+
+@media (max-width: 940px) {
+  .nav__links, .nav__intro-desktop { display: none; }
+  .nav__burger { display: inline-flex; }
+}
+@media (max-width: 560px) {
+  .nav__right .btn--ember { display: none; }
+  .nav__right { gap: 0; }
+  .nav__in { height: 64px; }
+  .drawer { top: 64px; height: calc(100vh - 64px); height: calc(100dvh - 64px); }
+}
+@media (max-width: 420px) {
+  .btn { white-space: normal; text-align: center; line-height: 1.2; justify-content: center; }
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.foot { background: var(--bg-inset); border-top: 1px solid var(--line); }
+.foot__top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px;
+             padding-block: clamp(56px, 7vw, 88px); }
+.foot__brand .brand { font-size: 26px; margin-bottom: 18px; }
+.foot__brand .brand__logo { width: clamp(190px, 22vw, 274px); max-height: 34px; }
+.foot__tag { font-family: var(--display); text-transform: uppercase; font-size: 19px; color: var(--steel-200); letter-spacing: 0.03em; }
+.foot__brand p { color: var(--text-3); font-size: 14px; line-height: 1.6; max-width: 34ch; margin-top: 16px; }
+.foot__col h4 { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+                color: var(--text-3); margin: 6px 0 18px; }
+.foot__col a { display: block; color: var(--text-2); font-size: 14.5px; padding: 7px 0; transition: color .18s ease; }
+.foot__col a:hover { color: var(--ember); }
+.foot__bottom { display: flex; align-items: center; justify-content: space-between; gap: 20px;
+                padding-block: 24px; border-top: 1px solid var(--line); font-family: var(--mono);
+                font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); flex-wrap: wrap; }
+
+@media (max-width: 860px) {
+  .foot__top { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .foot__brand { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .foot__top { grid-template-columns: 1fr; }
+  .brand__logo { width: 148px; }
+}
+/* The brand uses a strong display hierarchy; long-form article bodies remain readable sentence case. */
+h1, h2, h3 { text-transform: uppercase; letter-spacing: .02em; }
+.science-article h2, .science-article h3, .blog-article h2, .blog-article h3, article .prose h2, article .prose h3 { text-transform: none; letter-spacing: normal; }
+
+
+/* Chat launcher: on phones it shrinks to a small round button so it never sits on top of copy or calls to action. */
+@media (max-width: 700px) {
+  .fixed-chat-root { bottom: 14px !important; right: 14px !important; }
+  .chat-pill { padding: 0 !important; width: 48px; height: 48px; justify-content: center; gap: 0 !important; }
+  .chat-pill__label, .chat-pill__icon { display: none !important; }
+}
+
+/* Explore-your-path rail: the vendored rail-kit stretch rule (min-width 768px)
+   is overridden by its own later base rule, so cards sit at natural heights
+   and buttons land at different levels. This scoped rule restores stretch
+   for this rail only, without patching vendor (lock.json forbids that). */
+@media (min-width: 768px) {
+  .home-where-next__rail .rail__scroller { align-items: stretch; }
+}

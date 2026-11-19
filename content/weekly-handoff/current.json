@@ -1,0 +1,1415 @@
+{
+  "storageKey": "titan_weekly_handoff_2026_11_01",
+  "weekKey": "2026-11-01",
+  "dataKey": "2026-11-02",
+  "actorKey": "titan_weekly_handoff_actor",
+  "handoff": {
+    "period": "November 1–7, 2026",
+    "steve": [
+      [
+        "Film one mid-form education candidate",
+        "Film one clear 30–45 second answer to a question clients actually ask. Use the Sunday filming plan and send the raw clip to Gonzalo."
+      ],
+      [
+        "Discuss remaining ideas and agree the plan",
+        "Bring the questions or ideas that did not fit this week. Agree the next topic with Gonzalo before adding it to a future calendar."
+      ],
+      [
+        "Draft HOA outreach campaign",
+        "Use Claude to find and email south Denver HOAs introducing Titan Forge."
+      ],
+      [
+        "Send Community College of Denver contact info to Gonzalo",
+        "Send the college contact details to Gonzalo, ask the contact for availability and arrange the three-way introduction discussed. Do not present the proposed revenue split as agreed."
+      ],
+      [
+        "Tell us your suite number",
+        "Are you inside Journey Health and Fitness at 9780 S Meridian Blvd #100, or in your own suite? Reply to Gonzalo with the exact suite. Why: Google shows only one business per address in your category, and right now it shows the other two businesses at your address, not you. Finished when we have the suite in writing."
+      ],
+      [
+        "Approve adding the suite to your Google listing",
+        "Reply yes and we make the change. Google may send a postcard or call to re-confirm the address. Finished when Google shows the suite."
+      ],
+      [
+        "Fix Thumbtack",
+        "Log in to Thumbtack and change the city from Parker to Englewood 80112, the business name to \"Titan Forge Fitness, Corp.\", and add your hours. Finished when the public page shows Englewood."
+      ],
+      [
+        "Fix Yelp hours",
+        "Set Saturday 7am-4pm and Sunday 8am-3pm; Yelp shows the wrong weekend hours. Or add Gonzalo as a Yelp admin and we'll do it. Finished when Yelp shows the new weekend hours."
+      ],
+      [
+        "Create a LinkedIn company page",
+        "Create the page \"Titan Forge Fitness, Corp.\" with the website and address. AI tools quote LinkedIn when people ask for trainers in Englewood. Finished when the page is live; send us the link."
+      ],
+      [
+        "Create a findyourtrainer.com profile",
+        "Use the same name, address and phone as your Google listing. AI tools quote this site too when people ask for trainers in Englewood. Finished when the profile is live; send us the link."
+      ]
+    ],
+    "kris": [
+      [
+        "Send the full weekly content batch",
+        "Film the planned clips in one batch and send them to Gonzalo the same day. The Sunday recording section has the exact topics and shot list."
+      ],
+      [
+        "Post from the weekly content calendar",
+        "Use the assigned daily topic and share it to Stories with a short personal note so the post feels like you."
+      ],
+      [
+        "Website review pass",
+        "Open the live Gains From Geebs site and flag anything that feels unclear for a nutrition or accountability lead. Send notes in plain language."
+      ],
+      [
+        "Daily raw stories + talking heads",
+        "Personal Stories daily: gym, meals, real moments, client lessons, or accountability reminders. No graphics on story-only days."
+      ],
+      [
+        "Telegram exclusive + community warmth",
+        "Exclusive clips in Telegram + daily check-in. Personally answer the first five comments/questions."
+      ],
+      [
+        "Mid-week check-in with Gonzalo",
+        "Review what was filmed, what is scheduled, and what still needs a quick personal clip before Friday."
+      ],
+      [
+        "Golden Carousel moments + call log",
+        "The lifestyle shots you owe this week are the ones marked Kris in the shot list, in the What to record this Sunday section. Keep logging call outcomes. Keep using the same call-to-action in your posts and DMs: tell people to message the word GAINS."
+      ],
+      [
+        "Ask clients for Google reviews",
+        "Ask clients who can honestly describe their experience to leave a Google review. The October2 note says this is still outstanding for Kris."
+      ]
+    ],
+    "gonzalo": [
+      [
+        "Keep the weekly content calendar current",
+        "Keep the seven-day calendar visible, with one clear topic, format, and call to action for each coach every day."
+      ],
+      [
+        "Schedule the approved weekly content",
+        "After the raw clips arrive, prepare the approved posts for the listed dates and confirm the scheduled dates before marking this complete."
+      ],
+      [
+        "Keep the weekly handoff page live",
+        "Verify /team/weekly-handoff loads and that completion saves restore for the team. Fix any broken redirect or stale week key."
+      ],
+      [
+        "Update the social calendar for this week",
+        "Make this week’s content schedule visible in the handoff page and keep the same weekly theme structure so Steve and Kris know what to film."
+      ],
+      [
+        "Run the competitor-analysis review",
+        "Bring one practical competitor insight to the Friday review: what format, proof, CTA, or topic should Titan copy in its own voice."
+      ],
+      [
+        "Send the content batch to Metricool",
+        "After filming arrives, ingest both coaches’ content into Metricool for week-long scheduling. Confirm scheduled dates before calling it done."
+      ],
+      [
+        "Mid-week check-in with Kris",
+        "Review what was filmed, what is scheduled, and what is missing. Keep it practical and short."
+      ],
+      [
+        "Refresh the weekly data snapshot Friday morning",
+        "Run the Friday snapshot so this page’s data section shows the latest observed metrics when the week has real data."
+      ],
+      [
+        "Bring scholarship, referral, and website tracking to Friday review",
+        "Report applications, referral conversations, website issues fixed, and the next site/social priority."
+      ],
+      [
+        "Plug in the ManyChat bot",
+        "Plug in the ManyChat bot this weekend once Steve confirms Facebook is connected."
+      ],
+      [
+        "Fix weekly task list filter",
+        "Fix the filter issue in the weekly task list so Steve and Kris can mark contacted leads and keep the list clean."
+      ],
+      [
+        "Fix Steve's content calendar",
+        "Steve has been missing his section and improvising; confirm his weekly structure is populated."
+      ],
+      [
+        "Run quizzes and carousels next week",
+        "Kris is traveling next week (MIA); Gonzalo covers quizzes and carousels in her place."
+      ],
+      [
+        "Check ManyChat bot responding",
+        "ManyChat/Metricool finally connected after Facebook business asset ownership issues; bot not yet confirmed responding, Gonzalo to check from his end."
+      ],
+      [
+        "Build HOA landing page with member discount",
+        "Create a dedicated landing page with a small discount (e.g. 5%) for HOA members, following the inbound south Denver HOA community-manager lead."
+      ],
+      [
+        "Fix pricing cards and Calendly flow on Kris's site",
+        "Add a card clarifying the $200 option (site currently shows $400+ at top); create a dedicated Calendly flow that doesn't repeat application questions."
+      ],
+      [
+        "Resolve PR merge conflict and review flagged DM thread",
+        "Fix the 9.5.4 merge conflict (on 9.5.3) blocking Kris's ManyChat bot update, currently a few commits behind main (9.5.7); review the unqualified-lead DM thread screenshots Kris flagged."
+      ],
+      [
+        "Draft Q4 Black Friday promotional assets",
+        "Prepare draft flyers, posts and website copy for review: six months paid with eight months provided; twelve months paid at $4,800 with fifteen months provided. Include the October-through-January calendar. Keep advertising plans in draft; do not launch ads, change live pricing or spend money."
+      ],
+      [
+        "Build income filter on the lead table",
+        "Add an income or stated-budget filter to the lead table so the team can find applicants with a suitable budget. Verify filtering against current records before calling it finished."
+      ],
+      [
+        "Add photos and polish the Yelp page after access is granted",
+        "Once Steve grants access, add the available business photos and improve the Yelp page. Page creation and Yelp review status do not establish that these edits are done."
+      ],
+      [
+        "Assess the Pradera direct-mail alternative",
+        "Review the community links Steve sent and draft a practical direct-mail option. The paid placement was declined. Do not collect addresses, send mail or incur costs during this planning task."
+      ]
+    ],
+    "instructions": {
+      "steve": {
+        "Website review pass": [
+          "Open the live Titan Forge site and list any copy, offer, or trust issues that would confuse a new coaching lead. Focus on what a real customer sees.",
+          "Complete “Website review pass” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Daily raw stories + talking heads": [
+          "One simple personal Story per day minimum: gym, food, coaching thought, client lesson, or behind-the-scenes. No graphics needed on story-only days.",
+          "Complete “Daily raw stories + talking heads” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Post from the weekly content calendar": [
+          "Use the assigned topic for each day in the posting calendar. Share the post to Stories and add a quick personal note so it feels human.",
+          "Complete “Post from the weekly content calendar” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Film one mid-form education candidate": [
+          "Film one clear 30–45 second answer to a question clients actually ask. Use the Sunday filming plan and send the raw clip to Gonzalo.",
+          "Complete “Film one mid-form education candidate” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Telegram exclusive clips + daily posts": [
+          "At least two exclusive clips to Telegram this week, plus two or three posts to the Telegram motivation thread, plus one daily human touchpoint. Point people to the motivation thread through Stories, and screenshot best replies to re-share publicly.",
+          "Complete “Telegram exclusive clips + daily posts” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Ask for Google reviews": [
+          "Personally ask past and current clients who can honestly speak to Titan Forge. Send the link and keep it simple.",
+          "Complete “Ask for Google reviews” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Log every coaching call outcome": [
+          "Record won / lost / rescheduled / no-show / still deciding for every call. Keep using the same call-to-action in your posts and DMs: tell people to message the word COACH.",
+          "Complete “Log every coaching call outcome” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Film 6-10 min educational video": [
+          "Upload to YouTube; pull short clips for Instagram/social. Target: next week.",
+          "Complete “Film 6-10 min educational video” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Create Titan Forge Yelp page": [
+          "Drives additional website traffic. Target: next week.",
+          "Complete “Create Titan Forge Yelp page” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Follow up with Calvin, Valen, and the unfollowed HOA applicant": [
+          "Text Calvin and Valen after work today; call the applicant who filled out the form but didn't book after indicating ability to pay.",
+          "Complete “Follow up with Calvin, Valen, and the unfollowed HOA applicant” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Draft HOA outreach campaign": [
+          "Use Claude to find and email south Denver HOAs introducing Titan Forge.",
+          "Complete “Draft HOA outreach campaign” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Set up WhatsApp for out-of-country leads": [
+          "Out-of-country leads need to be contacted via WhatsApp.",
+          "Complete “Set up WhatsApp for out-of-country leads” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Send Titan Forge content/notes Sunday": [
+          "So Gonzalo can work both Kris's and Titan Forge's site redesigns in parallel.",
+          "Complete “Send Titan Forge content/notes Sunday” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Confirm the Milan call happened and log the outcome": [
+          "Milan Tancar, (720) 838-7308, Englewood CO. The Friday review scheduled this call for Monday and you know him from UPS. If it happened, record won / lost / rescheduled / no-show / still deciding. If it did not, call or text him today.",
+          "The call outcome is logged for Milan, or a new time is set with him in writing."
+        ],
+        "Add Gonzalo as Yelp admin": [
+          "Grant Gonzalo administrator access to the Yelp page and confirm he can access it. Page creation is reported complete; approval, photos and polish remain separate.",
+          "Complete “Add Gonzalo as Yelp admin” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Send Community College of Denver contact info to Gonzalo": [
+          "Send the college contact details to Gonzalo, ask the contact for availability and arrange the three-way introduction discussed. Do not present the proposed revenue split as agreed.",
+          "Complete “Send Community College of Denver contact info to Gonzalo” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Use the already-recorded clips in next week’s calendar": [
+          "Identify the clips already recorded last week and carry them into next week’s calendar. Confirm which clips are available; this does not mean new education filming is finished.",
+          "Complete “Use the already-recorded clips in next week’s calendar” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Film the educational video on Sunday": [
+          "Film the planned educational content on Sunday using the props and whiteboard once they arrive. Send the recording through the existing content handoff.",
+          "Complete “Film the educational video on Sunday” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Post to the Telegram motivation thread two or three times weekly": [
+          "Continue the motivation thread with two or three posts each week and point people to it through Stories.",
+          "Complete “Post to the Telegram motivation thread two or three times weekly” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Re-contact prior leads this week": [
+          "Follow up with prior leads this week and record the outcome using the existing lead table. The note says new scholarship leads have already been contacted; avoid treating them as untouched.",
+          "Complete “Re-contact prior leads this week” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Tell us your suite number": [
+          "Are you inside Journey Health and Fitness at 9780 S Meridian Blvd #100, or in your own suite? Reply to Gonzalo with the exact suite. Why: Google shows only one business per address in your category, and right now it shows the other two businesses at your address, not you. Finished when we have the suite in writing.",
+          "Complete “Tell us your suite number” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Approve adding the suite to your Google listing": [
+          "Reply yes and we make the change. Google may send a postcard or call to re-confirm the address. Finished when Google shows the suite.",
+          "Complete “Approve adding the suite to your Google listing” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Ask 10 current clients for a Google review this month": [
+          "Ask 10 current clients personally and send them this two-line message. Line 1: \"Hi [first name], would you leave Titan Forge a quick Google review? It takes about a minute and helps people near us find the right coach.\" Line 2: \"Here is the link: https://search.google.com/local/writereview?placeid=ChIJ9c88axuFbIcRe2OSwQoycsk\" Why: you have 30 reviews; the gyms Google shows near you have 50 to 162. Finished when the listing shows 40+.",
+          "Complete “Ask 10 current clients for a Google review this month” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Fix Thumbtack": [
+          "Log in to Thumbtack and change the city from Parker to Englewood 80112, the business name to \"Titan Forge Fitness, Corp.\", and add your hours. Finished when the public page shows Englewood.",
+          "Complete “Fix Thumbtack” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Fix Yelp hours": [
+          "Set Saturday 7am-4pm and Sunday 8am-3pm; Yelp shows the wrong weekend hours. Or add Gonzalo as a Yelp admin and we'll do it. Finished when Yelp shows the new weekend hours.",
+          "Complete “Fix Yelp hours” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Create a LinkedIn company page": [
+          "Create the page \"Titan Forge Fitness, Corp.\" with the website and address. AI tools quote LinkedIn when people ask for trainers in Englewood. Finished when the page is live; send us the link.",
+          "Complete “Create a LinkedIn company page” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Create a findyourtrainer.com profile": [
+          "Use the same name, address and phone as your Google listing. AI tools quote this site too when people ask for trainers in Englewood. Finished when the profile is live; send us the link.",
+          "Complete “Create a findyourtrainer.com profile” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Discuss remaining ideas and agree the plan": [
+          "Bring the questions or ideas that did not fit this week. Agree the next topic with Gonzalo before adding it to a future calendar.",
+          "Complete “Discuss remaining ideas and agree the plan” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ]
+      },
+      "kris": {
+        "Website review pass": [
+          "Open the live Gains From Geebs site and flag anything that feels unclear for a nutrition or accountability lead. Send notes in plain language.",
+          "Complete “Website review pass” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Send the full weekly content batch": [
+          "Film the planned clips in one batch and send them to Gonzalo the same day. The Sunday recording section has the exact topics and shot list.",
+          "Complete “Send the full weekly content batch” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Daily raw stories + talking heads": [
+          "Personal Stories daily: gym, meals, real moments, client lessons, or accountability reminders. No graphics on story-only days.",
+          "Complete “Daily raw stories + talking heads” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Post from the weekly content calendar": [
+          "Use the assigned daily topic and share it to Stories with a short personal note so the post feels like you.",
+          "Complete “Post from the weekly content calendar” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Telegram exclusive + community warmth": [
+          "Exclusive clips in Telegram + daily check-in. Personally answer the first five comments/questions.",
+          "Complete “Telegram exclusive + community warmth” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Mid-week check-in with Gonzalo": [
+          "Review what was filmed, what is scheduled, and what still needs a quick personal clip before Friday.",
+          "Complete “Mid-week check-in with Gonzalo” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Golden Carousel moments + call log": [
+          "The lifestyle shots you owe this week are the ones marked Kris in the shot list, in the What to record this Sunday section. Keep logging call outcomes. Keep using the same call-to-action in your posts and DMs: tell people to message the word GAINS.",
+          "Complete “Golden Carousel moments + call log” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Send varied photos for carousel content": [
+          "Airport, supermarket, nutrition contexts — not just bathroom poses.",
+          "Complete “Send varied photos for carousel content” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Ask clients for Google reviews": [
+          "Ask clients who can honestly describe their experience to leave a Google review. The October2 note says this is still outstanding for Kris.",
+          "Complete “Ask clients for Google reviews” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ]
+      },
+      "gonzalo": {
+        "Keep the weekly handoff page live": [
+          "Verify /team/weekly-handoff loads and that completion saves restore for the team. Fix any broken redirect or stale week key.",
+          "Complete “Keep the weekly handoff page live” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Update the social calendar for this week": [
+          "Make this week’s content schedule visible in the handoff page and keep the same weekly theme structure so Steve and Kris know what to film.",
+          "Complete “Update the social calendar for this week” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Run the competitor-analysis review": [
+          "Bring one practical competitor insight to the Friday review: what format, proof, CTA, or topic should Titan copy in its own voice.",
+          "Complete “Run the competitor-analysis review” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Send the content batch to Metricool": [
+          "After filming arrives, ingest both coaches’ content into Metricool for week-long scheduling. Confirm scheduled dates before calling it done.",
+          "Complete “Send the content batch to Metricool” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Mid-week check-in with Kris": [
+          "Review what was filmed, what is scheduled, and what is missing. Keep it practical and short.",
+          "Complete “Mid-week check-in with Kris” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Refresh the weekly data snapshot Friday morning": [
+          "Run the Friday snapshot so this page’s data section shows the latest observed metrics when the week has real data.",
+          "Complete “Refresh the weekly data snapshot Friday morning” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Bring scholarship, referral, and website tracking to Friday review": [
+          "Report applications, referral conversations, website issues fixed, and the next site/social priority.",
+          "Complete “Bring scholarship, referral, and website tracking to Friday review” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Plug in the ManyChat bot": [
+          "Plug in the ManyChat bot this weekend once Steve confirms Facebook is connected.",
+          "Complete “Plug in the ManyChat bot” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Fix weekly task list filter": [
+          "Fix the filter issue in the weekly task list so Steve and Kris can mark contacted leads and keep the list clean.",
+          "Complete “Fix weekly task list filter” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Fix Steve's content calendar": [
+          "Steve has been missing his section and improvising; confirm his weekly structure is populated.",
+          "Complete “Fix Steve's content calendar” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Run quizzes and carousels next week": [
+          "Kris is traveling next week (MIA); Gonzalo covers quizzes and carousels in her place.",
+          "Complete “Run quizzes and carousels next week” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Check ManyChat bot responding": [
+          "September 26 check: the production bot is healthy and running the current main version. The meeting’s response check has been reviewed; keep monitoring real conversations. See https://titan-dm-prod-production.up.railway.app/health",
+          "Production health is verified. Recent real reply evidence is recorded in the September 26 call follow-up; this does not close the separate flagged conversation review."
+        ],
+        "Build HOA landing page with member discount": [
+          "Create a dedicated landing page with a small discount (e.g. 5%) for HOA members, following the inbound south Denver HOA community-manager lead.",
+          "Complete “Build HOA landing page with member discount” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Fix pricing cards and Calendly flow on Kris's site": [
+          "Reconcile the September 25 request with the current published offers before changing a price. Confirm which service the $200 reference describes, then show the correct option clearly and use a booking flow that does not repeat the application questions.",
+          "The displayed offer matches the current price source and the application-to-booking flow has been tested without asking the same questions twice."
+        ],
+        "Resolve PR merge conflict and review flagged DM thread": [
+          "September 26 update: the old change request #954 is closed: https://github.com/gonzaloeaguilar-bot/titan-dm-agent/pull/954. Do not reopen it. The remaining work is to locate Kris’s flagged screenshots and review that specific conversation against the current bot.",
+          "The flagged conversation has been identified, reviewed, and the outcome recorded. Closing the old change request alone does not complete this task."
+        ],
+        "Draft Q4 Black Friday promotional assets": [
+          "Prepare draft flyers, posts and website copy for review: six months paid with eight months provided; twelve months paid at $4,800 with fifteen months provided. Include the October-through-January calendar. Keep advertising plans in draft; do not launch ads, change live pricing or spend money.",
+          "Complete “Draft Q4 Black Friday promotional assets” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Build income filter on the lead table": [
+          "Add an income or stated-budget filter to the lead table so the team can find applicants with a suitable budget. Verify filtering against current records before calling it finished.",
+          "Complete “Build income filter on the lead table” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Add photos and polish the Yelp page after access is granted": [
+          "Once Steve grants access, add the available business photos and improve the Yelp page. Page creation and Yelp review status do not establish that these edits are done.",
+          "Complete “Add photos and polish the Yelp page after access is granted” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Assess the Pradera direct-mail alternative": [
+          "Review the community links Steve sent and draft a practical direct-mail option. The paid placement was declined. Do not collect addresses, send mail or incur costs during this planning task.",
+          "Complete “Assess the Pradera direct-mail alternative” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Keep the weekly content calendar current": [
+          "Keep the seven-day calendar visible, with one clear topic, format, and call to action for each coach every day.",
+          "Complete “Keep the weekly content calendar current” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ],
+        "Schedule the approved weekly content": [
+          "After the raw clips arrive, prepare the approved posts for the listed dates and confirm the scheduled dates before marking this complete.",
+          "Complete “Schedule the approved weekly content” as described above, then add the finished link or a short result in the task notes before marking it done."
+        ]
+      }
+    },
+    "instructionDetails": {
+      "steve": {
+        "Website review pass": "Open the live Titan Forge site and list any copy, offer, or trust issues that would confuse a new coaching lead. Focus on what a real customer sees.",
+        "Daily raw stories + talking heads": "One simple personal Story per day minimum: gym, food, coaching thought, client lesson, or behind-the-scenes. No graphics needed on story-only days.",
+        "Post from the weekly content calendar": "Use the assigned topic for each day in the posting calendar. Share the post to Stories and add a quick personal note so it feels human.",
+        "Film one mid-form education candidate": "Film one clear 30–45 second answer to a question clients actually ask. Use the Sunday filming plan and send the raw clip to Gonzalo.",
+        "Telegram exclusive clips + daily posts": "At least two exclusive clips to Telegram this week, plus two or three posts to the Telegram motivation thread, plus one daily human touchpoint. Point people to the motivation thread through Stories, and screenshot best replies to re-share publicly.",
+        "Ask for Google reviews": "Personally ask past and current clients who can honestly speak to Titan Forge. Send the link and keep it simple.",
+        "Log every coaching call outcome": "Record won / lost / rescheduled / no-show / still deciding for every call. Keep using the same call-to-action in your posts and DMs: tell people to message the word COACH.",
+        "Film 6-10 min educational video": "Upload to YouTube; pull short clips for Instagram/social. Target: next week.",
+        "Create Titan Forge Yelp page": "Drives additional website traffic. Target: next week.",
+        "Follow up with Calvin, Valen, and the unfollowed HOA applicant": "Text Calvin and Valen after work today; call the applicant who filled out the form but didn't book after indicating ability to pay.",
+        "Draft HOA outreach campaign": "Use Claude to find and email south Denver HOAs introducing Titan Forge.",
+        "Set up WhatsApp for out-of-country leads": "Out-of-country leads need to be contacted via WhatsApp.",
+        "Send Titan Forge content/notes Sunday": "So Gonzalo can work both Kris's and Titan Forge's site redesigns in parallel.",
+        "Confirm the Milan call happened and log the outcome": "Confirm whether the Monday call happened and record the outcome. If it did not happen, arrange the next conversation using the existing lead record.",
+        "Add Gonzalo as Yelp admin": "Grant Gonzalo administrator access to the Yelp page and confirm he can access it. Page creation is reported complete; approval, photos and polish remain separate.",
+        "Send Community College of Denver contact info to Gonzalo": "Send the college contact details to Gonzalo, ask the contact for availability and arrange the three-way introduction discussed. Do not present the proposed revenue split as agreed.",
+        "Use the already-recorded clips in next week’s calendar": "Identify the clips already recorded last week and carry them into next week’s calendar. Confirm which clips are available; this does not mean new education filming is finished.",
+        "Film the educational video on Sunday": "Film the planned educational content on Sunday using the props and whiteboard once they arrive. Send the recording through the existing content handoff.",
+        "Post to the Telegram motivation thread two or three times weekly": "Continue the motivation thread with two or three posts each week and point people to it through Stories.",
+        "Re-contact prior leads this week": "Follow up with prior leads this week and record the outcome using the existing lead table. The note says new scholarship leads have already been contacted; avoid treating them as untouched.",
+        "Tell us your suite number": "Are you inside Journey Health and Fitness at 9780 S Meridian Blvd #100, or in your own suite? Reply to Gonzalo with the exact suite. Why: Google shows only one business per address in your category, and right now it shows the other two businesses at your address, not you. Finished when we have the suite in writing.",
+        "Approve adding the suite to your Google listing": "Reply yes and we make the change. Google may send a postcard or call to re-confirm the address. Finished when Google shows the suite.",
+        "Ask 10 current clients for a Google review this month": "Ask 10 current clients personally and send them this two-line message. Line 1: \"Hi [first name], would you leave Titan Forge a quick Google review? It takes about a minute and helps people near us find the right coach.\" Line 2: \"Here is the link: https://search.google.com/local/writereview?placeid=ChIJ9c88axuFbIcRe2OSwQoycsk\" Why: you have 30 reviews; the gyms Google shows near you have 50 to 162. Finished when the listing shows 40+.",
+        "Fix Thumbtack": "Log in to Thumbtack and change the city from Parker to Englewood 80112, the business name to \"Titan Forge Fitness, Corp.\", and add your hours. Finished when the public page shows Englewood.",
+        "Fix Yelp hours": "Set Saturday 7am-4pm and Sunday 8am-3pm; Yelp shows the wrong weekend hours. Or add Gonzalo as a Yelp admin and we'll do it. Finished when Yelp shows the new weekend hours.",
+        "Create a LinkedIn company page": "Create the page \"Titan Forge Fitness, Corp.\" with the website and address. AI tools quote LinkedIn when people ask for trainers in Englewood. Finished when the page is live; send us the link.",
+        "Create a findyourtrainer.com profile": "Use the same name, address and phone as your Google listing. AI tools quote this site too when people ask for trainers in Englewood. Finished when the profile is live; send us the link.",
+        "Discuss remaining ideas and agree the plan": "Bring the questions or ideas that did not fit this week. Agree the next topic with Gonzalo before adding it to a future calendar."
+      },
+      "kris": {
+        "Website review pass": "Open the live Gains From Geebs site and flag anything that feels unclear for a nutrition or accountability lead. Send notes in plain language.",
+        "Send the full weekly content batch": "Film the planned clips in one batch and send them to Gonzalo the same day. The Sunday recording section has the exact topics and shot list.",
+        "Daily raw stories + talking heads": "Personal Stories daily: gym, meals, real moments, client lessons, or accountability reminders. No graphics on story-only days.",
+        "Post from the weekly content calendar": "Use the assigned daily topic and share it to Stories with a short personal note so the post feels like you.",
+        "Telegram exclusive + community warmth": "Exclusive clips in Telegram + daily check-in. Personally answer the first five comments/questions.",
+        "Mid-week check-in with Gonzalo": "Review what was filmed, what is scheduled, and what still needs a quick personal clip before Friday.",
+        "Golden Carousel moments + call log": "The lifestyle shots you owe this week are the ones marked Kris in the shot list, in the What to record this Sunday section. Keep logging call outcomes. Keep using the same call-to-action in your posts and DMs: tell people to message the word GAINS.",
+        "Send varied photos for carousel content": "Airport, supermarket, nutrition contexts — not just bathroom poses.",
+        "Ask clients for Google reviews": "Ask clients who can honestly describe their experience to leave a Google review. The October2 note says this is still outstanding for Kris."
+      },
+      "gonzalo": {
+        "Keep the weekly handoff page live": "Verify /team/weekly-handoff loads and that completion saves restore for the team. Fix any broken redirect or stale week key.",
+        "Update the social calendar for this week": "Make this week’s content schedule visible in the handoff page and keep the same weekly theme structure so Steve and Kris know what to film.",
+        "Run the competitor-analysis review": "Bring one practical competitor insight to the Friday review: what format, proof, CTA, or topic should Titan copy in its own voice.",
+        "Send the content batch to Metricool": "After filming arrives, ingest both coaches’ content into Metricool for week-long scheduling. Confirm scheduled dates before calling it done.",
+        "Mid-week check-in with Kris": "Review what was filmed, what is scheduled, and what is missing. Keep it practical and short.",
+        "Refresh the weekly data snapshot Friday morning": "Run the Friday snapshot so this page’s data section shows the latest observed metrics when the week has real data.",
+        "Bring scholarship, referral, and website tracking to Friday review": "Report applications, referral conversations, website issues fixed, and the next site/social priority.",
+        "Plug in the ManyChat bot": "Plug in the ManyChat bot this weekend once Steve confirms Facebook is connected.",
+        "Fix weekly task list filter": "Fix the filter issue in the weekly task list so Steve and Kris can mark contacted leads and keep the list clean.",
+        "Fix Steve's content calendar": "Steve has been missing his section and improvising; confirm his weekly structure is populated.",
+        "Run quizzes and carousels next week": "Kris is traveling next week (MIA); Gonzalo covers quizzes and carousels in her place.",
+        "Check ManyChat bot responding": "ManyChat/Metricool finally connected after Facebook business asset ownership issues; bot not yet confirmed responding, Gonzalo to check from his end.",
+        "Build HOA landing page with member discount": "Create a dedicated landing page with a small discount (e.g. 5%) for HOA members, following the inbound south Denver HOA community-manager lead.",
+        "Fix pricing cards and Calendly flow on Kris's site": "Add a card clarifying the $200 option (site currently shows $400+ at top); create a dedicated Calendly flow that doesn't repeat application questions.",
+        "Resolve PR merge conflict and review flagged DM thread": "Fix the 9.5.4 merge conflict (on 9.5.3) blocking Kris's ManyChat bot update, currently a few commits behind main (9.5.7); review the unqualified-lead DM thread screenshots Kris flagged.",
+        "Draft Q4 Black Friday promotional assets": "Prepare draft flyers, posts and website copy for review: six months paid with eight months provided; twelve months paid at $4,800 with fifteen months provided. Include the October-through-January calendar. Keep advertising plans in draft; do not launch ads, change live pricing or spend money.",
+        "Build income filter on the lead table": "Add an income or stated-budget filter to the lead table so the team can find applicants with a suitable budget. Verify filtering against current records before calling it finished.",
+        "Add photos and polish the Yelp page after access is granted": "Once Steve grants access, add the available business photos and improve the Yelp page. Page creation and Yelp review status do not establish that these edits are done.",
+        "Assess the Pradera direct-mail alternative": "Review the community links Steve sent and draft a practical direct-mail option. The paid placement was declined. Do not collect addresses, send mail or incur costs during this planning task.",
+        "Keep the weekly content calendar current": "Keep the seven-day calendar visible, with one clear topic, format, and call to action for each coach every day.",
+        "Schedule the approved weekly content": "After the raw clips arrive, prepare the approved posts for the listed dates and confirm the scheduled dates before marking this complete."
+      }
+    },
+    "sourceDispositions": {
+      "steve": {
+        "Film 6-10 min educational video": "deferred",
+        "Create Titan Forge Yelp page": "completed",
+        "Follow up with Calvin, Valen, and the unfollowed HOA applicant": "completed",
+        "Set up WhatsApp for out-of-country leads": "completed",
+        "Send Titan Forge content/notes Sunday": "completed",
+        "Confirm the Milan call happened and log the outcome": "completed",
+        "Add Gonzalo as Yelp admin": "completed",
+        "Send Pradera HOA community links to Gonzalo": "done",
+        "Use the already-recorded clips in next week’s calendar": "completed",
+        "Film the educational video on Sunday": "completed",
+        "Post to the Telegram motivation thread two or three times weekly": "completed",
+        "Re-contact prior leads this week": "completed",
+        "Ask 10 current clients for a Google review this month": "completed"
+      },
+      "kris": {
+        "Send varied photos for carousel content": "completed"
+      },
+      "gonzalo": {
+        "Confirm responsibility for adapting the companion to Steve’s site": "proposed",
+        "Confirm the fortnightly meeting schedule": "proposed"
+      }
+    }
+  },
+  "next": {
+    "weekKey": "2026-11-01",
+    "period": "November 1–7, 2026",
+    "dataNote": "Research awaiting an update (competitor observations: last available 2026-10-10; public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule. The calendar refreshes from the available weekly research. Each coach has a daily posting card with a caption and a link to their own site. Finished slide decks appear when available.",
+    "calendar": [
+      [
+        "Sun · Nov 1",
+        "10 longevity findings. Not one of them is about your weight.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment LIFT.",
+        "https://drive.google.com/drive/folders/1MMGUVT91SBExfztnfKKieFR77m48fxR6",
+        "Reset — A short planning or reset prompt. Optional — more useful than forced content.",
+        "Sunday is the fixed proof and offer slot. It is the only post of the week that asks for a next step. The topic does not refresh from demand data: it points at permissioned proof on the results page and one direct action."
+      ],
+      [
+        "Mon · Nov 2",
+        "How to stay healthy at a desk job. 5 habits, backed by science.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment BUSY.",
+        "https://drive.google.com/drive/folders/1_kk_OUDzoq12Byj5HIHr4f2mCpmO_T39",
+        "Hard CTA — A specific invitation, no shame. One clear qualification cue — never a generic “DM me”.",
+        "Fat loss is the fixed Monday theme. This week's angle comes from what people keep asking us: fat loss, how to lose belly fat, calorie deficit calculator."
+      ],
+      [
+        "Tue · Nov 3",
+        "Signs under-eating is killing your gains. And 6 ways to fix it.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment DEFICIT.",
+        "https://drive.google.com/drive/folders/1VwiUFvY2ROobaNt1ELA9ueJz9kB0zF6V",
+        "Proof — Consented client proof, process-led: the constraint, the adjustment, what changed, the realistic context. Body imagery is not the default proof.",
+        "Modern life: remote work, screens, AI & health is the fixed Tuesday theme. This week's angle comes from what people keep asking us: sitting all day health effects, desk job back pain, phone addiction dopamine."
+      ],
+      [
+        "Wed · Nov 4",
+        "Hours of cardio were never the point. 10 cardio findings.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment RECOMP.",
+        "https://drive.google.com/drive/folders/1HQZf7hVQRJarnMwehq20zUVZ0oY7QYKY",
+        "Lifestyle / personal thinking — Coach personality and point of view: a normal meal, a training choice, a work routine, a standard. Recognizability, not luxury.",
+        "Muscle & hypertrophy is the fixed Wednesday theme. This week's angle comes from what people keep asking us: how to build muscle, hypertrophy training, muscle growth peptides."
+      ],
+      [
+        "Thu · Nov 5",
+        "Testosterone is not the muscle switch the ads sell. 10 findings.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment RECOMP.",
+        "https://drive.google.com/drive/folders/1CR7_cQol64vAxRQ_Ko5rxtuZQcn41Z9y",
+        "Practical lesson — One decision they can use today — restaurant fallback, missed-session rule, how to restart after a weekend. Mined from real client questions.",
+        "Recovery & sleep is the fixed Thursday theme. This week's angle comes from what people keep asking us: how to sleep better at night, sleep and muscle growth, recovery between workouts."
+      ],
+      [
+        "Fri · Nov 6",
+        "Motivation never made anyone consistent. 10 findings.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment STICK.",
+        "https://drive.google.com/drive/folders/1EY1onNttnjjwcTLRcmz9tC2R2x5lJo1M",
+        "Soft CTA / lead magnet — Poll, question box or keyword gate on a genuinely useful owned resource. Route replies into the approved application flow.",
+        "Supplements is the fixed Friday theme. This week's angle comes from what people keep asking us: does creatine work, best supplements for muscle growth, is preworkout bad for your heart."
+      ],
+      [
+        "Sat · Nov 7",
+        "5 diet myths keeping you stuck. And what actually works.",
+        "Geebs deck is ready in Drive: 13 slides plus caption. The caption asks readers to comment MACROS.",
+        "https://drive.google.com/drive/folders/1raqxzcCUNtJ6BB6e2HNq_n5dU8utaF73",
+        "Aspirational accomplishment — Effort and standards, not status. Training toward a goal, preparing check-ins, reviewing a lesson is enough.",
+        "Nutrition (whole-diet) is the fixed Saturday theme. This week's angle comes from what people keep asking us: how much protein per day to lose weight for a woman, is seed oil bad for you, ultra processed food."
+      ]
+    ],
+    "recording": {
+      "title": "What to record this Sunday",
+      "intro": "Use each coach’s current posting cards below. Send the original clips and photos to Gonzalo for the week’s posts.",
+      "items": [
+        [
+          "Steve · this week’s clips and photos",
+          "Film the talking-head topics for Tuesday, Thursday, Friday, Sunday. Send varied everyday photos for Monday, Wednesday, Saturday. Use the topics and captions in your daily posting cards; send the original files to Gonzalo."
+        ],
+        [
+          "Kris · this week’s clips and photos",
+          "Film the talking-head topics for Tuesday, Thursday, Friday, Sunday. Send varied everyday photos for Monday, Wednesday, Saturday. Use the topics and captions in your daily posting cards; send the original files to Gonzalo."
+        ]
+      ]
+    },
+    "newTasks": {
+      "steve": [
+        [
+          "Film one mid-form education candidate",
+          "Film one clear 30–45 second answer to a question clients actually ask. Use the Sunday filming plan and send the raw clip to Gonzalo."
+        ],
+        [
+          "Discuss remaining ideas and agree the plan",
+          "Bring the questions or ideas that did not fit this week. Agree the next topic with Gonzalo before adding it to a future calendar."
+        ],
+        [
+          "Draft HOA outreach campaign",
+          "Use Claude to find and email south Denver HOAs introducing Titan Forge."
+        ],
+        [
+          "Send Community College of Denver contact info to Gonzalo",
+          "Send the college contact details to Gonzalo, ask the contact for availability and arrange the three-way introduction discussed. Do not present the proposed revenue split as agreed."
+        ],
+        [
+          "Tell us your suite number",
+          "Are you inside Journey Health and Fitness at 9780 S Meridian Blvd #100, or in your own suite? Reply to Gonzalo with the exact suite. Why: Google shows only one business per address in your category, and right now it shows the other two businesses at your address, not you. Finished when we have the suite in writing."
+        ],
+        [
+          "Approve adding the suite to your Google listing",
+          "Reply yes and we make the change. Google may send a postcard or call to re-confirm the address. Finished when Google shows the suite."
+        ],
+        [
+          "Fix Thumbtack",
+          "Log in to Thumbtack and change the city from Parker to Englewood 80112, the business name to \"Titan Forge Fitness, Corp.\", and add your hours. Finished when the public page shows Englewood."
+        ],
+        [
+          "Fix Yelp hours",
+          "Set Saturday 7am-4pm and Sunday 8am-3pm; Yelp shows the wrong weekend hours. Or add Gonzalo as a Yelp admin and we'll do it. Finished when Yelp shows the new weekend hours."
+        ],
+        [
+          "Create a LinkedIn company page",
+          "Create the page \"Titan Forge Fitness, Corp.\" with the website and address. AI tools quote LinkedIn when people ask for trainers in Englewood. Finished when the page is live; send us the link."
+        ],
+        [
+          "Create a findyourtrainer.com profile",
+          "Use the same name, address and phone as your Google listing. AI tools quote this site too when people ask for trainers in Englewood. Finished when the profile is live; send us the link."
+        ]
+      ],
+      "kris": [
+        [
+          "Send the full weekly content batch",
+          "Film the planned clips in one batch and send them to Gonzalo the same day. The Sunday recording section has the exact topics and shot list."
+        ],
+        [
+          "Post from the weekly content calendar",
+          "Use the assigned daily topic and share it to Stories with a short personal note so the post feels like you."
+        ],
+        [
+          "Website review pass",
+          "Open the live Gains From Geebs site and flag anything that feels unclear for a nutrition or accountability lead. Send notes in plain language."
+        ],
+        [
+          "Daily raw stories + talking heads",
+          "Personal Stories daily: gym, meals, real moments, client lessons, or accountability reminders. No graphics on story-only days."
+        ],
+        [
+          "Telegram exclusive + community warmth",
+          "Exclusive clips in Telegram + daily check-in. Personally answer the first five comments/questions."
+        ],
+        [
+          "Mid-week check-in with Gonzalo",
+          "Review what was filmed, what is scheduled, and what still needs a quick personal clip before Friday."
+        ],
+        [
+          "Golden Carousel moments + call log",
+          "The lifestyle shots you owe this week are the ones marked Kris in the shot list, in the What to record this Sunday section. Keep logging call outcomes. Keep using the same call-to-action in your posts and DMs: tell people to message the word GAINS."
+        ],
+        [
+          "Ask clients for Google reviews",
+          "Ask clients who can honestly describe their experience to leave a Google review. The October2 note says this is still outstanding for Kris."
+        ]
+      ],
+      "gonzalo": [
+        [
+          "Keep the weekly content calendar current",
+          "Keep the seven-day calendar visible, with one clear topic, format, and call to action for each coach every day."
+        ],
+        [
+          "Schedule the approved weekly content",
+          "After the raw clips arrive, prepare the approved posts for the listed dates and confirm the scheduled dates before marking this complete."
+        ],
+        [
+          "Keep the weekly handoff page live",
+          "Verify /team/weekly-handoff loads and that completion saves restore for the team. Fix any broken redirect or stale week key."
+        ],
+        [
+          "Update the social calendar for this week",
+          "Make this week’s content schedule visible in the handoff page and keep the same weekly theme structure so Steve and Kris know what to film."
+        ],
+        [
+          "Run the competitor-analysis review",
+          "Bring one practical competitor insight to the Friday review: what format, proof, CTA, or topic should Titan copy in its own voice."
+        ],
+        [
+          "Send the content batch to Metricool",
+          "After filming arrives, ingest both coaches’ content into Metricool for week-long scheduling. Confirm scheduled dates before calling it done."
+        ],
+        [
+          "Mid-week check-in with Kris",
+          "Review what was filmed, what is scheduled, and what is missing. Keep it practical and short."
+        ],
+        [
+          "Refresh the weekly data snapshot Friday morning",
+          "Run the Friday snapshot so this page’s data section shows the latest observed metrics when the week has real data."
+        ],
+        [
+          "Bring scholarship, referral, and website tracking to Friday review",
+          "Report applications, referral conversations, website issues fixed, and the next site/social priority."
+        ],
+        [
+          "Plug in the ManyChat bot",
+          "Plug in the ManyChat bot this weekend once Steve confirms Facebook is connected."
+        ],
+        [
+          "Fix weekly task list filter",
+          "Fix the filter issue in the weekly task list so Steve and Kris can mark contacted leads and keep the list clean."
+        ],
+        [
+          "Fix Steve's content calendar",
+          "Steve has been missing his section and improvising; confirm his weekly structure is populated."
+        ],
+        [
+          "Run quizzes and carousels next week",
+          "Kris is traveling next week (MIA); Gonzalo covers quizzes and carousels in her place."
+        ],
+        [
+          "Check ManyChat bot responding",
+          "ManyChat/Metricool finally connected after Facebook business asset ownership issues; bot not yet confirmed responding, Gonzalo to check from his end."
+        ],
+        [
+          "Build HOA landing page with member discount",
+          "Create a dedicated landing page with a small discount (e.g. 5%) for HOA members, following the inbound south Denver HOA community-manager lead."
+        ],
+        [
+          "Fix pricing cards and Calendly flow on Kris's site",
+          "Add a card clarifying the $200 option (site currently shows $400+ at top); create a dedicated Calendly flow that doesn't repeat application questions."
+        ],
+        [
+          "Resolve PR merge conflict and review flagged DM thread",
+          "Fix the 9.5.4 merge conflict (on 9.5.3) blocking Kris's ManyChat bot update, currently a few commits behind main (9.5.7); review the unqualified-lead DM thread screenshots Kris flagged."
+        ],
+        [
+          "Draft Q4 Black Friday promotional assets",
+          "Prepare draft flyers, posts and website copy for review: six months paid with eight months provided; twelve months paid at $4,800 with fifteen months provided. Include the October-through-January calendar. Keep advertising plans in draft; do not launch ads, change live pricing or spend money."
+        ],
+        [
+          "Build income filter on the lead table",
+          "Add an income or stated-budget filter to the lead table so the team can find applicants with a suitable budget. Verify filtering against current records before calling it finished."
+        ],
+        [
+          "Add photos and polish the Yelp page after access is granted",
+          "Once Steve grants access, add the available business photos and improve the Yelp page. Page creation and Yelp review status do not establish that these edits are done."
+        ],
+        [
+          "Assess the Pradera direct-mail alternative",
+          "Review the community links Steve sent and draft a practical direct-mail option. The paid placement was declined. Do not collect addresses, send mail or incur costs during this planning task."
+        ]
+      ]
+    },
+    "structure": {
+      "intro": "Both coaches post every day. Each has his own lane, and the lane never changes — only the topic inside it does. The Story job is shared: it is the same job for both coaches on a given day.",
+      "basis": "Themes: weekly coach content calendar contract v2 (2026-08-22). Story jobs: Brady McCann story-strategy teardown (2026-08-27). Three Story frames a day: coach-facing calendar template v3.",
+      "days": [
+        {
+          "day": "Sunday",
+          "storyJob": "Reset",
+          "storyJobNote": "A short planning or reset prompt. Optional — more useful than forced content.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Proof / Reset",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Proof and reset anchor the batch-filming day.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Q&A",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "Answer what was actually asked this week.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "storyJob": "Hard CTA",
+          "storyJobNote": "A specific invitation, no shame. One clear qualification cue — never a generic “DM me”.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Motivation + CTA",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Open the week with the invitation, not a pitch.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Mechanism",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "Why it works, in the doctor's voice.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "storyJob": "Proof",
+          "storyJobNote": "Consented client proof, process-led: the constraint, the adjustment, what changed, the realistic context. Body imagery is not the default proof.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Research Roundup",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "The research lane is his; keep the study in plain language.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Myth-bust",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "His strongest recorded lane — keep it flagship.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "storyJob": "Lifestyle / personal thinking",
+          "storyJobNote": "Coach personality and point of view: a normal meal, a training choice, a work routine, a standard. Recognizability, not luxury.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Form / Mechanics",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Demonstration belongs in the GYM.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Proof",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "Consented process proof, never a guarantee.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "storyJob": "Practical lesson",
+          "storyJobNote": "One decision they can use today — restaurant fallback, missed-session rule, how to restart after a weekend. Mined from real client questions.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Myth vs Fact",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Correct one belief, name the tradeoff.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Comparison",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "DIY plan against a feedback loop.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "storyJob": "Soft CTA / lead magnet",
+          "storyJobNote": "Poll, question box or keyword gate on a genuinely useful owned resource. Route replies into the approved application flow.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Lifestyle / Weekend",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Food and weekend reality — CABANA.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Practical",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "The fallback that survives a real week.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "storyJob": "Aspirational accomplishment",
+          "storyJobNote": "Effort and standards, not status. Training toward a goal, preparing check-ins, reviewing a lesson is enough.",
+          "coaches": [
+            {
+              "coach": "Kris",
+              "account": "@gainsfromgeebs",
+              "theme": "Science Series",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "GAINS",
+              "note": "Science Series is the recurring format, not a one-off.",
+              "guard": "Film only in CABANA or GYM."
+            },
+            {
+              "coach": "Steve",
+              "account": "@titanforgefit + @doc.gymlifts",
+              "theme": "Personal",
+              "assets": [
+                [
+                  "Post",
+                  1
+                ],
+                [
+                  "Stories",
+                  3
+                ]
+              ],
+              "cta": "DM COACH",
+              "note": "The person behind the credential.",
+              "guard": "No income, status or outcome guarantee."
+            }
+          ]
+        }
+      ]
+    },
+    "refreshedAt": "2026-11-03T23:54:44.748924",
+    "sources": {
+      "competitor_snapshot": {
+        "name": "competitor_snapshot",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/competitor-snapshot.json",
+        "generated_at": "2026-10-10T17:40:05.841970+00:00",
+        "age_days": 24,
+        "status": "stale",
+        "max_age_days": 7
+      },
+      "reddit_topic_queue": {
+        "name": "reddit_topic_queue",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+        "generated_at": "2026-10-23T23:27:00+00:00",
+        "age_days": 11,
+        "status": "stale",
+        "max_age_days": 7
+      },
+      "dm_topic_demand": {
+        "name": "dm_topic_demand",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/dm-topic-demand.json",
+        "generated_at": "2026-11-03T10:36:17+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      },
+      "carousel_topics": {
+        "name": "carousel_topics",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/geebs-carousel-topics.json",
+        "generated_at": "2026-11-03T11:05:44+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      }
+    },
+    "calendarCoaches": {
+      "Sun · Nov 1": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Reel + 3 Stories",
+          "topic": "10 longevity findings. Not one of them is about your weight",
+          "link": "https://gainsfromgeebs.com/results",
+          "story": "Reset — A short planning or reset prompt. Optional — more useful than forced content.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Sunday is the fixed proof and offer slot. It is the only post of the week that asks for a next step. The topic does not refresh from demand data: it points at permissioned proof on the results page and one direct action.",
+          "format": "reel",
+          "formatLabel": "Reel",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1MMGUVT91SBExfztnfKKieFR77m48fxR6",
+          "deckCaption": "10 longevity findings. Not one of them is about your weight.\n\n10 peer-reviewed findings on what actually predicts a long life. No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Being fit beat being thin\n2. Low fitness carried the same risk as smoking\n3. The fittest found no ceiling on the benefit\n4. Grip strength predicted death better than blood pressure\n5. A strong grip did not prevent falls or fractures\n6. Strength counted even after cardio was accounted for\n7. Lifting plus cardio tracked with the biggest drop\n8. 40 push-ups marked the lowest heart risk\n9. Needing your hands to get off the floor flagged higher risk\n10. Failing a one-leg stand tracked with nearly double the risk\n\nWhat the research says:\n- 33 studies, 102,980 people: each 1 MET higher fitness, about 1 km/h faster running pace, went with 13% lower risk of dying (RR 0.87).\n- 502,293 UK adults: every 5 kg lower grip carried HR 1.16 in men and 1.20 in women. Weakness meant a grip under 26 kg for men.\n\nSources:\n1. Being fit beat being thin: Barry 2014, Prog Cardiovasc Dis. PMID 24438729.\n2. Low fitness matched smoking, and no ceiling on the benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Grip beat blood pressure, but did not prevent falls: Leong 2015, Lancet. PMID 25982160.\n4. Strength counted beyond cardio: Ruiz 2008, BMJ. PMID 18595904.\n5. Lifting plus cardio: Saeidifard 2019, Eur J Prev Cardiol. PMID 31104484.\n6. 40 push-ups: Yang 2019, JAMA Netw Open. PMID 30768197.\n7. Sit and rise test: Brito 2014, Eur J Prev Cardiol. PMID 23242910.\n8. 10 seconds on one leg: Araujo 2022, Br J Sports Med. PMID 35728834.\n9. Each step up in fitness: Kodama 2009, JAMA. PMID 19454641.\n10. Grip in 502,293 adults: Celis-Morales 2018, BMJ. PMID 29739772.\n\nThis isn't an anti weight loss post. These are mostly observational studies: fitness and strength tracked with a longer life, they do not prove training caused it. I still bet on training.\n\nSave this for your next birthday. And send it to the friend who skips the gym because he's already skinny.\n\nComment LIFT and I'll send you my 1RM calculator, free.\n\n#longevity #healthspan #strengthtraining #gymscience",
+          "deckCaptionHashtags": [
+            "#longevity",
+            "#healthspan",
+            "#strengthtraining",
+            "#gymscience"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 15
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Reel + 3 Stories",
+          "topic": "What a coached week actually looks like, using a real client result already published with permission",
+          "link": "https://titanforgefit.com/results",
+          "story": "Reset — A short planning or reset prompt. Optional — more useful than forced content.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "reel",
+          "formatLabel": "Reel",
+          "captionSource": "plan"
+        }
+      ],
+      "Mon · Nov 2": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "How to stay healthy at a desk job. 5 habits,",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Hard CTA — A specific invitation, no shame. One clear qualification cue — never a generic “DM me”.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Fat loss is the fixed Monday theme. This week's angle comes from what people keep asking us: fat loss, how to lose belly fat, calorie deficit calculator.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1_kk_OUDzoq12Byj5HIHr4f2mCpmO_T39",
+          "deckCaption": "How to stay healthy at a desk job. 5 habits, backed by science.\n\nIf you sit most of the day, your job is not the problem. Sitting still is. These are the 5 things I'd do every single workday, and each one has real research behind it.\n\nSources:\n1. Two-minute walks every 20 minutes of sitting cut the blood sugar response to a test drink from 6.9 to 5.2 in 19 overweight adults. Diabetes Care, 2012. doi:10.2337/dc11-1931\n2. Across 1,005,791 people, about 60 to 75 minutes a day of moderate activity wiped out the extra risk of death tied to sitting 8+ hours. Lancet, 2016. doi:10.1016/S0140-6736(16)30370-1\n3. In 573 office workers, one hour a week of neck and shoulder strength training cut headache frequency and intensity by about 50%. Musculoskelet Sci Pract, 2018. doi:10.1016/j.msksp.2017.08.003\n4. Office workers with more daylight at work slept longer and reported better sleep quality than workers in windowless spaces. J Clin Sleep Med, 2015. doi:10.5664/jcsm.3780\n5. Reading on a light-emitting screen before bed made people slower to fall asleep, cut melatonin and delayed the body clock versus a printed book. PNAS, 2015. doi:10.1073/pnas.1418490112\n\nThe activity and daylight findings come from observational data, so they show a link, not proof. Still worth doing.\n\nSave this for your next long day at the desk. And send it to the friend who works 9 hours without standing up once.\n\nComment BUSY and I'll send you my free busy-week training plan.\n\n#fitness #deskjob #officeworker #sitting #healthyhabits #gainsfromgeebs",
+          "deckCaptionHashtags": [
+            "#fitness",
+            "#deskjob",
+            "#officeworker",
+            "#sitting",
+            "#healthyhabits",
+            "#gainsfromgeebs"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 7
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "10 things people cutting get wrong about fat loss",
+          "link": "https://titanforgefit.com/blog/2026-08-09-weight-training-vs-cardio-for-fat-loss-what-the-data-shows",
+          "story": "Hard CTA — A specific invitation, no shame. One clear qualification cue — never a generic “DM me”.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "plan"
+        }
+      ],
+      "Tue · Nov 3": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "Signs under-eating is killing your gains. And 6 ways to fix it",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Proof — Consented client proof, process-led: the constraint, the adjustment, what changed, the realistic context. Body imagery is not the default proof.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Modern life: remote work, screens, AI & health is the fixed Tuesday theme. This week's angle comes from what people keep asking us: sitting all day health effects, desk job back pain, phone addiction dopamine.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1VwiUFvY2ROobaNt1ELA9ueJz9kB0zF6V",
+          "deckCaption": "Signs under-eating is killing your gains. And 6 ways to fix it.\n\nMore of a deficit isn't always better. Eat too little for too long and you stop building muscle, lose the muscle you have, feel cold and flat, and set up a rebound. Here's what the research shows.\n\nSources:\n1. A meta-analysis of resistance training in an energy deficit: lean mass gains impaired, strength comparable, about 500 kcal a day deficit prevented lean mass gains. Scand J Med Sci Sports, 2022. doi:10.1111/sms.14075\n2. Review of low energy availability in natural male bodybuilding: muscle loss over 40% of weight lost in case studies, body fat overshoot on refeeding. Int J Sport Nutr Exerc Metab, 2017. doi:10.1123/ijsnem.2016-0332\n3. 48 overweight adults, 6 months of 25% calorie restriction lowered core body temperature. JAMA, 2006. doi:10.1001/jama.295.13.1539\n4. One natural bodybuilder over 12 months: testosterone fell from 9.22 to 2.27 ng/mL, mood disturbance rose from 6 to 43 in prep. Int J Sports Physiol Perform, 2013. doi:10.1123/ijspp.8.5.582\n5. MATADOR, 36 men with obesity who finished: intermittent dieting lost more fat (12.3 vs 8.0 kg) and had a smaller drop in resting energy burn. Int J Obes, 2018. doi:10.1038/ijo.2017.206\n6. 24 athletes lifting 4 days a week: losing 0.7% of body weight per week gained 2.1% lean mass, losing 1.4% per week did not. Int J Sport Nutr Exerc Metab, 2011. doi:10.1123/ijsnem.21.2.97\n7. 40 young men on a 40% deficit: 2.4 g protein per kg gained 1.2 kg lean mass vs 0.1 kg on 1.2 g per kg. Am J Clin Nutr, 2016. doi:10.3945/ajcn.115.119339\n8. Natural bodybuilding prep review: 0.5 to 1% weekly loss, 2.3 to 3.1 g protein per kg of lean mass. J Int Soc Sports Nutr, 2014. doi:10.1186/1550-2783-11-20\n\nSave this for the next time you think cutting harder is the answer. And send it to the friend who's been on 1,400 calories for two months and wonders why he looks softer.\n\nComment DEFICIT and I'll send you my free deficit calculator. And follow @gainsfromgeebs, a new one drops every Tuesday.\n\n#fitness #fatloss #nutrition #calorieDeficit #gymmotivation #musclegain #gainsfromgeebs",
+          "deckCaptionHashtags": [
+            "#fitness",
+            "#fatloss",
+            "#nutrition",
+            "#calorieDeficit",
+            "#gymmotivation",
+            "#musclegain",
+            "#gainsfromgeebs"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 12
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "For guys glued to a desk and a phone: what matters most about staying healthy at a desk?",
+          "link": "https://titanforgefit.com/",
+          "story": "Proof — Consented client proof, process-led: the constraint, the adjustment, what changed, the realistic context. Body imagery is not the default proof.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "plan"
+        }
+      ],
+      "Wed · Nov 4": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "Hours of cardio were never the point. 10 cardio findings",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Lifestyle / personal thinking — Coach personality and point of view: a normal meal, a training choice, a work routine, a standard. Recognizability, not luxury.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Muscle & hypertrophy is the fixed Wednesday theme. This week's angle comes from what people keep asking us: how to build muscle, hypertrophy training, muscle growth peptides.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1HQZf7hVQRJarnMwehq20zUVZ0oY7QYKY",
+          "deckCaption": "Hours of cardio were never the point. 10 cardio findings.\n\n10 peer-reviewed findings on what cardio really does for fat, muscle and life span (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Any running beat none, even once a week\n2. Fitness showed no ceiling on the benefit\n3. Intervals bought the same fat loss in 40% less time\n4. Running cut fat. Cycling did not\n5. Short hard intervals did not melt more fat\n6. Intervals did build fitness fast\n7. Sedentary adults gained about 6 points of fitness\n8. Lifting plus cardio still beat cardio alone for muscle\n9. At the fiber level, running cost a little growth\n10. Walking or jogging cut depression scores\n\nWhat the research says:\n- 232,149 adults across 6 cohorts: running went with 27% lower all cause mortality, and no weekly dose beat any other (HR 0.73).\n- 122,007 treadmill tested adults: the fittest group had one fifth the risk of dying of the least fit group (HR 0.20).\n\nSources:\n1. Any running beat none, with no dose trend: Pedisic 2020, Br J Sports Med. PMID 31685526.\n2. Fitness had no upper limit of benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Intervals matched moderate cardio for fat loss in less time: Wewege 2017, Obes Rev. PMID 28401638.\n4. Running cut fat mass, cycling did not: Wewege 2017, Obes Rev. PMID 28401638.\n5. Low volume HIIT did not change fat mass: Sultana 2019, Sports Med. PMID 31401727.\n6. Interval training raised VO2max: Bacon 2013, PLoS One. PMID 24066036.\n7. HIIT raised fitness and trimmed waist in sedentary adults: Strauss 2026, Cochrane Database Syst Rev. PMID 41810896.\n8. Concurrent training still built muscle, mostly with running as the cost: Wilson 2012, J Strength Cond Res. PMID 22002517.\n9. Running had a small cost on type I fiber growth: Lundberg 2022, Sports Med. PMID 35476184.\n10. Walking or jogging reduced depression scores: Noetel 2024, BMJ. PMID 38355154.\n\nThis is not an anti-cardio or pro-cardio post. Several of these are observational: running and fitness tracked with longer lives, they do not prove cardio caused it. Intervals were a time saver, not a fat loss shortcut.\n\nSave this for your next cardio day. And send it to the lifter who skips cardio because he thinks it kills his gains.\n\nComment BUSY and I'll send you my busy week training plan, free.\n\n#cardio #hiit #fatloss #gymscience",
+          "deckCaptionHashtags": [
+            "#cardio",
+            "#hiit",
+            "#fatloss",
+            "#gymscience"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 14
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "10 building muscle findings the research actually backs",
+          "link": "https://titanforgefit.com/blog/2026-08-09-hypertrophy-vs-strength-what-actually-builds-muscle-for-beginners",
+          "story": "Lifestyle / personal thinking — Coach personality and point of view: a normal meal, a training choice, a work routine, a standard. Recognizability, not luxury.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "plan"
+        }
+      ],
+      "Thu · Nov 5": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "Testosterone is not the muscle switch the ads sell. 10 findings",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Practical lesson — One decision they can use today — restaurant fallback, missed-session rule, how to restart after a weekend. Mined from real client questions.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Recovery & sleep is the fixed Thursday theme. This week's angle comes from what people keep asking us: how to sleep better at night, sleep and muscle growth, recovery between workouts.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1CR7_cQol64vAxRQ_Ko5rxtuZQcn41Z9y",
+          "deckCaption": "Testosterone is not the muscle switch the ads sell. 10 findings.\n\n10 peer-reviewed findings on testosterone, training and what actually moves it (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. The post workout hormone spike predicted nothing\n2. Losing weight raised testosterone\n3. A short night did not crash it. A missed night did\n4. Low fat diets lowered it\n5. Soy did not lower testosterone\n6. Low testosterone needs symptoms, not just a number\n7. Very high doses did build muscle. Normal levels were never the test\n8. Replacing it matched placebo on heart events\n9. Treatment cut diabetes risk, with a catch\n10. A supplement moved the number, not the stress\n\nWhat the research says:\n- 49 resistance trained men, 12 weeks: no link between the acute post workout rise in any anabolic hormone and the change in strength or muscle.\n- 24 studies: losing weight raised total testosterone, by 2.87 nmol/L on a low calorie diet and 8.73 after bariatric surgery.\n\nSources:\n1. Post workout hormone rises did not predict gains: Morton 2016, J Appl Physiol. PMID 27174923.\n2. Weight loss raised testosterone: Corona 2013, Eur J Endocrinol. PMID 23482592.\n3. Total sleep loss lowered testosterone, partial did not: Su 2021, Sleep Med. PMID 34801825.\n4. Low fat diets lowered testosterone: Whittaker 2021, J Steroid Biochem Mol Biol. PMID 33741447.\n5. Soy did not change male hormones: Reed 2021, Reprod Toxicol. PMID 33383165.\n6. Low testosterone was defined by symptoms plus a cutoff: Wu 2010, N Engl J Med. PMID 20554979.\n7. Supraphysiologic doses built muscle, lifting added more: Bhasin 1996, N Engl J Med. PMID 8637535.\n8. Testosterone therapy matched placebo on cardiac events: Lincoff 2023, N Engl J Med. PMID 37326322.\n9. Testosterone cut diabetes risk, raised haematocrit: Wittert 2021, Lancet Diabetes Endocrinol. PMID 33338415.\n10. Ashwagandha raised free testosterone, not stress relief: Smith 2023, J Psychopharmacol. PMID 37740662.\n\nThis is not an anti-testosterone post. Treatment helps men with a diagnosed deficiency. The point is that workout spikes and boosters are not what builds your muscle.\n\nSave this for the next time an ad promises a hormone fix. And send it to the guy at your gym who buys testosterone boosters.\n\nComment RECOMP and I'll send you my recomp breakdown, free.\n\n#testosterone #mensHealth #musclebuilding #gymscience",
+          "deckCaptionHashtags": [
+            "#testosterone",
+            "#mensHealth",
+            "#musclebuilding",
+            "#gymscience"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 12
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "A practical guide to recovery and sleep for under-recovered busy men",
+          "link": "https://titanforgefit.com/blog/2026-08-09-sleep-and-recovery-protocols-for-high-performers",
+          "story": "Practical lesson — One decision they can use today — restaurant fallback, missed-session rule, how to restart after a weekend. Mined from real client questions.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "plan"
+        }
+      ],
+      "Fri · Nov 6": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "Motivation never made anyone consistent. 10 findings",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Soft CTA / lead magnet — Poll, question box or keyword gate on a genuinely useful owned resource. Route replies into the approved application flow.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Supplements is the fixed Friday theme. This week's angle comes from what people keep asking us: does creatine work, best supplements for muscle growth, is preworkout bad for your heart.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1EY1onNttnjjwcTLRcmz9tC2R2x5lJo1M",
+          "deckCaption": "Motivation never made anyone consistent. 10 findings.\n\n10 peer-reviewed findings on what keeps people training (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Wanting it more barely changed what people did\n2. A when and where plan helped\n3. Self-monitoring worked best with a feedback loop\n4. A tracker added about 1,800 steps a day\n5. Paying people worked, for a while\n6. A habit took about two months, but ranged from 4 days to 335\n7. How a session felt predicted whether people came back\n8. Liking it beat forcing it, long term\n9. Twice a week per muscle beat once a week\n10. More days was not always better\n\nWhat the research says:\n- 11 randomised trials: raising intention moved behavior by only d 0.15, a third of the change in intention itself (d 0.45).\n- 122 evaluations, 44,747 adults: self-monitoring plus a feedback loop reached an effect of 0.42, vs 0.26 for programs without it.\n\nSources:\n1. Raising intention barely moved behavior: Rhodes 2012, Health Psychol. PMID 22390739.\n2. If-then plans raised physical activity: Silva 2018, PLoS One. PMID 30427874.\n3. Self-monitoring plus a feedback loop worked best: Michie 2009, Health Psychol. PMID 19916637.\n4. Activity trackers added steps: Ferguson 2022, Lancet Digit Health. PMID 35868813.\n5. Financial incentives raised attendance short term: Mitchell 2013, Am J Prev Med. PMID 24139781.\n6. Habits took about two months with huge variation: Singh 2024, Healthcare. PMID 39685110.\n7. Feeling good during exercise predicted future activity: Rhodes 2015, Ann Behav Med. PMID 25921307.\n8. Intrinsic motivation predicted long term adherence: Teixeira 2012, Int J Behav Nutr Phys Act. PMID 22726453.\n9. Training a muscle twice a week beat once: Schoenfeld 2016, Sports Med. PMID 27102172.\n10. Three to five sessions a week had the largest mental health link: Chekroud 2018, Lancet Psychiatry. PMID 30099000.\n\nThis is not an anti-motivation post. Several of these are observational, and effect sizes come from different reviews and measures. The point is that systems did more than a good mood.\n\nSave this for the next time you fall off. And send it to the friend who restarts every Monday.\n\nComment STICK and I'll send you my consistency breakdown, free.\n\n#consistency #habits #gymmotivation #gymscience",
+          "deckCaptionHashtags": [
+            "#consistency",
+            "#habits",
+            "#gymmotivation",
+            "#gymscience"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 13
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Talking head + 3 Stories",
+          "topic": "10 things guys wasting money on supplements get wrong about supplements",
+          "link": "https://titanforgefit.com/blog/2026-08-09-the-truth-about-foundation-supplements-creatine-protein-and-pre-workout",
+          "story": "Soft CTA / lead magnet — Poll, question box or keyword gate on a genuinely useful owned resource. Route replies into the approved application flow.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "talking head",
+          "formatLabel": "Talking head",
+          "captionSource": "plan"
+        }
+      ],
+      "Sat · Nov 7": [
+        {
+          "coach": "Kris",
+          "account": "@gainsfromgeebs",
+          "brand": "Gains From Geebs",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "5 diet myths keeping you stuck. And what actually works",
+          "link": "https://gainsfromgeebs.com/science",
+          "story": "Aspirational accomplishment — Effort and standards, not status. Training toward a goal, preparing check-ins, reviewing a lesson is enough.",
+          "stories": 3,
+          "cta": "GAINS",
+          "why": "Nutrition (whole-diet) is the fixed Saturday theme. This week's angle comes from what people keep asking us: how much protein per day to lose weight for a woman, is seed oil bad for you, ultra processed food.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "deck",
+          "captionNote": "The caption for this deck is in the Drive folder with the slides.",
+          "deckFolder": "https://drive.google.com/drive/folders/1raqxzcCUNtJ6BB6e2HNq_n5dU8utaF73",
+          "deckCaption": "5 diet myths keeping you stuck. And what actually works.\n\nDiet advice online has never been louder. On Reddit, \"Why are Americans so obsessed with not eating seed oils?\" pulled 462 upvotes and 723 comments, and \"What is FINALLY working for me - skipping breakfast!!\" hit 887. Here's what the research actually says.\n\nSources:\n1. 15 controlled trials: adding linoleic acid did not raise inflammation markers. J Acad Nutr Diet, 2012. doi:10.1016/j.jand.2012.03.029\n2. Higher linoleic acid levels linked to lower cardiovascular death in 68,659 people across 30 studies. Circulation, 2019. doi:10.1161/CIRCULATIONAHA.118.038908\n3. Eating breakfast: 260 more calories a day and no extra weight loss across 13 trials. BMJ, 2019. doi:10.1136/bmj.l42\n4. 3 meals vs 6 at the same calories: no difference in fat loss or appetite over 8 weeks. Br J Nutr, 2010. doi:10.1017/S0007114509992984\n5. Low-carb vs low-fat in 609 adults: 6.0 vs 5.3 kg lost after 12 months, and insulin did not predict results. JAMA, 2018. doi:10.1001/jama.2018.0245\n6. At equal calories, cutting fat lost more body fat than cutting carbs (89 vs 53 g a day). Cell Metab, 2015. doi:10.1016/j.cmet.2015.07.021\n7. Eating later raised hunger and lowered waking energy burn. Cell Metab, 2022. doi:10.1016/j.cmet.2022.09.007\n8. Raising protein from 15% to 30% of calories cut intake by 441 calories a day. Am J Clin Nutr, 2005. doi:10.1093/ajcn.82.1.41\n9. Ultra-processed diet: 508 more calories a day eaten, and weight gain. Cell Metab, 2019. doi:10.1016/j.cmet.2019.05.008\n\nThe seed oil heart finding is observational, so it shows a link, not proof.\n\nSave this before your next grocery run. And send it to the friend who still eats 6 meals out of tupperware.\n\nComment MACROS and I'll send you my free macro calculator. And follow @gainsfromgeebs for more myths, checked.\n\n#fitness #nutrition #mythbusting #fatloss #mensfitness #science #gainsfromgeebs",
+          "deckCaptionHashtags": [
+            "#fitness",
+            "#nutrition",
+            "#mythbusting",
+            "#fatloss",
+            "#mensfitness",
+            "#science",
+            "#gainsfromgeebs"
+          ],
+          "deckCaptionHashtagsAdded": false,
+          "deckSlides": 8
+        },
+        {
+          "coach": "Steve",
+          "account": "@titanforgefit + @doc.gymlifts",
+          "brand": "Titan Forge Fitness",
+          "publishes": "Carousel + 3 Stories",
+          "topic": "Start here with nutrition: a guide for guys who overcomplicate food",
+          "link": "https://titanforgefit.com/blog/2026-10-27-high-protein-fast-food-guide",
+          "story": "Aspirational accomplishment — Effort and standards, not status. Training toward a goal, preparing check-ins, reviewing a lesson is enough.",
+          "stories": 3,
+          "cta": "DM COACH",
+          "why": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+          "format": "carousel",
+          "formatLabel": "Carousel",
+          "captionSource": "plan"
+        }
+      ]
+    },
+    "storyRoutine": "Standing Story routine, the same every day: personal bridge first, share the day’s post within 15 minutes, one question box, personally answer the first five replies, then the limited-spots CTA. From \"Stories turn followers into clients\" in this week’s strategy.",
+    "deckOwner": "Kris",
+    "deckCaptionDays": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "deckCaptionLinks": {
+      "Sunday": "https://drive.google.com/drive/folders/1MMGUVT91SBExfztnfKKieFR77m48fxR6",
+      "Monday": "https://drive.google.com/drive/folders/1_kk_OUDzoq12Byj5HIHr4f2mCpmO_T39",
+      "Tuesday": "https://drive.google.com/drive/folders/1VwiUFvY2ROobaNt1ELA9ueJz9kB0zF6V",
+      "Wednesday": "https://drive.google.com/drive/folders/1HQZf7hVQRJarnMwehq20zUVZ0oY7QYKY",
+      "Thursday": "https://drive.google.com/drive/folders/1CR7_cQol64vAxRQ_Ko5rxtuZQcn41Z9y",
+      "Friday": "https://drive.google.com/drive/folders/1EY1onNttnjjwcTLRcmz9tC2R2x5lJo1M",
+      "Saturday": "https://drive.google.com/drive/folders/1raqxzcCUNtJ6BB6e2HNq_n5dU8utaF73"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "week_of": "2026-10-19",
+  "generated_at": "2026-10-18",
+  "range": {
+    "current": [
+      "2026-10-11",
+      "2026-10-17"
+    ],
+    "prior": [
+      "2026-10-04",
+      "2026-10-10"
+    ]
+  },
+  "ga4": {
+    "geebs": {
+      "prior": {
+        "sessions": 244,
+        "conversions": 4
+      },
+      "cur": {
+        "sessions": 221,
+        "conversions": 2
+      }
+    },
+    "titan": {
+      "cur": {
+        "sessions": 128,
+        "conversions": 5
+      },
+      "prior": {
+        "sessions": 127,
+        "conversions": 1
+      }
+    }
+  },
+  "geebs_social": {
+    "by_network": [
+      {
+        "impressions": "2308",
+        "interactions": "406",
+        "network": "tiktok",
+        "posts": "3",
+        "reach": null,
+        "saves": null
+      },
+      {
+        "impressions": "49846",
+        "interactions": "1946",
+        "network": "instagram",
+        "posts": "12",
+        "reach": "28568",
+        "saves": "374"
+      },
+      {
+        "impressions": "5265",
+        "interactions": "80",
+        "network": "youtube",
+        "posts": "6",
+        "reach": null,
+        "saves": null
+      }
+    ],
+    "best_post": {
+      "impressions": "17662",
+      "network": "instagram",
+      "reach": "9414",
+      "saves": "131",
+      "type": "FEED_CAROUSEL_ALBUM",
+      "url": "https://www.instagram.com/p/Deb4QzLjscK/"
+    }
+  },
+  "titan_social_connected": true,
+  "titan_social_networks": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "titan_social_posts_in_window": 12,
+  "search": {
+    "titanforge": {
+      "top_queries": [
+        {
+          "query": "pump covers",
+          "position": 6,
+          "monthly_searches": 2900,
+          "est_visits": 69
+        },
+        {
+          "query": "titan training",
+          "position": 2,
+          "monthly_searches": 390,
+          "est_visits": 17
+        },
+        {
+          "query": "titan equipment gym",
+          "position": 2,
+          "monthly_searches": 50,
+          "est_visits": 3
+        }
+      ],
+      "snapshot_date": "2026-10-15",
+      "ai_mentions": 1,
+      "ai_snapshot_date": "2026-10-03"
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "dosing magnesium",
+          "position": 4,
+          "monthly_searches": 480,
+          "est_visits": 16
+        },
+        {
+          "query": "tongkat ali dosage",
+          "position": 6,
+          "monthly_searches": 590,
+          "est_visits": 14
+        },
+        {
+          "query": "gainsfromgeebs",
+          "position": 2,
+          "monthly_searches": 110,
+          "est_visits": 14
+        }
+      ],
+      "snapshot_date": "2026-10-15",
+      "ai_mentions": 0,
+      "ai_snapshot_date": "2026-10-03"
+    }
+  },
+  "gsc": {
+    "titan": {
+      "top_queries": [
+        {
+          "query": "titan forge fitness",
+          "clicks": 1,
+          "impressions": 24,
+          "position": 7.3
+        },
+        {
+          "query": "personal trainer near me",
+          "clicks": 1,
+          "impressions": 12,
+          "position": 1.8
+        },
+        {
+          "query": "boxing classes near me",
+          "clicks": 1,
+          "impressions": 1,
+          "position": 1.0
+        }
+      ],
+      "data_through": "2026-10-15",
+      "caveat": "GSC lags 2-3 days; titan tracked-keyword CTR is rank-tracker contaminated (position ~1 with 0 clicks = fake)."
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "gainsfromgeebs",
+          "clicks": 3,
+          "impressions": 41,
+          "position": 4.8
+        },
+        {
+          "query": "skinny fat men",
+          "clicks": 2,
+          "impressions": 128,
+          "position": 6.3
+        },
+        {
+          "query": "skinny fat man",
+          "clicks": 1,
+          "impressions": 115,
+          "position": 6.0
+        }
+      ],
+      "data_through": "2026-10-15",
+      "caveat": "GSC lags 2-3 days."
+    }
+  },
+  "bot": {
+    "current": {
+      "new_leads": 30,
+      "qualifying": 15,
+      "open": 14,
+      "handed_off": 0,
+      "archived": 1,
+      "bookings": 0
+    },
+    "prior": {
+      "new_leads": 16,
+      "qualifying": 6,
+      "open": 7,
+      "handed_off": 0,
+      "archived": 3,
+      "bookings": 0
+    }
+  },
+  "voc": {
+    "generated_at": "2026-10-18T09:47:51+00:00",
+    "window_days": 30,
+    "messages_classified": 261,
+    "top_pillars": [
+      {
+        "pillar": "anti-aging-longevity",
+        "count": 68
+      },
+      {
+        "pillar": "modern-life",
+        "count": 47
+      },
+      {
+        "pillar": "fat-loss",
+        "count": 33
+      },
+      {
+        "pillar": "supplements",
+        "count": 29
+      },
+      {
+        "pillar": "muscle-hypertrophy",
+        "count": 22
+      }
+    ]
+  },
+  "trends": {
+    "titan_website": {
+      "metric": "visits",
+      "current": 128,
+      "prior": 127,
+      "avg_28d": null,
+      "avg_90d": null,
+      "observed_days_28d": 27,
+      "observed_days_90d": 87
+    },
+    "titan_social": {
+      "metric": "posts",
+      "current": 12,
+      "prior": 10,
+      "avg_28d": 11.2,
+      "avg_90d": null,
+      "history_note_28d": null,
+      "history_note_90d": "No complete 90-day posting history is available",
+      "source_scope": "available recorded posts"
+    },
+    "geebs_website": {
+      "metric": "visits",
+      "current": 221,
+      "prior": 244,
+      "avg_28d": null,
+      "avg_90d": null,
+      "observed_days_28d": 27,
+      "observed_days_90d": 89
+    },
+    "geebs_social": {
+      "metric": "posts",
+      "current": 21,
+      "prior": 19,
+      "avg_28d": 17.2,
+      "avg_90d": 14.6,
+      "history_note_28d": null,
+      "history_note_90d": null,
+      "source_scope": "available recorded posts"
+    },
+    "dm_bot": {
+      "metric": "new leads",
+      "current": 30,
+      "prior": 16,
+      "avg_28d": 30.0,
+      "avg_90d": 108.0,
+      "bookings_avg_28d": 0.8,
+      "bookings_avg_90d": 1.7
+    },
+    "what_people_ask": {
+      "current": {
+        "days": 7,
+        "classified_messages": 43,
+        "top_pillar": "modern-life",
+        "top_count": 20,
+        "top_share_pct": 46.5
+      },
+      "window_28d": {
+        "days": 28,
+        "classified_messages": 197,
+        "top_pillar": "modern-life",
+        "top_count": 65,
+        "top_share_pct": 33.0
+      },
+      "window_90d": {
+        "days": 90,
+        "classified_messages": 2219,
+        "top_pillar": "modern-life",
+        "top_count": 652,
+        "top_share_pct": 29.4
+      }
+    }
+  },
+  "blockers": [],
+  "gaps": []
+}
