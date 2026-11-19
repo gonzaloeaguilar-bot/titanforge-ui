@@ -150,7 +150,7 @@ function HomeRating() {
 
 function Hero() {
   return (
-    <section className="hero hero--fullbleed" data-section="home_hero">
+    <section data-client-ui-test="steve-claude-edit-ok" className="hero hero--fullbleed" data-section="home_hero">
       <div className="hero__backdrop" aria-hidden="true">
         <img
           src={HOME_HERO_SRC}
