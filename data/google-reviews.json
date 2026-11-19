@@ -1,0 +1,106 @@
+{
+  "rating": "5.0",
+  "count": 30,
+  "source": "Google Business Profile reviews, read through the Metricool inbox API (provider GMB, blogId 6720583)",
+  "capturedOn": "2026-10-29",
+  "profileUrl": "https://www.google.com/search?kgmid=/g/11m6cd7w45&hl=en-US&q=Titan+Forge+Fitness,+Corp.&shndl=30&source=sh/x/loc/osrp/m5/1",
+  "note": "Verbatim public Google reviews. Never edit text; display_author is first name + last initial.",
+  "reviews": [
+    {
+      "id": "3B5DE6F91837F61F093E993C0EE8CCC0",
+      "stars": 5,
+      "author": "Bronx Bull",
+      "date": "2025-06-24",
+      "text": "I am an experienced lifter and have worked with Titan Forge and Steve for over a month with the goal to increase my power strength by 10%-20%. The data-driven dialed-in analysis of how to do so has been incredible. What differentiates Titan from other trainers is the approach of performance architecture versus the one-size-fits-all model of others trainers/fitness groups. I'll be working with Titan for quite sometime!  -Brian Mena",
+      "display_author": "Bronx B."
+    },
+    {
+      "id": "CA835B154129740CE69A8BD690C06525",
+      "stars": 5,
+      "author": "Ignacio Martinez",
+      "date": "2026-08-28",
+      "text": "Steve has been a massive part of my weight loss journey. I’ve went from 225 to 175 in 4 months, then gained a ton of muscle the last two years with his program. Incredible support. Such an amazing team. Can not recommend them enough.",
+      "display_author": "Ignacio M."
+    },
+    {
+      "id": "A174F81C0F0836DED57AD17015D27F2D",
+      "stars": 5,
+      "author": "Conor McCutcheon",
+      "date": "2025-06-23",
+      "text": "Overall a great experience and crew over at titan forge. Kris and Steve really know what they’re doing and are so devoted to making your goals reality.",
+      "display_author": "Conor M."
+    },
+    {
+      "id": "EC573060EB2EF2B56E928B3DE6BE9CB0",
+      "stars": 5,
+      "author": "Robert Scheafer",
+      "date": "2025-06-24",
+      "text": "Steve and the team show tremendous passion for there roles and make it easy to achieve my goals.",
+      "display_author": "Robert S."
+    },
+    {
+      "id": "71A88757C9FBE6292D584847564EDA5C",
+      "stars": 5,
+      "author": "Tucker Thompson",
+      "date": "2025-06-27",
+      "text": "Titan Forge has been a total game-changer! From the very first phone call, I knew I’d found the right place. For just over three months, I’ve been training with Steve “Doc,” and the results have blown me away. I went from never working out to being in the gym nearly every day — all thanks to Doc’s incredible guidance, encouragement, and expertise.\n\nWhat sets Doc apart is that he doesn’t just coach you through the workouts — he’s there for you on a personal level, too. That kind of support has been life-changing for me.\n\nIf you’re serious about transforming not only your fitness, but your mindset and confidence, I highly recommend Titan Forge. I can’t wait to see what the future holds as I continue this amazing journey!",
+      "display_author": "Tucker T."
+    },
+    {
+      "id": "A7B8234EC1D8BEB516078A20C0FB8028",
+      "stars": 5,
+      "author": "Janica Winn",
+      "date": "2026-09-22",
+      "text": "I trained with Kris from June 2025 to September 2026. His training has had a significant positive impact on my fitness journey. He stands out for his willingness to vary exercises according to my physical needs. In addition, for introducing me to the advanced technique of forced reps. It’s amazing what can be achieved with Kris’ expertise!",
+      "display_author": "Janica W."
+    },
+    {
+      "id": "B4916BF0A6BC3447E89A751EF8AB5857",
+      "stars": 5,
+      "author": "Skyler Rauch",
+      "date": "2025-03-24",
+      "text": "The guys at Titan Forge are amazing! I've been training with Kris for the past month and I've honestly been having the best time. Everyone I've met is super friendly and so responsive and supportive! I couldn't imagine a better experience.",
+      "display_author": "Skyler R."
+    },
+    {
+      "id": "A07D772559E0D9A189A83895A7F89692",
+      "stars": 5,
+      "author": "Evan Merrill",
+      "date": "2025-06-23",
+      "text": "Titan Forge Fitness is an excellent spot! Kris is a great person that will get you feeling and looking like your best self. Highly recommend",
+      "display_author": "Evan M."
+    },
+    {
+      "id": "google-jake-ross-kris-next-level",
+      "stars": 5,
+      "author": "Jake Ross",
+      "date": "2025-06-20",
+      "text": "Great staff. Even greater experience. Would definitely recommend to anyone looking to improve themselves. Kris is the person you want to take it to that next level.",
+      "display_author": "Jake R."
+    },
+    {
+      "id": "google-michael-s-kris-great-coach",
+      "stars": 5,
+      "author": "Michael S",
+      "date": "2025-06-18",
+      "text": "Titan Forge is awesome! Kris is a great coach and has pushed me harder than I ever thought possible!!!",
+      "display_author": "Michael S."
+    },
+    {
+      "id": "google-logan-mandeville-awesome-coaches",
+      "stars": 5,
+      "author": "Logan Mandeville",
+      "date": "2025-05-15",
+      "text": "Awesome Coaches, Great Workouts! Titan Forge is amazing! Steve and Kris are both awesome coaches.",
+      "display_author": "Logan M."
+    },
+    {
+      "id": "google-nick-stahlman-cleanly-facilities",
+      "stars": 5,
+      "author": "Nick Stahlman",
+      "date": "2025-05-10",
+      "text": "Fantastic atmosphere, high quality equipment and cleanly facilities. Trustworthy personal training.",
+      "display_author": "Nick S."
+    }
+  ]
+}

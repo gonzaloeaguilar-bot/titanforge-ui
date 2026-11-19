@@ -1,0 +1,307 @@
+# Titan Forge Fitness
+
+This file gives AI assistants a concise, accurate map of the intended Titan Forge Fitness website architecture. The canonical domain is `https://titanforgefit.com`.
+
+## Entity
+
+- Brand: Titan Forge Fitness
+- Location: 9780 S Meridian Blvd, Englewood, CO 80112; phone (720) 916-7235; serving Centennial, Parker and the Denver metro area, with online coaching worldwide
+- Founder and head coach: Steve "Doc" Ginevan, PhD (Instagram `https://www.instagram.com/doc.gymlifts/`)
+- Positioning: evidence-based coaching, Parker/local personal training, online coaching, training, nutrition, accountability, and support products after the foundation is in place
+- Core promise style: no hype, no shame, no guaranteed outcomes, no supplement-first shortcut claims
+- Attribution: coaching, methodology, and founder proof on this site belong to Steve "Doc" Ginevan, PhD. Titan Forge Fitness does not route coaching prospects to any external coaching brand.
+
+## Primary Routes
+
+- `/apply` — coaching application and service-interest form
+- `/` — home, hero, elite group image, coaching positioning, founder proof, Instagram carousel, results, CTA
+- `/start` — path finder / self-selection route
+- `/coaching` — online, in-person, and nutrition coaching
+- `/pricing` — coaching plans and pricing ladder (Premium video, Standard check-in, Nutrition-only, App + Community), prepay bonus, and referral credit
+- `/referral` — referral program: 1 referral → 1 free month, 3 → 2 months, 6 → 3 months
+- `/coaches` — Steve "Doc" Ginevan, PhD, founder and head coach: the analytical, evidence-driven coaching lane
+- `/programs` — program/productized training paths
+- `/method` — Forge Method / coaching loop
+- `/results` — founder proof and conservative client/review proof
+- `/resources` — searchable education library
+- `/faq` — canonical FAQ hub for coaching, local/online options, nutrition, supplements, proof, safety, and AI-citation readiness
+- `/shop` — supplements/apparel support tools, foundation-first framing
+- `/about` — Steve "Doc" Ginevan, PhD founder story and Titan Forge values
+- `/contact` — direct contact information and fallback intro-call form
+- `/science` — Titan Forge Science Library: 50 peer-reviewed articles covering body recomposition, training, nutrition, supplements, longevity over 40, and myths
+- `/blog` — articles and insights on training, nutrition, recovery, and executive fitness
+
+## Growth / SEO Intent Routes
+
+- `/for/busy-professionals` — audience page for schedule-constrained adults
+- `/for/online-coaching` — online coaching intent page
+- `/for/parker-personal-training` — local Parker personal training intent page
+- `/for/beginners` — beginner-friendly coaching intent page
+- `/for/body-recomposition` — body recomposition coaching intent page
+- `/for/nutrition-coaching` — nutrition coaching intent page
+- `/for/men-over-40` — strength/body-composition coaching for men over 40
+- `/vs/workout-template` — comparison page explaining coaching vs templates
+- `/vs/fitness-apps` — comparison page explaining coaching vs apps
+- `/vs/group-classes` — comparison page explaining coaching vs group classes
+- `/vs/meal-plans` — comparison page explaining nutrition coaching vs meal plans
+- `/vs/supplements` — comparison page explaining coaching/foundation vs supplements
+- `/free/forge-readiness-check` — no-PII free readiness/self-qualification tool
+
+## Collection Pages
+
+- `/collections/strength-training` — strength training cluster for beginner lifting, overload, warm-ups, training volume, fat-loss lifting, and steps/cardio decisions
+- `/collections/nutrition` — nutrition cluster for macros, calories, protein, meal planning, meal plans, and plateaus
+- `/collections/nutrition-adherence-and-eating-out` — nutrition-adherence cluster for restaurants, weekends, high-protein breakfasts, grocery defaults, hydration, and real-life eating decisions
+- `/collections/beginner-nutrition-and-fat-loss-foundations` — beginner nutrition and fat-loss foundation cluster for calorie deficits, protein priorities, simple meal structure, snacks, and cravings
+- `/collections/beginner-strength-and-gym-confidence` — beginner strength and gym-confidence cluster for first-month gym plans, safe exercise form, gym anxiety, early lifting mistakes, and when beginners should add weight
+- `/collections/macro-adjustments-and-nutrition-troubleshooting` — nutrition troubleshooting cluster for macro adjustments, calorie tracking mistakes, portion control, protein/fiber satiety, alcohol, and fat-loss stalls
+- `/collections/cardio-conditioning-and-steps` — conditioning cluster for cardio versus lifting, Zone 2, HIIT, strength-preserving cardio, busy-adult conditioning, and step-count decisions
+- `/collections/sleep-stress-and-lifestyle-recovery` — lifestyle-recovery cluster for sleep debt, stress and fat-loss plateaus, evening routines, active recovery versus rest, and wearable recovery scores
+- `/collections/mobility-warmups-and-joint-friendly-training` — mobility and joint-friendly training cluster for dynamic warm-ups, mobility versus flexibility, exercise modifications, minor aches, and range-of-motion decisions
+- `/collections/workout-nutrition-and-meal-timing` — workout-nutrition cluster for pre-workout meals, post-workout recovery, carbs around training, fasted training tradeoffs, and busy-lifter meal timing
+- `/collections/home-gym-and-minimal-equipment-training` — home-gym/minimal-equipment cluster for home strength training, minimal equipment plans, dumbbells versus machines, limited-equipment progressive overload, and bodyweight versus weight training
+- `/collections/fitness-habits-and-consistency` — habit/consistency cluster for beginner habit building, workout consistency, motivation versus discipline, weekly fitness routines, and accountability systems
+- `/collections/fat-loss` — fat-loss cluster for plateaus, recomposition, lifting, steps, sleep, recovery, and sustainable progress
+- `/collections/body-recomposition-and-progress` — body-recomposition cluster for scale interpretation, progress tracking, maintenance phases, and strength preservation during fat loss
+- `/collections/training-safety-and-scope` — safety/scope cluster for workout warning signs, soreness versus pain, beginner progression, missed-workout returns, and medical referral boundaries
+- `/collections/recovery-and-sleep` — recovery cluster for sleep, soreness, deloads, warm-ups, fatigue, and training-volume decisions
+- `/collections/online-coaching` — coaching cluster for check-ins, templates, nutrition coaching, consistency, and applying feedback
+- `/collections/coaching-decisions` — decision cluster for choosing a coach, check-ins, templates, apps, and support-level fit
+- `/collections/coaching-fit-and-communication` — coaching-fit cluster for deciding whether coaching is needed, what to ask before hiring, communication boundaries, feedback quality, and self-guided fit
+- `/collections/muscle-gain-and-hypertrophy` — muscle-gain cluster for dirty-bulk alternatives, recoverable hypertrophy volume, progressive overload, protein/calorie planning, and stall troubleshooting
+- `/collections/men-over-40-strength-and-recovery` — men-over-40 cluster for strength training, joint-friendly progression, protein, recovery, fat loss, and muscle building after 40
+- `/collections/busy-professional-fitness-and-nutrition` — busy-professional cluster for schedule-constrained training, meal prep, work travel, backup workouts, and consistency
+- `/collections/beginner-fitness` — beginner cluster for confidence, starting out of shape, movement basics, protein, warm-ups, and online coaching expectations
+- `/collections/supplements` — supplement cluster for protein, creatine, claims, safety context, and foundation-first product decisions
+- `/collections/supplement-product-decisions` — supplement product-decision cluster for protein powder, pre-workout, third-party testing, stacking, labels, and product-claim hygiene
+- `/collections/program-design-and-weekly-training` — program-design cluster for workout splits, full-body versus upper-lower training, rest days, deloads, exercise order, and repeatable weekly plans
+- `/collections/local-personal-training` — local coaching cluster for Parker-area personal training questions, technique support, and session structure
+- `/collections/local-coaching-and-first-session` — first-session cluster for online versus in-person coaching, first personal training sessions, gym confidence, between-session consistency, and equipment decisions
+- `/collections/parker-personal-training-and-local-coaching` — Parker/local coaching cluster for beginner personal training, choosing a Parker trainer, online versus local support, consult questions, and accountability between sessions
+- `/collections/injury-prevention-and-return-to-training` — injury-prevention cluster for soreness, warning signs, beginner injury-risk reduction, rest-day/deload choices, layoffs, and exercise modifications
+- `/collections/coaching-offers-fit-and-starting-process` — coaching-offer/fit cluster for Titan Forge offer paths, who coaching fits, starting steps, inclusions, no-guarantee boundaries, and production approval gates
+- `/collections/coaching-cost-value-and-pricing-questions` — coaching cost/value cluster for pricing-boundary answers, why generic prices are gated, online coaching cost factors, coaching value versus apps/templates, and pre-purchase questions
+- `/collections/coaching-trust-refunds-and-expectation-boundaries` — coaching trust/refund cluster for cancellation and pause questions, guarantee red flags, testimonial interpretation, coaching agreements, communication expectations, and post-application next steps
+- `/collections/coaching-comparisons-and-alternatives` — coaching comparison/alternative cluster for online coaching versus AI workout apps, personal trainers, group classes, nutrition coaching versus diet apps, and supplements versus coaching results
+- `/collections/fitness-coach-credentials-and-vetting` — credentials/vetting cluster for checking coach credentials, trainer certification scope, coaching red flags, online coaching claim verification, and privacy or communication boundaries
+- `/collections/coaching-onboarding-and-first-30-days` — onboarding/first-30-days cluster for fitness coaching onboarding, consultation prep, first-month expectations, baseline goals, and progress photo or measurement boundaries
+- `/collections/coaching-readiness-objections-and-decision-help` — readiness/objection cluster for online coaching readiness, past failed fitness plans, coaching versus discipline, pre-join questions, and choosing fitness coaching
+- `/collections/coaching-results-timelines-and-realistic-expectations` — results/timeline cluster for fitness coaching timelines, realistic coaching results, fitness transformation timeline variation, fat loss muscle gain expectations, and slow-progress troubleshooting
+- `/collections/nutrition-adherence-travel-weekends-and-social-events` — nutrition-adherence cluster for eating out, nutrition adherence while traveling, weekend eating, social events, overeating recovery, and real-life fat-loss consistency
+- `/collections/coaching-consultation-application-and-next-step-questions` — consultation/application cluster for fitness coaching consultations, application prep, fit decisions, first coaching goals, and pre-join coach questions
+- `/collections/personalized-plan-adjustments-and-coaching-feedback` — personalized-plan adjustment cluster for personalized fitness plans, workout feedback, training dose, disrupted weeks, exercise substitutions, and coaching adjustments
+- `/collections/coaching-process-and-accountability` — coaching-process cluster for intake questions, weekly check-ins, accountability, motivation, and plan-adjustment decisions
+
+## Resource Pages
+
+- `/resources/how-to-calculate-macros`
+- `/resources/coaching-vs-templates`
+- `/resources/supplements-foundation-first`
+- `/resources/progressive-overload-without-guesswork`
+- `/resources/protein-how-much-and-timing`
+- `/resources/warm-up-is-a-workout`
+- `/resources/consistency-beats-intensity`
+- `/resources/fat-loss-plateau-troubleshooting`
+- `/resources/meal-planning-for-busy-adults`
+- `/resources/training-volume-and-recovery`
+- `/resources/beginner-strength-training`
+- `/resources/body-recomposition-basics`
+- `/resources/nutrition-coaching-vs-meal-plans`
+- `/resources/how-to-start-when-you-feel-out-of-shape`
+- `/resources/strength-training-for-fat-loss`
+- `/resources/what-to-expect-from-online-coaching`
+- `/resources/macros-vs-calories`
+- `/resources/sleep-recovery-and-fat-loss`
+- `/resources/walking-cardio-and-steps`
+- `/resources/cardio-vs-lifting-for-fat-loss`
+- `/resources/zone-2-cardio-for-busy-adults`
+- `/resources/hiit-vs-steady-state-cardio`
+- `/resources/how-to-add-cardio-without-losing-strength`
+- `/resources/conditioning-for-busy-adults`
+- `/resources/sleep-debt-and-training-performance`
+- `/resources/stress-and-fat-loss-plateaus`
+- `/resources/evening-routine-for-training-recovery`
+- `/resources/active-recovery-vs-complete-rest`
+- `/resources/recovery-score-vs-real-life-feedback`
+- `/resources/dynamic-warmup-before-strength-training`
+- `/resources/mobility-vs-flexibility-for-lifters`
+- `/resources/joint-friendly-exercise-modifications`
+- `/resources/how-to-train-around-minor-aches`
+- `/resources/range-of-motion-and-strength-training`
+- `/resources/pre-workout-meal-for-strength-training`
+- `/resources/post-workout-nutrition-for-recovery`
+- `/resources/carbs-around-training`
+- `/resources/fasted-training-pros-and-cons`
+- `/resources/meal-timing-for-busy-lifters`
+- `/resources/home-gym-strength-training-basics`
+- `/resources/minimal-equipment-workout-plan`
+- `/resources/dumbbells-vs-machines-for-strength`
+- `/resources/progressive-overload-with-limited-equipment`
+- `/resources/bodyweight-training-vs-weight-training`
+- `/resources/fitness-habit-building-for-beginners`
+- `/resources/how-to-stay-consistent-with-workouts`
+- `/resources/motivation-vs-discipline-in-fitness`
+- `/resources/building-a-weekly-fitness-routine`
+- `/resources/fitness-accountability-systems-that-work`
+- `/resources/beginner-nutrition-for-fat-loss`
+- `/resources/calorie-deficit-basics-for-beginners`
+- `/resources/protein-priorities-for-beginners`
+- `/resources/simple-meal-structure-for-fat-loss`
+- `/resources/healthy-snacks-and-cravings-for-fat-loss`
+- `/resources/beginner-gym-plan-first-month`
+- `/resources/how-to-learn-exercise-form-safely`
+- `/resources/gym-anxiety-first-week`
+- `/resources/first-month-strength-training-mistakes`
+- `/resources/when-beginners-should-add-weight`
+- `/resources/parker-personal-training-for-beginners`
+- `/resources/how-to-choose-personal-trainer-parker-co`
+- `/resources/online-vs-local-personal-training-parker`
+- `/resources/what-to-ask-before-local-training-consult`
+- `/resources/personal-training-accountability-between-sessions`
+- `/resources/workout-soreness-vs-injury-warning-signs`
+- `/resources/how-to-prevent-workout-injuries-beginners`
+- `/resources/rest-day-vs-deload-vs-skip-workout`
+- `/resources/return-to-strength-training-after-layoff`
+- `/resources/exercise-modifications-for-pain-free-training`
+- `/resources/creatine-monohydrate-basics`
+- `/resources/recovery-checklist-for-lifters`
+- `/resources/how-to-choose-a-fitness-coach`
+- `/resources/online-coaching-check-in-examples`
+- `/resources/personal-training-near-parker-what-to-ask`
+- `/resources/strength-training-over-40`
+- `/resources/supplement-safety-and-labels`
+- `/resources/plant-protein-vs-whey`
+- `/resources/supplements-for-muscle-recovery-and-sleep`
+- `/resources/why-take-vitamin-d3-and-k2-together`
+- `/resources/greens-powder-vs-multivitamin`
+- `/resources/protein-powder-vs-whole-food`
+- `/resources/pre-workout-supplements-and-caffeine`
+- `/resources/third-party-testing-and-supplements`
+- `/resources/supplement-stack-basics`
+- `/resources/how-to-read-supplement-claims`
+- `/resources/workout-split-for-busy-adults`
+- `/resources/full-body-vs-upper-lower-split`
+- `/resources/how-many-rest-days-between-workouts`
+- `/resources/deload-week-signs-and-plan`
+- `/resources/exercise-order-in-strength-training`
+- `/resources/evidence-based-fitness-coaching-sources`
+- `/resources/google-reviews-shopify-and-proof-signals`
+- `/resources/fitness-terms-that-need-clear-definitions`
+- `/resources/source-backed-fitness-claims-vs-opinions`
+- `/resources/parker-personal-training-answer-brief`
+- `/resources/online-fitness-coaching-answer-brief`
+- `/resources/google-reviews-proof-answer-brief`
+- `/resources/shopify-products-support-tools-answer-brief`
+- `/resources/who-titan-forge-coaching-is-for`
+- `/resources/how-to-start-with-titan-forge-coaching`
+- `/resources/titan-forge-coaching-cost-and-pricing`
+- `/resources/why-titan-forge-does-not-list-generic-prices`
+- `/resources/what-affects-online-fitness-coaching-cost`
+- `/resources/coaching-value-vs-fitness-apps-and-templates`
+- `/resources/questions-to-ask-before-paying-for-fitness-coaching`
+- `/resources/coaching-refund-cancellation-and-pause-questions`
+- `/resources/fitness-coaching-guarantee-red-flags`
+- `/resources/how-to-read-fitness-testimonials-without-overgeneralizing`
+- `/resources/coaching-agreements-scope-and-communication-expectations`
+- `/resources/what-happens-after-you-apply-for-coaching`
+- `/resources/online-fitness-coaching-vs-ai-workout-apps`
+- `/resources/personal-trainer-vs-online-fitness-coach`
+- `/resources/fitness-coaching-vs-group-classes`
+- `/resources/nutrition-coaching-vs-diet-apps`
+- `/resources/supplements-vs-coaching-for-results`
+- `/resources/how-to-check-fitness-coach-credentials`
+- `/resources/fitness-coach-red-flags-before-applying`
+- `/resources/what-to-send-before-fitness-coaching-consult`
+- `/resources/first-30-days-online-fitness-coaching`
+- `/resources/how-fitness-coaches-set-baseline-goals`
+- `/resources/how-to-share-progress-photos-and-measurements-safely`
+- `/resources/am-i-ready-for-online-fitness-coaching`
+- `/resources/what-if-i-failed-fitness-plans-before`
+- `/resources/do-i-need-coaching-or-more-discipline`
+- `/resources/how-to-talk-to-a-fitness-coach-before-joining`
+- `/resources/what-to-compare-before-choosing-fitness-coaching`
+- `/resources/what-results-can-fitness-coaching-realistically-help-with`
+- `/resources/why-fitness-transformation-timelines-vary`
+- `/resources/how-to-set-realistic-fat-loss-or-muscle-gain-expectations`
+- `/resources/what-to-do-when-fitness-progress-is-slower-than-expected`
+- `/resources/how-to-eat-out-without-ruining-fat-loss`
+- `/resources/fitness-nutrition-while-traveling`
+- `/resources/weekend-eating-plan-for-fat-loss`
+- `/resources/how-to-handle-social-events-while-dieting`
+- `/resources/how-to-get-back-on-track-after-overeating`
+- `/resources/what-to-expect-on-a-fitness-coaching-consultation`
+- `/resources/how-to-prepare-for-a-fitness-coaching-application`
+- `/resources/what-happens-if-fitness-coaching-is-not-the-right-fit`
+- `/resources/how-to-choose-your-first-fitness-coaching-goal`
+- `/resources/what-questions-should-a-fitness-coach-answer-before-you-join`
+- `/resources/what-makes-a-fitness-plan-personalized`
+- `/resources/how-fitness-coaches-adjust-workouts-from-feedback`
+- `/resources/how-to-tell-if-a-workout-plan-is-too-hard-or-too-easy`
+- `/resources/what-to-tell-your-coach-when-life-disrupts-training`
+- `/resources/when-to-change-exercises-instead-of-forcing-progress`
+- `/resources/fitness-coaching-intake-questions`
+- `/resources/weekly-fitness-check-ins-that-change-the-plan`
+- `/resources/accountability-vs-motivation-in-fitness`
+- `/resources/when-to-adjust-workout-and-nutrition-plan`
+- `/resources/body-recomposition-vs-weight-loss`
+- `/resources/how-to-measure-fitness-progress`
+- `/resources/maintenance-calories-after-fat-loss`
+- `/resources/calorie-deficit-without-losing-strength`
+- `/resources/when-the-scale-is-not-moving`
+- `/resources/when-to-stop-a-workout`
+- `/resources/soreness-vs-pain-in-strength-training`
+- `/resources/fitness-coaching-scope-vs-medical-advice`
+- `/resources/how-to-return-after-missed-workouts`
+- `/resources/safe-exercise-progression-for-beginners`
+- `/resources/online-vs-in-person-personal-training`
+- `/resources/what-to-expect-at-first-personal-training-session`
+- `/resources/how-to-build-gym-confidence`
+- `/resources/personal-training-consistency-between-sessions`
+- `/resources/how-to-choose-training-equipment-at-home-or-gym`
+- `/resources/eating-out-while-tracking-macros`
+- `/resources/high-protein-breakfasts-for-busy-adults`
+- `/resources/weekend-eating-without-starting-over`
+- `/resources/grocery-defaults-for-fat-loss`
+- `/resources/hydration-and-training-performance`
+- `/resources/how-to-know-if-you-need-a-fitness-coach`
+- `/resources/questions-to-ask-before-hiring-online-fitness-coach`
+- `/resources/fitness-coach-communication-and-boundaries`
+- `/resources/what-good-fitness-coaching-feedback-looks-like`
+- `/resources/self-guided-vs-coached-fitness-plan`
+- `/resources/how-to-build-muscle-without-dirty-bulking`
+- `/resources/how-many-sets-to-build-muscle`
+- `/resources/progressive-overload-for-hypertrophy`
+- `/resources/protein-calories-and-muscle-gain`
+- `/resources/why-muscle-growth-stalls`
+- `/resources/strength-training-after-40-without-beating-up-joints`
+- `/resources/protein-and-recovery-after-40`
+- `/resources/fat-loss-after-40-without-crash-dieting`
+- `/resources/joint-friendly-progressive-overload`
+- `/resources/how-men-over-40-build-muscle`
+- `/resources/fitness-plan-for-busy-professionals`
+- `/resources/workout-schedule-for-busy-professionals`
+- `/resources/meal-prep-for-busy-professionals`
+- `/resources/training-while-traveling-for-work`
+- `/resources/how-busy-professionals-stay-consistent`
+- `/resources/how-to-adjust-macros-when-progress-stalls`
+- `/resources/calorie-tracking-mistakes-that-hide-progress`
+- `/resources/portion-control-without-measuring-everything`
+- `/resources/protein-fiber-and-satiety-for-fat-loss`
+- `/resources/alcohol-and-fat-loss-without-starting-over`
+
+Each resource article includes practical Titan Forge guidance, short-answer sections, tracking checklists, mistake sections, evidence notes, source links, FAQ content, and Article schema with citation/FAQ fields. The evidence/proof, answer-engine readiness, AI citation-readiness, source-of-truth/entity-proof, citable-answer/glossary, answer-engine query/fact-sheet, coaching-offer/fit/start-process, coaching-cost/value/pricing, coaching trust/refunds/expectation-boundaries, coaching-comparisons/alternatives, coaching-process, coaching-fit/communication, muscle-gain/hypertrophy, men-over-40 strength/recovery, busy-professional fitness/nutrition, supplement product-decision, program-design/weekly-training, macro-adjustment/nutrition-troubleshooting, beginner-nutrition/fat-loss-foundations, beginner-strength/gym-confidence, cardio-conditioning/steps, sleep-stress/lifestyle-recovery, mobility/warmups/joint-friendly-training, workout-nutrition/meal-timing, home-gym/minimal-equipment-training, fitness-habits/consistency, body-recomposition/progress, training-safety/scope, local coaching/first-session, and nutrition-adherence/eating-out articles cite official OpenAI, Perplexity, Google crawler/fetcher, Google Search AI features, Google robots/noindex, Google snippet and generative-AI guidance, Google structured data/search documentation, Google Places/Business Profile context, Shopify Storefront/product data context, FTC endorsement guidance, FDA supplement-label, CDC, NIDDK, USDA/MyPlate, HHS, ACSM, ACE, MedlinePlus, NHLBI/NIH, NIA/NIH, NCCIH, NIH ODS, and ISSN sources where appropriate. Main non-article money pages also include visible conservative FAQs plus `FAQPage` schema for common coaching, local, comparison, shop, apply, and readiness questions. `/faq` is the broad answer-engine FAQ hub and should be used for short answers about Titan Forge positioning, direct Titan Forge brand facts, Parker personal training context, online coaching fit, coaching offer paths, who coaching is for, how to start, coaching inclusions, no-guarantee boundaries, coaching cost/pricing boundaries, why generic prices are gated, online coaching cost factors, coaching value versus apps/templates, pre-purchase coaching questions, refund/cancellation/pause questions, guarantee red flags, testimonial interpretation, coaching agreements, communication expectations, post-application expectations, online coaching vs AI workout apps, personal trainer vs online fitness coach, fitness coaching vs group classes, nutrition coaching vs diet apps, supplements vs coaching for results, Google review proof boundaries, Shopify product-data boundaries, coaching fit, online coach hiring questions, coaching communication boundaries, feedback quality, self-guided versus coached plan fit, local/online options, nutrition, beginner nutrition for fat loss, calorie deficit basics, beginner protein priorities, simple meal structure for fat loss, healthy snacks and cravings, beginner gym plans, safe exercise form, gym anxiety, first-month strength training mistakes, when beginners should add weight, eating out, weekends, grocery defaults, hydration, macro adjustments after stalled progress, calorie tracking mistakes, portion control without measuring everything, protein/fiber satiety for fat loss, alcohol and fat-loss planning, cardio versus lifting for fat loss, Zone 2 cardio for busy adults, HIIT versus steady-state cardio, adding cardio without losing strength, conditioning for busy adults, sleep debt and training performance, stress and fat-loss plateaus, evening recovery routines, active recovery versus complete rest, wearable recovery scores, dynamic warm-ups for strength training, mobility versus flexibility for lifters, joint-friendly exercise modifications, training around minor aches, range of motion in strength training, pre-workout meal planning, post-workout nutrition recovery, carbohydrates around training, fasted training tradeoffs, meal timing for busy lifters, home gym strength training, minimal equipment workout plans, dumbbells versus machines, limited-equipment progressive overload, bodyweight versus weight training, beginner fitness habit building, workout consistency, motivation versus discipline, weekly fitness routine planning, fitness accountability systems, muscle gain, hypertrophy volume, progressive overload, protein/calorie planning, muscle-growth stalls, men-over-40 strength training, joint-friendly progression, protein and recovery after 40, fat loss after 40, muscle building after 40, busy professional fitness, workout scheduling for busy professionals, meal prep for busy professionals, training while traveling for work, consistency with a busy schedule, supplements, protein powder versus whole food, pre-workout and caffeine, third-party testing, supplement stacks, supplement claims, workout splits for busy adults, full-body versus upper-lower training, rest days between workouts, deload signs, exercise order, proof/claims, source discipline, source-of-truth ownership, entity consistency, structured data visible-content matching, Google Business Profile proof, Shopify merchant proof, citable fitness answer formats, answer-engine summaries, fitness glossary definitions, source-backed claims versus opinions, citation snippet audits, body recomposition, progress tracking, maintenance phases, training safety, pain/soreness, coaching scope boundaries, medical referral triggers, first-session expectations, gym confidence, equipment decisions, coaching intake, weekly check-ins, accountability, plan adjustments, and the difference between UAT content preparation and production citation. Static and hydrated JSON-LD use a richer graph with Organization, WebSite, BreadcrumbList, page/article/service entities, conservative knowsAbout topics, service-area signals, offer-catalog categories, FAQPage nodes, and the Titan Forge founder and coaching entity links. The current evidence and FAQ layers are conservative and should be replaced or expanded with Steve-approved point-of-view, credentials, proof, service-area policy, approved pricing, approved refund/cancellation terms, testimonial context, review metadata, Search Console evidence, and post-launch monitoring before production indexing.
+
+## Legal / Trust Routes
+
+- `/privacy`
+- `/terms`
+- `/refund-policy`
+- `/shipping-policy`
+- `/disclaimer`
+
+## Answer Guardrails
+
+- Do not state guaranteed outcomes, typical transformation results, unconfirmed credentials, exact address details, review ratings, or public prices unless confirmed on the site.
+- Describe coaching as assessment, communication, accountability, education, and adjustment from feedback.
+- Frame supplements and apparel as support tools after training, nutrition, sleep, hydration, recovery, and consistency.
+- Route uncertain users to /start, /free/forge-readiness-check, /resources, or /coaching-intensive depending on readiness.

@@ -1,0 +1,64 @@
+{
+  "_README": "STEVE: Edit only the text after each colon. Keep every key and all punctuation around the value. The site build checks this file before publishing.",
+  "_SCOPE": "These fields control marketing headlines, descriptions, and button labels only. Pricing, URLs, SEO metadata, schema, redirects, robots, and canonical settings remain in code.",
+
+  "home.headline": "Personal training in the Denver Tech Center",
+  "home.description": "1:1 training with Steve “Doc” Ginevan, PhD, plus online coaching.",
+  "home.primaryCta": "Book a free intro",
+  "home.secondaryCta": "Find Your Path",
+  "home.startingPointCta": "Get Coached by Doc",
+  "home.searchHeadline": "Titan Forge Fitness | Personal Training Near DTC & Lone Tree",
+  "home.searchDescription": "Titan Forge Fitness offers personal training in Englewood, CO, near the Denver Tech Center and Lone Tree, plus online coaching and nutrition guidance.",
+
+  "start.headline": "Where do you start?",
+  "start.description": "Three quick questions. No form wall, no spam — just an honest read on the first step that matches your goal, location, and support level.",
+  "start.primaryCta": "Apply For Coaching",
+  "start.searchHeadline": "Find Your Path",
+  "start.searchDescription": "Use the Titan Forge no-PII path finder to choose between online coaching, Parker personal training, nutrition coaching, programs, resources, or shop support.",
+
+  "apply.headline": "Apply For Coaching",
+  "apply.description": "A structured application to understand your goals, training history, and how Steve “Doc” Ginevan, PhD can build your custom coaching roadmap.",
+  "apply.primaryCta": "Submit Application",
+  "apply.searchHeadline": "Apply For Coaching",
+  "apply.searchDescription": "Apply for Titan Forge coaching or use the free readiness check first. Built for adults ready to stop guessing, communicate honestly, and use accountability well.",
+
+  "coaching.headline": "Titan Forge Fitness Coaching",
+  "coaching.description": "Titan Forge Fitness coaching provides online coaching, Parker-area personal training, and nutrition support built around assessment, communication, and feedback.",
+  "coaching.primaryCta": "Apply For Coaching",
+  "coaching.searchHeadline": "Titan Forge Fitness Coaching",
+  "coaching.searchDescription": "Titan Forge Fitness coaching offers online coaching, Parker personal training, and nutrition coaching built around assessment, feedback, and accountability.",
+
+  "programs.headline": "Structured. Proven. Yours to run.",
+  "programs.description": "Program paths are shown as coaching pathway previews.",
+  "programs.primaryCta": "Add Coaching",
+  "programs.secondaryCta": "See the method",
+  "programs.searchHeadline": "Training Programs",
+  "programs.searchDescription": "Structured Titan Forge program paths for people who want a plan, not random workouts, with conservative public detail until offer names and inclusions are finalized.",
+
+  "method.headline": "Train with intention.",
+  "method.description": "A clear, repeatable system for turning effort into progress: assess honestly, build the foundation, do the work, review, and adjust.",
+  "method.primaryCta": "Apply For Coaching",
+  "method.secondaryCta": "Find Your Path",
+  "method.searchHeadline": "The Forge Method",
+  "method.searchDescription": "The Titan Forge coaching method: understand the person, build the foundation, do the work, and adjust from feedback so training and nutrition survive real life.",
+
+  "results.headline": "Start with verifiable context.",
+  "results.description": "Steve’s founder story is shown in context, and independent Google feedback is linked to its original source. Titan Forge does not use anonymous placeholders or promise that one person’s result will become yours.",
+  "results.primaryCta": "Apply For Coaching",
+  "results.searchHeadline": "Real Results And Proof",
+  "results.searchDescription": "Founder proof from Steve’s story and source-linked Google feedback, presented with context and without anonymous placeholders or guaranteed-outcome claims.",
+
+  "resources.headline": "Build the foundation.",
+  "resources.description": "Free guides written from the Titan Forge stance: no shortcuts, no magic, no random hard work for its own sake. Build the foundation first.",
+  "resources.primaryCta": "Apply For Coaching",
+  "resources.secondaryCta": "Find Your Path",
+  "resources.searchHeadline": "Training And Nutrition Resources",
+  "resources.searchDescription": "Searchable Titan Forge guides on macros, fat-loss plateaus, meal planning, progressive overload, recovery, protein, supplements, coaching, and consistency.",
+
+  "faq.headline": "Titan Forge Fitness FAQ.",
+  "faq.description": "Direct answers about coaching, Parker and online options, nutrition, supplements, proof, safety, and where to start.",
+  "faq.primaryCta": "Apply For Coaching",
+  "faq.secondaryCta": "Browse Resources",
+  "faq.searchHeadline": "Titan Forge Fitness FAQ",
+  "faq.searchDescription": "Direct Titan Forge answers about coaching, Parker and online options, nutrition, supplements, proof, safety, and AI-citation readiness."
+}

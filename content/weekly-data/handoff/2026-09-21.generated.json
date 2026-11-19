@@ -1,0 +1,104 @@
+{
+  "data": {
+    "period": "auto-generated \u2014 verify before use",
+    "steve": [
+      [
+        "Verify Facebook connection to ManyChat",
+        "Verify Facebook connection to ManyChat today and confirm bot setup so Gonzalo can plug it in over the weekend."
+      ],
+      [
+        "Re-engage all leads next week",
+        "Call, then text, then pitch Telegram as fallback; set up WhatsApp to contact out-of-country applicants."
+      ],
+      [
+        "Update lead statuses in weekly task list",
+        "Once the filter is fixed, update lead statuses in the weekly task list to keep it clean."
+      ],
+      [
+        "Send website section notes to Gonzalo",
+        "Send website section notes to enable migration of Steve's site to the new design system."
+      ],
+      [
+        "Keep pushing 6-month to 1-year packages",
+        "Prioritize larger upfront revenue via 6-month to 1-year packages; Telegram remains the fallback offer for non-converters."
+      ]
+    ],
+    "kris": [
+      [
+        "Update lead statuses in weekly task list",
+        "Once the filter is fixed, update lead statuses in the weekly task list to keep it clean."
+      ],
+      [
+        "Keep pushing 6-month to 1-year packages",
+        "Prioritize larger upfront revenue via 6-month to 1-year packages; Telegram remains the fallback offer for non-converters."
+      ]
+    ],
+    "gonzalo": [
+      [
+        "Plug in the ManyChat bot",
+        "Plug in the ManyChat bot this weekend once Steve confirms Facebook is connected."
+      ],
+      [
+        "Fix weekly task list filter",
+        "Fix the filter issue in the weekly task list so Steve and Kris can mark contacted leads and keep the list clean."
+      ]
+    ]
+  },
+  "provenance": {
+    "steve": [
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      }
+    ],
+    "kris": [
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      }
+    ],
+    "gonzalo": [
+      {
+        "origin": "harvested",
+        "decision_id": null
+      },
+      {
+        "origin": "harvested",
+        "decision_id": null
+      }
+    ]
+  },
+  "stats": {
+    "harvested_counts": {
+      "steve": 5,
+      "kris": 2,
+      "gonzalo": 2
+    },
+    "carryover_counts": {
+      "steve": 0,
+      "kris": 0,
+      "gonzalo": 0
+    },
+    "completions_seen": 0
+  }
+}

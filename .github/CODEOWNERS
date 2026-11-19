@@ -1,0 +1,8 @@
+vercel.json @gonzaloeaguilar-bot
+next.config.* @gonzaloeaguilar-bot
+.github/ @gonzaloeaguilar-bot
+scripts/verify-ui-integrity.mjs @gonzaloeaguilar-bot
+titan-events.js @gonzaloeaguilar-bot
+robots*.txt @gonzaloeaguilar-bot
+package.json @gonzaloeaguilar-bot
+scripts/build-app-bundle.mjs @gonzaloeaguilar-bot

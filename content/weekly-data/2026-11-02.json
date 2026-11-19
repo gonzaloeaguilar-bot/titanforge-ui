@@ -1,0 +1,293 @@
+{
+  "week_of": "2026-11-02",
+  "generated_at": "2026-11-04",
+  "range": {
+    "current": [
+      "2026-10-28",
+      "2026-11-03"
+    ],
+    "prior": [
+      "2026-10-21",
+      "2026-10-27"
+    ]
+  },
+  "ga4": {
+    "titan": {
+      "cur": {
+        "sessions": 112,
+        "conversions": 2
+      },
+      "prior": {
+        "sessions": 149,
+        "conversions": 12
+      }
+    },
+    "geebs": {
+      "cur": {
+        "sessions": 208,
+        "conversions": 0
+      },
+      "prior": {
+        "sessions": 341,
+        "conversions": 5
+      }
+    }
+  },
+  "geebs_social": {
+    "by_network": [
+      {
+        "impressions": "739",
+        "interactions": "125",
+        "network": "tiktok",
+        "posts": "1",
+        "reach": null,
+        "saves": null
+      },
+      {
+        "impressions": "8824",
+        "interactions": "417",
+        "network": "instagram",
+        "posts": "4",
+        "reach": "5437",
+        "saves": "76"
+      }
+    ],
+    "best_post": {
+      "impressions": "6075",
+      "network": "instagram",
+      "reach": "3739",
+      "saves": "57",
+      "type": "REELS_VIDEO",
+      "url": "https://www.instagram.com/reel/DfDrmidSg9B/"
+    }
+  },
+  "titan_social_connected": true,
+  "titan_social_networks": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "titan_social_posts_in_window": 12,
+  "search": {
+    "titanforge": {
+      "top_queries": [
+        {
+          "query": "daily readiness",
+          "position": 31,
+          "monthly_searches": 14800,
+          "est_visits": 10
+        },
+        {
+          "query": "compression shirt white long sleeve",
+          "position": 3,
+          "monthly_searches": 140,
+          "est_visits": 3
+        },
+        {
+          "query": "titan equipment gym",
+          "position": 2,
+          "monthly_searches": 50,
+          "est_visits": 3
+        }
+      ],
+      "snapshot_date": "2026-11-02",
+      "ai_mentions": 1,
+      "ai_snapshot_date": "2026-11-02"
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "dosing magnesium",
+          "position": 4,
+          "monthly_searches": 480,
+          "est_visits": 16
+        },
+        {
+          "query": "tongkat ali dosage",
+          "position": 6,
+          "monthly_searches": 590,
+          "est_visits": 14
+        },
+        {
+          "query": "gainsfromgeebs",
+          "position": 2,
+          "monthly_searches": 110,
+          "est_visits": 14
+        }
+      ],
+      "snapshot_date": "2026-11-02",
+      "ai_mentions": 1,
+      "ai_snapshot_date": "2026-11-02"
+    }
+  },
+  "gsc": {
+    "titan": {
+      "top_queries": [
+        {
+          "query": "titan fitness",
+          "clicks": 0,
+          "impressions": 51,
+          "position": 2.3
+        },
+        {
+          "query": "best evidence-based coaching for strength training",
+          "clicks": 0,
+          "impressions": 16,
+          "position": 9.4
+        },
+        {
+          "query": "can greens powder replace a multivitamin?",
+          "clicks": 0,
+          "impressions": 13,
+          "position": 1.0
+        }
+      ],
+      "data_through": "2026-10-31",
+      "caveat": "GSC lags 2-3 days; titan tracked-keyword CTR is rank-tracker contaminated (position ~1 with 0 clicks = fake)."
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "skinny fat men",
+          "clicks": 1,
+          "impressions": 85,
+          "position": 5.8
+        },
+        {
+          "query": "eggs and testosterone",
+          "clicks": 1,
+          "impressions": 11,
+          "position": 7.3
+        },
+        {
+          "query": "body recomposition men before and after",
+          "clicks": 1,
+          "impressions": 9,
+          "position": 6.0
+        }
+      ],
+      "data_through": "2026-10-31",
+      "caveat": "GSC lags 2-3 days."
+    }
+  },
+  "bot": {
+    "current": {
+      "new_leads": 21,
+      "qualifying": 11,
+      "open": 9,
+      "handed_off": 0,
+      "archived": 1,
+      "bookings": 0
+    },
+    "prior": {
+      "new_leads": 25,
+      "qualifying": 17,
+      "open": 8,
+      "handed_off": 0,
+      "archived": 0,
+      "bookings": 0
+    }
+  },
+  "voc": {
+    "generated_at": "2026-11-03T10:36:17+00:00",
+    "window_days": 30,
+    "messages_classified": 169,
+    "top_pillars": [
+      {
+        "pillar": "anti-aging-longevity",
+        "count": 43
+      },
+      {
+        "pillar": "modern-life",
+        "count": 32
+      },
+      {
+        "pillar": "fat-loss",
+        "count": 26
+      },
+      {
+        "pillar": "muscle-hypertrophy",
+        "count": 12
+      },
+      {
+        "pillar": "recovery-sleep",
+        "count": 10
+      }
+    ]
+  },
+  "trends": {
+    "titan_website": {
+      "metric": "visits",
+      "current": 112,
+      "prior": 149,
+      "avg_28d": null,
+      "avg_90d": null,
+      "observed_days_28d": 26,
+      "observed_days_90d": 86
+    },
+    "titan_social": {
+      "metric": "posts",
+      "current": 12,
+      "prior": 15,
+      "avg_28d": 12.0,
+      "avg_90d": null,
+      "history_note_28d": null,
+      "history_note_90d": "No complete 90-day posting history is available",
+      "source_scope": "available recorded posts"
+    },
+    "geebs_website": {
+      "metric": "visits",
+      "current": 208,
+      "prior": 341,
+      "avg_28d": null,
+      "avg_90d": null,
+      "observed_days_28d": 26,
+      "observed_days_90d": 88
+    },
+    "geebs_social": {
+      "metric": "posts",
+      "current": 5,
+      "prior": 14,
+      "avg_28d": 14.0,
+      "avg_90d": 14.2,
+      "history_note_28d": null,
+      "history_note_90d": null,
+      "source_scope": "available recorded posts"
+    },
+    "dm_bot": {
+      "metric": "new leads",
+      "current": 21,
+      "prior": 25,
+      "avg_28d": 23.2,
+      "avg_90d": 99.3,
+      "bookings_avg_28d": 0.0,
+      "bookings_avg_90d": 1.6
+    },
+    "what_people_ask": {
+      "current": {
+        "days": 7,
+        "classified_messages": 21,
+        "top_pillar": "modern-life",
+        "top_count": 6,
+        "top_share_pct": 28.6
+      },
+      "window_28d": {
+        "days": 28,
+        "classified_messages": 118,
+        "top_pillar": "modern-life",
+        "top_count": 35,
+        "top_share_pct": 29.7
+      },
+      "window_90d": {
+        "days": 90,
+        "classified_messages": 2090,
+        "top_pillar": "modern-life",
+        "top_count": 605,
+        "top_share_pct": 28.9
+      }
+    }
+  },
+  "blockers": [],
+  "gaps": []
+}

@@ -1,0 +1,227 @@
+{
+  "week_of": "2026-08-24",
+  "generated_at": "2026-08-28",
+  "range": {
+    "current": [
+      "2026-08-21",
+      "2026-08-27"
+    ],
+    "prior": [
+      "2026-08-14",
+      "2026-08-20"
+    ]
+  },
+  "ga4": {
+    "titan": {
+      "prior": {
+        "sessions": 136,
+        "conversions": 10
+      },
+      "cur": {
+        "sessions": 343,
+        "conversions": 1
+      }
+    },
+    "geebs": {
+      "cur": {
+        "sessions": 602,
+        "conversions": 0
+      },
+      "prior": {
+        "sessions": 543,
+        "conversions": 0
+      }
+    }
+  },
+  "geebs_social": {
+    "by_network": [
+      {
+        "impressions": "5430",
+        "interactions": "59",
+        "network": "youtube",
+        "posts": "4",
+        "reach": null,
+        "saves": null
+      },
+      {
+        "impressions": "38466",
+        "interactions": "732",
+        "network": "instagram",
+        "posts": "7",
+        "reach": "18180",
+        "saves": "130"
+      }
+    ],
+    "best_post": {
+      "impressions": "12949",
+      "network": "instagram",
+      "reach": "5501",
+      "saves": "23",
+      "type": "FEED_CAROUSEL_ALBUM",
+      "url": "https://www.instagram.com/p/DcTO_iAkYbb/"
+    }
+  },
+  "titan_social_connected": true,
+  "titan_social_networks": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "titan_social_posts_in_window": 0,
+  "search": {
+    "titanforge": {
+      "top_queries": [
+        {
+          "query": "titan training",
+          "position": 2,
+          "monthly_searches": 390,
+          "est_visits": 17
+        },
+        {
+          "query": "titan trainers",
+          "position": 1,
+          "monthly_searches": 50,
+          "est_visits": 12
+        },
+        {
+          "query": "titan vigor",
+          "position": 31,
+          "monthly_searches": 1600,
+          "est_visits": 1
+        }
+      ],
+      "snapshot_date": "2026-08-27",
+      "ai_mentions": 1,
+      "ai_snapshot_date": "2026-08-22"
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "body recomp calculator",
+          "position": 14,
+          "monthly_searches": 2400,
+          "est_visits": 12
+        },
+        {
+          "query": "gainsfromgeebs",
+          "position": 2,
+          "monthly_searches": 110,
+          "est_visits": 9
+        },
+        {
+          "query": "thin to fat men",
+          "position": 1,
+          "monthly_searches": 210,
+          "est_visits": 7
+        }
+      ],
+      "snapshot_date": "2026-08-27",
+      "ai_mentions": 0,
+      "ai_snapshot_date": "2026-08-22"
+    }
+  },
+  "gsc": {
+    "titan": {
+      "top_queries": [
+        {
+          "query": "titan forge fitness",
+          "clicks": 1,
+          "impressions": 47,
+          "position": 10.4
+        },
+        {
+          "query": "gyms near me",
+          "clicks": 1,
+          "impressions": 8,
+          "position": 6.5
+        },
+        {
+          "query": "titan compression shirt",
+          "clicks": 1,
+          "impressions": 7,
+          "position": 6.1
+        }
+      ],
+      "data_through": "2026-08-25",
+      "caveat": "GSC lags 2-3 days; titan tracked-keyword CTR is rank-tracker contaminated (position ~1 with 0 clicks = fake)."
+    },
+    "geebs": {
+      "top_queries": [
+        {
+          "query": "kris oddo",
+          "clicks": 2,
+          "impressions": 12,
+          "position": 2.0
+        },
+        {
+          "query": "body recomp calculator",
+          "clicks": 1,
+          "impressions": 64,
+          "position": 11.4
+        },
+        {
+          "query": "body recomposition women",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 17.4
+        }
+      ],
+      "data_through": "2026-08-25",
+      "caveat": "GSC lags 2-3 days."
+    }
+  },
+  "bot": {
+    "current": {
+      "new_leads": 152,
+      "qualifying": 98,
+      "open": 43,
+      "handed_off": 0,
+      "archived": 5,
+      "bookings": 3
+    },
+    "prior": {
+      "new_leads": 615,
+      "qualifying": 430,
+      "open": 144,
+      "handed_off": 0,
+      "archived": 33,
+      "bookings": 5
+    }
+  },
+  "voc": {
+    "generated_at": "2026-08-28T09:35:06+00:00",
+    "window_days": 30,
+    "messages_classified": 1392,
+    "top_pillars": [
+      {
+        "pillar": "fat-loss",
+        "count": 273
+      },
+      {
+        "pillar": "anti-aging-longevity",
+        "count": 271
+      },
+      {
+        "pillar": "modern-life",
+        "count": 270
+      },
+      {
+        "pillar": "supplements",
+        "count": 137
+      },
+      {
+        "pillar": "motivation-discipline",
+        "count": 112
+      }
+    ]
+  },
+  "blockers": [
+    "GA4 still is not counting bookings as conversions: someone with GA4 dashboard access needs to toggle 'Mark as key event' on booking_started (2-minute admin task).",
+    "Google Maps profile revival is still waiting on Steve to send the business phone line.",
+    "Titan Forge social is connected to Metricool and healthy, but the accounts are dormant \u2014 last TikTok post was Dec 2022 despite 145K followers. Numbers start as soon as posting resumes."
+  ],
+  "gaps": [
+    "Titan Forge social is connected in Metricool but published no posts in the window \u2014 that is 'no posts published', not a zero-performance week."
+  ]
+}

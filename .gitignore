@@ -1,0 +1,22 @@
+.vercel
+.next
+node_modules
+out
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.DS_Store
+docs/semrush-audits/debug.txt
+.env
+.env.*
+!.env.example
+screenshots/
+.env*
+
+# graphify AST cache — regenerable; committed blobs poisoned CTO-lane PRs fleet-wide (2026-09-09)
+graphify-out/
+
+# Local recovery evidence and isolated tool cache
+.recovery-evidence/
+.titan0*-*
+.worktrees/

@@ -1,0 +1,666 @@
+/* Coaching Intensive Campaign — Layout Only
+   Built on TitanForge design tokens & primitives (tokens.css, site.css)
+*/
+
+/* Hero Section Grid — pitch left, live application form right */
+.coaching-intensive__hero {
+  position: relative;
+  background-image: linear-gradient(90deg, rgba(12, 15, 17, .96) 0%, rgba(12, 15, 17, .88) 48%, rgba(12, 15, 17, .72) 100%), url('/assets/images/site-unnamed-6.jpg');
+  background-size: cover;
+  background-position: center 38%;
+  border-block: 1px solid var(--line);
+}
+
+.coaching-intensive__hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 460px);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+
+.coaching-intensive__hero-text {
+  max-width: 560px;
+}
+
+.coaching-intensive__apply-grid {
+  grid-template-areas: "intro form" "details form";
+}
+.coaching-intensive__apply-intro { grid-area: intro; }
+.coaching-intensive__apply-grid .coaching-intensive__form-panel { grid-area: form; }
+.coaching-intensive__apply-details { grid-area: details; max-width: 560px; }
+
+.coaching-intensive__hero-photo {
+  margin-top: 32px;
+  max-width: 420px;
+  aspect-ratio: 4 / 3;
+}
+
+.coaching-intensive__coach-portraits {
+  display: flex;
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.coaching-intensive__coach-portraits figure { margin: 0; display: grid; justify-items: center; gap: 9px; }
+.coach-portrait { display: block; width: 138px; height: 138px; padding: 0; border-radius: 50%; border: 3px solid var(--ember); background-size: 165%; background-repeat: no-repeat; cursor: pointer; transition: transform .18s ease, border-color .18s ease; }
+.coach-portrait:hover, .coach-portrait:focus-visible { transform: scale(1.04); border-color: var(--text); outline: none; }
+.coach-portrait .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.coach-portrait--steve { background-image: url('/assets/images/site-founder.jpg'); background-position: 50% 31%; }
+.coach-portrait--kris { background-image: url('/assets/images/kris-hero.jpg'); background-size: 140%; background-position: 50% 24%; }
+.coach-portrait--card { width: 138px; height: 138px; margin: 0 0 18px; }
+.coaching-intensive__coach-portraits figcaption { display: grid; gap: 3px; color: var(--text); font-size: 15px; line-height: 1.1; }
+.coaching-intensive__coach-portraits figcaption span { color: var(--steel-200); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+
+.coach-modal { position: fixed; z-index: 1000; inset: 0; display: grid; place-items: center; padding: 24px; background: rgba(0, 0, 0, .78); }
+.coach-modal__card { position: relative; display: grid; grid-template-columns: minmax(220px, .9fr) minmax(260px, 1fr); width: min(760px, 100%); overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: var(--bg-1); box-shadow: 0 24px 80px rgba(0,0,0,.5); }
+.coach-modal__image { width: 100%; height: 100%; min-height: 420px; object-fit: cover; object-position: 50% 31%; background: var(--bg); }
+.coach-modal__image--kris { object-position: 50% 24%; }
+.coach-modal__body { display: grid; align-content: center; gap: 16px; padding: 54px 40px 40px; color: var(--text-2); font-size: 17px; line-height: 1.65; }
+.coach-modal__body h2 { color: var(--text); font-family: var(--display); font-size: clamp(28px, 4vw, 42px); line-height: 1; text-transform: uppercase; }
+.coach-modal__specialty { color: var(--ember); font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.coach-modal__detail { color: var(--text-3); }
+.coach-modal__close { position: absolute; z-index: 1; top: 12px; right: 12px; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; background: rgba(10, 12, 14, .84); color: var(--text); font-size: 28px; line-height: 1; cursor: pointer; }
+.coach-modal__close:hover, .coach-modal__close:focus-visible { border-color: var(--ember); outline: none; }
+
+.coaching-intensive__form-panel {
+  position: sticky;
+  top: 24px;
+}
+
+.form-step-indicator {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ember);
+  margin: 0 0 10px;
+}
+
+/* Offer Grid */
+.coaching-intensive__offer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 56px);
+  row-gap: 48px;
+}
+
+.coaching-intensive__offer-item {
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.coaching-intensive__offer-item:nth-child(odd) {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* FAQ Grid */
+.coaching-intensive__faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* Client proof */
+.coaching-intensive__proof { background: var(--bg-1); border-block: 1px solid var(--line); }
+.coaching-intensive__proof-intro { max-width: 620px; margin: 18px auto 0; color: var(--text-2); font-size: 17px; line-height: 1.65; }
+.coaching-intensive__proof-stat { display: grid; justify-items: center; gap: 8px; max-width: 530px; margin: 40px auto 48px; padding: 24px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-2); text-align: center; }
+.coaching-intensive__proof-stat strong { color: var(--ember); font-family: var(--display); font-size: clamp(42px, 7vw, 68px); line-height: .9; letter-spacing: .04em; }
+.coaching-intensive__proof-stat span { color: var(--text-2); font-size: 15px; line-height: 1.5; }
+.coaching-intensive__proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; max-width: 1080px; margin: 0 auto; }
+.coaching-intensive__proof-card { display: grid; align-content: space-between; min-height: 230px; margin: 0; padding: 28px; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg); }
+.coaching-intensive__proof-card blockquote { margin: 0; color: var(--text); font-size: 19px; font-weight: 600; line-height: 1.45; }
+.coaching-intensive__proof-card figcaption { margin-top: 28px; color: var(--ember); font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.coaching-intensive__proof-card figcaption span { color: var(--text-3); font-weight: 500; }
+.coaching-intensive__proof-sources { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 28px; margin-top: 30px; text-align: center; }
+.coaching-intensive__proof-sources a { color: var(--text); font-size: 15px; text-decoration: underline; text-decoration-color: var(--ember); text-underline-offset: 4px; }
+.coaching-intensive__proof-sources a:hover, .coaching-intensive__proof-sources a:focus-visible { color: var(--ember); }
+
+/* ============================================================
+   APPLY PAGE + FORM — built on tokens only
+   ============================================================ */
+.coaching-intensive-apply-page {
+  background: var(--bg);
+  color: var(--text);
+  padding: clamp(44px, 6vw, 88px) 0;
+}
+
+.coaching-intensive-apply-page .apply-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-inline: var(--gut);
+}
+
+.coaching-intensive-apply-page .apply-header {
+  margin-bottom: clamp(32px, 5vw, 56px);
+}
+
+.coaching-intensive-apply-page .apply-header h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 0.96;
+  margin: 0 0 16px;
+}
+
+.coaching-intensive-apply-page .apply-header p {
+  color: var(--text-2);
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.coaching-intensive-form .form-section {
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  border-radius: var(--r);
+  padding: clamp(20px, 4vw, 32px);
+  margin: 0;
+}
+
+.coaching-intensive-form legend {
+  font-family: var(--display);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  padding: 0 8px;
+}
+
+.coaching-intensive-form .section-intro,
+.coaching-intensive-form .section-note {
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.coaching-intensive-form .form-group {
+  margin-bottom: 20px;
+}
+
+.coaching-intensive-form .form-group > label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--steel-200);
+  margin-bottom: 8px;
+}
+
+.coaching-intensive-form .required {
+  color: var(--ember);
+}
+
+.coaching-intensive-form input[type="text"],
+.coaching-intensive-form input[type="email"],
+.coaching-intensive-form input[type="tel"],
+.coaching-intensive-form select,
+.coaching-intensive-form textarea {
+  width: 100%;
+  background: var(--bg-1);
+  border: 1px solid var(--line-2);
+  border-radius: var(--r-sm);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 16px;
+  padding: 12px 14px;
+}
+
+.coaching-intensive-form input:focus,
+.coaching-intensive-form select:focus,
+.coaching-intensive-form textarea:focus {
+  outline: none;
+  border-color: var(--ember);
+}
+
+.coaching-intensive-form ::placeholder {
+  color: var(--text-3);
+}
+
+/* Tap pills (Geebs funnel pattern — big tappable radio cards) */
+.coaching-intensive-form .pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.coaching-intensive-form .pill {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line-2);
+  border-radius: var(--r);
+  background: var(--bg-1);
+  color: var(--text-2);
+  font-family: var(--body);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 15px 18px;
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: 0;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.coaching-intensive-form .pill:hover {
+  border-color: var(--steel-300);
+  color: var(--text);
+}
+
+.coaching-intensive-form .pill--active {
+  border-color: #ff7a55;
+  background: var(--ember);
+  color: #0c1013;
+  box-shadow: 0 0 0 1px rgba(255, 122, 85, 0.55), 0 8px 18px rgba(226, 85, 46, 0.25);
+}
+
+.coaching-intensive-form .pill--active::before {
+  content: "✓";
+  display: grid;
+  place-items: center;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #101417;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.coaching-intensive-form .pill--active span {
+  color: inherit;
+  font-weight: 800;
+}
+
+.coaching-intensive-form .pill:focus-within {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+.coaching-intensive-form .pill input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.coaching-intensive-form .form-group--split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.coaching-intensive-form .checkbox-group,
+.coaching-intensive-form .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.coaching-intensive-form .checkbox-group label,
+.coaching-intensive-form .radio-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: var(--body);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.coaching-intensive-form input[type="checkbox"],
+.coaching-intensive-form input[type="radio"] {
+  margin-top: 3px;
+  accent-color: var(--ember);
+}
+
+.coaching-intensive-form small {
+  display: block;
+  margin-top: 6px;
+  color: var(--text-3);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.coaching-intensive-form .form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.coaching-intensive-form .next-button,
+.coaching-intensive-form .submit-button {
+  background: var(--ember);
+  color: #fff;
+  border: 0;
+  border-radius: var(--r-sm);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 14px 22px;
+  cursor: pointer;
+}
+
+.coaching-intensive-form .next-button:hover,
+.coaching-intensive-form .submit-button:hover:not(:disabled) {
+  background: var(--ember-hot);
+}
+
+.coaching-intensive-form .submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.coaching-intensive-form .back-button,
+.form-success .back-button {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--line-2);
+  border-radius: var(--r-sm);
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 14px 22px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.coaching-intensive-form .back-button:hover,
+.form-success .back-button:hover {
+  border-color: var(--steel-300);
+}
+
+.coaching-intensive-form .error-message {
+  border: 1px solid var(--line-ember);
+  background: rgba(226, 85, 46, 0.08);
+  color: var(--ember-hot);
+  border-radius: var(--r-sm);
+  padding: 12px 14px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.coaching-intensive-form .form-note,
+.coaching-intensive-apply-page .small-note {
+  color: var(--text-3);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+.coaching-intensive-form .form-note a,
+.coaching-intensive-apply-page .small-note a {
+  color: var(--steel-100);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.coaching-intensive-apply-page .apply-footer {
+  border-top: 1px solid var(--line);
+  margin-top: clamp(32px, 5vw, 56px);
+  padding-top: 24px;
+}
+
+/* Terms page */
+.terms-page {
+  background: var(--bg);
+  color: var(--text);
+  padding: clamp(44px, 6vw, 88px) 0;
+}
+
+.terms-page .terms-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-inline: var(--gut);
+}
+
+.terms-page h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: clamp(32px, 5vw, 52px);
+  line-height: 0.96;
+  margin: 0 0 12px;
+}
+
+.terms-page .last-updated {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 32px;
+}
+
+.terms-page .terms-section {
+  border-bottom: 1px solid var(--line);
+  padding: 28px 0;
+}
+
+.terms-page .terms-section h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 0 0 12px;
+}
+
+.terms-page .terms-section h3,
+.terms-page .terms-section h4 {
+  color: var(--text);
+  font-size: 16px;
+  margin: 18px 0 8px;
+}
+
+.terms-page .terms-section p,
+.terms-page .terms-section li {
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.terms-page .terms-section ul {
+  padding-left: 20px;
+}
+
+/* Success state */
+.form-success {
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  border-radius: var(--r);
+  padding: clamp(24px, 5vw, 40px);
+}
+
+.form-success h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: clamp(26px, 4vw, 38px);
+  margin: 0 0 16px;
+}
+
+.form-success p {
+  color: var(--text-2);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.form-success .success-next-steps {
+  border: 1px solid var(--line);
+  background: var(--bg-1);
+  border-radius: var(--r-sm);
+  padding: 18px 20px;
+  margin: 18px 0;
+}
+
+.form-success .success-next-steps ol {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .coaching-intensive__hero-grid {
+    grid-template-columns: 1fr;
+    gap: clamp(32px, 4vw, 48px);
+  }
+
+  .coaching-intensive__apply-grid {
+    grid-template-areas: "intro" "form" "details";
+  }
+
+  .coaching-intensive__form-panel {
+    position: static;
+  }
+
+  .coaching-intensive__hero-photo {
+    display: none; /* mobile: text → form immediately, no scroll past a photo */
+  }
+
+  /* mobile: headline → form. The coaches have their own section below. */
+  .coaching-intensive__hero-portraits {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .coaching-intensive__coaches-grid { grid-template-columns: 1fr !important; gap: 36px !important; }
+  .coaching-intensive__coach-portraits { margin-top: 22px; gap: 18px; }
+  .coaching-intensive__coach-portraits figure { gap: 7px; }
+  .coach-portrait { width: 126px; height: 126px; }
+  .coach-modal { align-items: end; padding: 12px; }
+  .coach-modal__card { grid-template-columns: 1fr; max-height: calc(100vh - 24px); overflow-y: auto; }
+  .coach-modal__image { min-height: 300px; max-height: 42vh; object-position: 50% 28%; }
+  .coach-modal__image--kris { object-position: 50% 24%; }
+  .coach-modal__body { gap: 12px; padding: 28px 24px 30px; font-size: 16px; }
+  .coaching-intensive__faq-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .coaching-intensive__proof-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .coaching-intensive__proof-card {
+    min-height: 0;
+    padding: 24px;
+  }
+
+  .coaching-intensive__offer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .coaching-intensive__offer-item {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .coaching-intensive__offer-item:nth-child(odd) {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 32px;
+  }
+
+  .coaching-intensive__coaches-grid {
+    grid-template-columns: 1fr !important;
+    gap: 48px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .coaching-intensive__hero-grid {
+    gap: 20px;
+  }
+
+  .coaching-intensive__apply-intro h1 {
+    font-size: clamp(32px, 10vw, 39px);
+    line-height: 1;
+  }
+
+  .coaching-intensive__proof-stat {
+    margin: 28px auto 32px;
+    padding: 20px;
+  }
+
+  .coaching-intensive__proof-card blockquote {
+    font-size: 18px;
+  }
+
+  .coaching-intensive__offer-grid {
+    gap: 24px;
+  }
+
+  .coaching-intensive__offer-item {
+    padding-bottom: 24px;
+  }
+}
+
+/* Fold-out below the application (web-kit reading-path pattern). */
+.coaching-intensive__more {
+  border-top: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+}
+
+.coaching-intensive__more-summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px clamp(20px, 5vw, 40px);
+}
+
+.coaching-intensive__more-summary::-webkit-details-marker {
+  display: none;
+}
+
+.coaching-intensive__more-summary > span {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.coaching-intensive__more-summary strong {
+  font-family: var(--display);
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.coaching-intensive__more-summary small {
+  font-size: 15px;
+  color: var(--text-2);
+}
+
+.coaching-intensive__more-summary::after {
+  content: "+";
+  font-size: 28px;
+  line-height: 1;
+  color: var(--ember, #e4572e);
+  flex: none;
+}
+
+.coaching-intensive__more[open] > .coaching-intensive__more-summary::after {
+  content: "\2212";
+}

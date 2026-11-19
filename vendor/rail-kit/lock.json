@@ -1,0 +1,24 @@
+{
+  "source": "/Users/gonzalo/.claude/rail-kit/src",
+  "files": {
+    "RailPrice.tsx": "c55357bbdf65c6b295ae6611a0d52fc30c81e146a4308cd68904b83132059c5c",
+    "LICENSES.md": "8e108244b54a058c77d67e1b8d7031abb8124ff1e16ccecb51f740b33e2e9193",
+    "rail.css": "d70cf79bcacb1bae0fe7d78cd43eaeb29d5b44f0809ad2b117f1c0709bb09804",
+    "motion.css": "7d597b29fd7c7759babbac8d48b12831fada24d84c70a6cbccace160dae57e3e",
+    "icons.tsx": "adc28e0518080526eb7d1154be8e340202a6543a363b79ed1621ec72c9925a44",
+    "types.ts": "df3d98b74b1fa28128f12a5ab830edc4f663e8e458645086bbd5e05214ab6ba1",
+    "RailCard.tsx": "9c0a1a0ccc210a3ef4085a32503a313b6969f4afe8361b6389c1492649aa038c",
+    "Rail.tsx": "58dbed9c5a7803e79094f7e53019cc96e1579135a336725295cc11c66cbca3b2",
+    "RailByline.tsx": "26ca623557847cfa740c54621cfecc4df59d24dcfd4a0a654398e29ad05df927",
+    "RailRating.tsx": "25b4d16c8708de554d38d51384016dcbb26a601098f63a8bd7e5c0dc3594ca7f",
+    "RailPlans.tsx": "47a7f5a18736c149657acf01953f275f9f7077e2c5a1dcfb30dd513ba855bc2e",
+    "RailPlace.tsx": "c85c962164107d48c2826e81bbeee5629801c79bdf532667d4348a6d564448de",
+    "RailFaq.tsx": "997684d51745857fd0bcf3d2601674e551c6f10c131f3a5a25834c5f2df4021e",
+    "RailCta.tsx": "7646ce52dea479aa66eadb315722d86a750829908d6057deae27b396774ce659",
+    "RailStickyBar.tsx": "913d7e781654e5a92cbc96d8706fc4ffa450b6814f1c53dada9039b753a3b925",
+    "RailScrub.tsx": "b145d47c55b12ebae808a7c6d30f8c2752d5d85a71187c6c8990b5b903314d1e",
+    "RailSteps.tsx": "c39efd8453fde570e6ca27a00367de081c38966ceb8ce6b55c8288d3ef6dbfb4",
+    "RailOption.tsx": "a5284ff0121738f8d5b742d5e5bafebd7ff5b0ca85a913b7edefbe35fc4ba9b5",
+    "RailVersus.tsx": "d25d7decb5269269203a3c9ac28fec9e48e0cfcaf9501398daf8e9a5d3ee064a"
+  }
+}

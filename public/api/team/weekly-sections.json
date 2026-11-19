@@ -1,0 +1,930 @@
+{
+  "week_of": "2026-11-01",
+  "generated_at": "2026-11-03T23:54:44.748924",
+  "source_refresh": [
+    {
+      "name": "dm_topic_demand",
+      "status": "fresh_skip",
+      "age_days": 0,
+      "max_age_days": 7,
+      "cmd": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "/Users/gonzalo/.local/share/titan-geebs/geebs_dm_topic_demand.py",
+        "--days",
+        "30"
+      ],
+      "expected": "/Users/gonzalo/.local/share/titan-geebs/dm-topic-demand.json"
+    },
+    {
+      "name": "carousel_topics",
+      "status": "fresh_skip",
+      "age_days": 0,
+      "max_age_days": 7,
+      "cmd": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "/Users/gonzalo/.local/share/titan-geebs/geebs_carousel_topics.py",
+        "--refresh"
+      ],
+      "expected": "/Users/gonzalo/.local/share/titan-geebs/geebs-carousel-topics.json"
+    },
+    {
+      "name": "reddit_topic_queue",
+      "status": "awaiting_existing_collector",
+      "expected": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+      "reason": "Weekly board refresh does not start metered collection. The separately authorized collector must refresh this source."
+    },
+    {
+      "name": "competitor_snapshot",
+      "status": "awaiting_existing_collector",
+      "expected": "/Users/gonzalo/.local/share/titan-geebs/competitor-snapshot.json",
+      "reason": "Weekly board refresh does not start metered collection. The separately authorized collector must refresh this source."
+    }
+  ],
+  "sources": {
+    "competitor_snapshot": {
+      "name": "competitor_snapshot",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/competitor-snapshot.json",
+      "generated_at": "2026-10-10T17:40:05.841970+00:00",
+      "age_days": 24,
+      "status": "stale",
+      "max_age_days": 7
+    },
+    "reddit_topic_queue": {
+      "name": "reddit_topic_queue",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+      "generated_at": "2026-10-23T23:27:00+00:00",
+      "age_days": 11,
+      "status": "stale",
+      "max_age_days": 7
+    },
+    "dm_topic_demand": {
+      "name": "dm_topic_demand",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/dm-topic-demand.json",
+      "generated_at": "2026-11-03T10:36:17+00:00",
+      "age_days": 0,
+      "status": "fresh",
+      "max_age_days": 7
+    },
+    "carousel_topics": {
+      "name": "carousel_topics",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/geebs-carousel-topics.json",
+      "generated_at": "2026-11-03T11:05:44+00:00",
+      "age_days": 0,
+      "status": "fresh",
+      "max_age_days": 7
+    }
+  },
+  "competitor_watch": {
+    "type": "CompetitorWatchSection",
+    "title": "Weekly competitor watch",
+    "intro": "Research awaiting an update (competitor observations: last available 2026-10-10). Suggestions use the last available material or the recurring content schedule. 12-coach roster + @holistic.hev monitored live. Status/follower delta and strategic beat per competitor.",
+    "competitors": [
+      {
+        "handle": "@christian.fleenor",
+        "name": "Coach Fleenor",
+        "followers": 1051050,
+        "posts": 4193,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\u271d\ufe0fGod 1st\nSomewhere in the middle of who I use to be and who I\u2019m supposed to become\u2026",
+        "website": "None listed",
+        "strategy_beat": "Monitor Coach Fleenor for 1M+ followers, 4K posts, DM COACH",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@evanmerger",
+        "name": "Evan Merger",
+        "followers": 482894,
+        "posts": 1283,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\ud83d\udcc8 Helping men find purpose through fitness & discipline\n\ud83d\udcf2 Dm me \u201cCOACH\u201d to work 1-on-1 with me\n\u2193 or apply here \u2193",
+        "website": "https://form.typeform.com/to/WEwYHBfs",
+        "strategy_beat": "Monitor Evan Merger for 493K followers, DM COACH",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@thesamueljohnston",
+        "name": "Samuel Johnston",
+        "followers": 496697,
+        "posts": 896,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "I help high-performers & entrepreneurs over 30 lose fat, build muscle, and gain confidence.\n\udb40\udc20\nDM me \u201cREADY\u201d for details\ud83d\udcaa...",
+        "website": "https://vip.stateofalpha.com/watch-training",
+        "strategy_beat": "Monitor Samuel Johnston for 464K followers, DM READY",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@cruzbrahh",
+        "name": "Brady Cruz",
+        "followers": 345612,
+        "posts": 1690,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\ud83d\udccdDallas, TX\n\ud83d\udcc8 I Help Career Driven Men Shred Fat and Build Muscle\n\u2b07\ufe0f Message me \u201cCUT\u201d to work with me 1 on 1",
+        "website": "https://cbfitcoach.com/",
+        "strategy_beat": "Monitor Brady Cruz for 347K followers, CB FIT B2C, DM CUT",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@ob_health.fit",
+        "name": "OB Health",
+        "followers": null,
+        "posts": null,
+        "verified": false,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "Helping you lose fat without tanking your hormones while recomping\n1100+ clients\nSign up below",
+        "website": "https://calendly.com/obhealth/consulation",
+        "strategy_beat": "Monitor OB Health for 295K followers, DM \u2014",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@sethwickstrom_fitness",
+        "name": "Seth Wickstrom",
+        "followers": 237687,
+        "posts": 1018,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "I help driven men get lean, strong & stay that way. Built around work, travel & family \n1,000+ Client Transformations\nDM...",
+        "website": "https://joinvitalcoaching.com/apply",
+        "strategy_beat": "Monitor Seth Wickstrom for 231K followers, DM RESULTS",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@qwin_vitale",
+        "name": "Qwin Vitale",
+        "followers": 134589,
+        "posts": 1236,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\ud83d\udd11 Build a physique you\u2019re proud of, and a lifestyle you love \n\u2b07\ufe0f 1 on 1 Coaching",
+        "website": "https://www.qwinvitale.com/",
+        "strategy_beat": "Monitor Qwin Vitale for 135K followers, DM \u2014",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@ryanshaw02",
+        "name": "Ryan Shaw",
+        "followers": 107671,
+        "posts": 688,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\ud83d\udcc8 Helping Men Get Lean Without Strict Diets \n\ud83d\udcf2 DM me \u201cFIT\u201d for Coaching\n\ud83e\udd8c @buckedup Athlete \u201cSHAW\u201d\n\u2b07\ufe0f Lose 10lbs by Chri...",
+        "website": "http://linktr.ee/ryanshawfit",
+        "strategy_beat": "Monitor Ryan Shaw for 108K followers, busy men, DM FIT",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@mylesharrisfit",
+        "name": "Myles Harris",
+        "followers": 81852,
+        "posts": 2015,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "Busy men: Get lean & Athletic W/ OUT giving up weekends \ud83c\udf34\nHYBRID = lift, run, mobility\nClients down 20-70 lbs in 2-6 mon...",
+        "website": "https://linktw.in/kmcval",
+        "strategy_beat": "Monitor Myles Harris for 78K followers, high performers, DM HYBRID",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@jackhart02",
+        "name": "Jack Hart",
+        "followers": 50042,
+        "posts": 510,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "I help career driven men shred fat & build muscle\nDM Me \"shred\u201d to work with me 1-1\n\u2b07\ufe0fApply to work with me",
+        "website": "https://hartcore.fitness",
+        "strategy_beat": "Monitor Jack Hart for 49K followers, nearest scale to Geebs, DM SHRED",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@coachedbycallum",
+        "name": "Callum",
+        "followers": 22695,
+        "posts": 723,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "\ud83d\udd25 Helping You Get Lean, Strong, Healthy & Athletic  \n\ud83d\udcc8 1k+ Transformations | 13 Yrs Exp | Real Accountability \n\ud83d\udce5 DM \"LEA...",
+        "website": "https://form.jotform.com/211036843820853",
+        "strategy_beat": "Monitor Callum for 21K followers, DM LEAN",
+        "changed": false,
+        "source_status": "stale"
+      },
+      {
+        "handle": "@holistic.hev",
+        "name": "Holistic Hev",
+        "followers": 110973,
+        "posts": 71,
+        "verified": true,
+        "freshness": "Updated 24d ago",
+        "bio_preview": "Christian\u271d\ufe0f\n50+ successful fat loss clients \ud83d\udcaa\nUse link below to check out my coaching options \u2b07\ufe0f",
+        "website": "https://www.holistichev.com/",
+        "strategy_beat": "Monitor Holistic Hev for Emerging, mindful coach angle",
+        "changed": false,
+        "source_status": "stale"
+      }
+    ],
+    "source": {
+      "name": "competitor_snapshot",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/competitor-snapshot.json",
+      "generated_at": "2026-10-10T17:40:05.841970+00:00",
+      "age_days": 24,
+      "status": "stale",
+      "max_age_days": 7
+    },
+    "refresh_required": true,
+    "availability_note": "Research awaiting an update (competitor observations: last available 2026-10-10). Suggestions use the last available material or the recurring content schedule."
+  },
+  "posting_plan": {
+    "type": "DataDrivenPostingPlanSection",
+    "title": "Data-driven posting plan for next week",
+    "intro": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule. Repeating day-of-week themes, refreshed from current DM demand, Reddit demand, carousel topic ranking, and the competitor snapshot status.",
+    "theme_rule": "Same memory-friendly themes each week; the exact topic refreshes weekly from demand data.",
+    "sources": {
+      "reddit_topic_queue": {
+        "name": "reddit_topic_queue",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+        "generated_at": "2026-10-23T23:27:00+00:00",
+        "age_days": 11,
+        "status": "stale",
+        "max_age_days": 7
+      },
+      "dm_topic_demand": {
+        "name": "dm_topic_demand",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/dm-topic-demand.json",
+        "generated_at": "2026-11-03T10:36:17+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      },
+      "carousel_topics": {
+        "name": "carousel_topics",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/geebs-carousel-topics.json",
+        "generated_at": "2026-11-03T11:05:44+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      }
+    },
+    "by_day": [
+      {
+        "day": "Monday",
+        "format": "carousel",
+        "theme": "Fat loss",
+        "pillar": "fat-loss",
+        "topic": "10 things people cutting get wrong about fat loss \u2014 backed by 2026 studies.",
+        "reason": "Fat loss is the fixed Monday theme; this week's topic was selected from carousel_topic_engine score 88.0. Signals: fat loss; how to lose belly fat; calorie deficit calculator; Just learned that 95% of Americans don't get our recommended amount of fiber, while almost all of us get more protein than we need.  What's with our society's obsession with protein?  What are some easy swaps to get more fiber while still hitting our protein goals?",
+        "reason_public": "Fat loss is the fixed Monday theme. This week's angle comes from what people keep asking us: fat loss, how to lose belly fat, calorie deficit calculator.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "desk-job-habits-split",
+        "deck_caption": "How to stay healthy at a desk job. 5 habits, backed by science.\n\nIf you sit most of the day, your job is not the problem. Sitting still is. These are the 5 things I'd do every single workday, and each one has real research behind it.\n\nSources:\n1. Two-minute walks every 20 minutes of sitting cut the blood sugar response to a test drink from 6.9 to 5.2 in 19 overweight adults. Diabetes Care, 2012. doi:10.2337/dc11-1931\n2. Across 1,005,791 people, about 60 to 75 minutes a day of moderate activity wiped out the extra risk of death tied to sitting 8+ hours. Lancet, 2016. doi:10.1016/S0140-6736(16)30370-1\n3. In 573 office workers, one hour a week of neck and shoulder strength training cut headache frequency and intensity by about 50%. Musculoskelet Sci Pract, 2018. doi:10.1016/j.msksp.2017.08.003\n4. Office workers with more daylight at work slept longer and reported better sleep quality than workers in windowless spaces. J Clin Sleep Med, 2015. doi:10.5664/jcsm.3780\n5. Reading on a light-emitting screen before bed made people slower to fall asleep, cut melatonin and delayed the body clock versus a printed book. PNAS, 2015. doi:10.1073/pnas.1418490112\n\nThe activity and daylight findings come from observational data, so they show a link, not proof. Still worth doing.\n\nSave this for your next long day at the desk. And send it to the friend who works 9 hours without standing up once.\n\nComment BUSY and I'll send you my free busy-week training plan.\n\n#fitness #deskjob #officeworker #sitting #healthyhabits #gainsfromgeebs",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#fatloss",
+          "#cutting",
+          "#gainsfromgeebs"
+        ],
+        "caption": "10 things people cutting get wrong about fat loss.\n\nI get asked about fat loss constantly, so here is the straight answer without the hype.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#fatloss #cutting #gainsfromgeebs"
+      },
+      {
+        "day": "Monday",
+        "format": "carousel",
+        "theme": "Fat loss",
+        "pillar": "fat-loss",
+        "topic": "10 things people cutting get wrong about fat loss \u2014 backed by 2026 studies.",
+        "reason": "Fat loss is the fixed Monday theme; this week's topic was selected from carousel_topic_engine score 88.0. Signals: fat loss; how to lose belly fat; calorie deficit calculator; Just learned that 95% of Americans don't get our recommended amount of fiber, while almost all of us get more protein than we need.  What's with our society's obsession with protein?  What are some easy swaps to get more fiber while still hitting our protein goals?",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "desk-job-habits-split",
+        "deck_caption": "How to stay healthy at a desk job. 5 habits, backed by science.\n\nIf you sit most of the day, your job is not the problem. Sitting still is. These are the 5 things I'd do every single workday, and each one has real research behind it.\n\nSources:\n1. Two-minute walks every 20 minutes of sitting cut the blood sugar response to a test drink from 6.9 to 5.2 in 19 overweight adults. Diabetes Care, 2012. doi:10.2337/dc11-1931\n2. Across 1,005,791 people, about 60 to 75 minutes a day of moderate activity wiped out the extra risk of death tied to sitting 8+ hours. Lancet, 2016. doi:10.1016/S0140-6736(16)30370-1\n3. In 573 office workers, one hour a week of neck and shoulder strength training cut headache frequency and intensity by about 50%. Musculoskelet Sci Pract, 2018. doi:10.1016/j.msksp.2017.08.003\n4. Office workers with more daylight at work slept longer and reported better sleep quality than workers in windowless spaces. J Clin Sleep Med, 2015. doi:10.5664/jcsm.3780\n5. Reading on a light-emitting screen before bed made people slower to fall asleep, cut melatonin and delayed the body clock versus a printed book. PNAS, 2015. doi:10.1073/pnas.1418490112\n\nThe activity and daylight findings come from observational data, so they show a link, not proof. Still worth doing.\n\nSave this for your next long day at the desk. And send it to the friend who works 9 hours without standing up once.\n\nComment BUSY and I'll send you my free busy-week training plan.\n\n#fitness #deskjob #officeworker #sitting #healthyhabits #gainsfromgeebs",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/blog/2026-08-09-weight-training-vs-cardio-for-fat-loss-what-the-data-shows",
+        "resource_kind": "article",
+        "post_kind": "education",
+        "hashtags": [
+          "#fatloss",
+          "#cutting",
+          "#titanforgefitness"
+        ],
+        "caption": "10 things people cutting get wrong about fat loss.\n\nThis is the fat loss question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://titanforgefit.com/blog/2026-08-09-weight-training-vs-cardio-for-fat-loss-what-the-data-shows\n\n#fatloss #cutting #titanforgefitness"
+      },
+      {
+        "day": "Tuesday",
+        "format": "talking head",
+        "theme": "Modern life: remote work, screens, AI & health",
+        "pillar": "modern-life",
+        "topic": "For guys glued to a desk and a phone: what matters most about staying healthy at a desk?",
+        "reason": "Modern life: remote work, screens, AI & health is the fixed Tuesday theme; this week's topic was selected from carousel_topic_engine score 86.5. Signals: sitting all day health effects; desk job back pain; phone addiction dopamine; Apparently exercise is controversial now???",
+        "reason_public": "Modern life: remote work, screens, AI & health is the fixed Tuesday theme. This week's angle comes from what people keep asking us: sitting all day health effects, desk job back pain, phone addiction dopamine.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "under-eating-killing-gains-signs",
+        "deck_caption": "Signs under-eating is killing your gains. And 6 ways to fix it.\n\nMore of a deficit isn't always better. Eat too little for too long and you stop building muscle, lose the muscle you have, feel cold and flat, and set up a rebound. Here's what the research shows.\n\nSources:\n1. A meta-analysis of resistance training in an energy deficit: lean mass gains impaired, strength comparable, about 500 kcal a day deficit prevented lean mass gains. Scand J Med Sci Sports, 2022. doi:10.1111/sms.14075\n2. Review of low energy availability in natural male bodybuilding: muscle loss over 40% of weight lost in case studies, body fat overshoot on refeeding. Int J Sport Nutr Exerc Metab, 2017. doi:10.1123/ijsnem.2016-0332\n3. 48 overweight adults, 6 months of 25% calorie restriction lowered core body temperature. JAMA, 2006. doi:10.1001/jama.295.13.1539\n4. One natural bodybuilder over 12 months: testosterone fell from 9.22 to 2.27 ng/mL, mood disturbance rose from 6 to 43 in prep. Int J Sports Physiol Perform, 2013. doi:10.1123/ijspp.8.5.582\n5. MATADOR, 36 men with obesity who finished: intermittent dieting lost more fat (12.3 vs 8.0 kg) and had a smaller drop in resting energy burn. Int J Obes, 2018. doi:10.1038/ijo.2017.206\n6. 24 athletes lifting 4 days a week: losing 0.7% of body weight per week gained 2.1% lean mass, losing 1.4% per week did not. Int J Sport Nutr Exerc Metab, 2011. doi:10.1123/ijsnem.21.2.97\n7. 40 young men on a 40% deficit: 2.4 g protein per kg gained 1.2 kg lean mass vs 0.1 kg on 1.2 g per kg. Am J Clin Nutr, 2016. doi:10.3945/ajcn.115.119339\n8. Natural bodybuilding prep review: 0.5 to 1% weekly loss, 2.3 to 3.1 g protein per kg of lean mass. J Int Soc Sports Nutr, 2014. doi:10.1186/1550-2783-11-20\n\nSave this for the next time you think cutting harder is the answer. And send it to the friend who's been on 1,400 calories for two months and wonders why he looks softer.\n\nComment DEFICIT and I'll send you my free deficit calculator. And follow @gainsfromgeebs, a new one drops every Tuesday.\n\n#fitness #fatloss #nutrition #calorieDeficit #gymmotivation #musclegain #gainsfromgeebs",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#busyprofessional",
+          "#desk",
+          "#gainsfromgeebs"
+        ],
+        "caption": "For guys glued to a desk and a phone: what matters most about staying healthy at a desk?\n\nI get asked about staying healthy with a desk job constantly, so here is the straight answer without the hype.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#busyprofessional #desk #gainsfromgeebs"
+      },
+      {
+        "day": "Tuesday",
+        "format": "talking head",
+        "theme": "Modern life: remote work, screens, AI & health",
+        "pillar": "modern-life",
+        "topic": "For guys glued to a desk and a phone: what matters most about staying healthy at a desk?",
+        "reason": "Modern life: remote work, screens, AI & health is the fixed Tuesday theme; this week's topic was selected from carousel_topic_engine score 86.5. Signals: sitting all day health effects; desk job back pain; phone addiction dopamine; Apparently exercise is controversial now???",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "under-eating-killing-gains-signs",
+        "deck_caption": "Signs under-eating is killing your gains. And 6 ways to fix it.\n\nMore of a deficit isn't always better. Eat too little for too long and you stop building muscle, lose the muscle you have, feel cold and flat, and set up a rebound. Here's what the research shows.\n\nSources:\n1. A meta-analysis of resistance training in an energy deficit: lean mass gains impaired, strength comparable, about 500 kcal a day deficit prevented lean mass gains. Scand J Med Sci Sports, 2022. doi:10.1111/sms.14075\n2. Review of low energy availability in natural male bodybuilding: muscle loss over 40% of weight lost in case studies, body fat overshoot on refeeding. Int J Sport Nutr Exerc Metab, 2017. doi:10.1123/ijsnem.2016-0332\n3. 48 overweight adults, 6 months of 25% calorie restriction lowered core body temperature. JAMA, 2006. doi:10.1001/jama.295.13.1539\n4. One natural bodybuilder over 12 months: testosterone fell from 9.22 to 2.27 ng/mL, mood disturbance rose from 6 to 43 in prep. Int J Sports Physiol Perform, 2013. doi:10.1123/ijspp.8.5.582\n5. MATADOR, 36 men with obesity who finished: intermittent dieting lost more fat (12.3 vs 8.0 kg) and had a smaller drop in resting energy burn. Int J Obes, 2018. doi:10.1038/ijo.2017.206\n6. 24 athletes lifting 4 days a week: losing 0.7% of body weight per week gained 2.1% lean mass, losing 1.4% per week did not. Int J Sport Nutr Exerc Metab, 2011. doi:10.1123/ijsnem.21.2.97\n7. 40 young men on a 40% deficit: 2.4 g protein per kg gained 1.2 kg lean mass vs 0.1 kg on 1.2 g per kg. Am J Clin Nutr, 2016. doi:10.3945/ajcn.115.119339\n8. Natural bodybuilding prep review: 0.5 to 1% weekly loss, 2.3 to 3.1 g protein per kg of lean mass. J Int Soc Sports Nutr, 2014. doi:10.1186/1550-2783-11-20\n\nSave this for the next time you think cutting harder is the answer. And send it to the friend who's been on 1,400 calories for two months and wonders why he looks softer.\n\nComment DEFICIT and I'll send you my free deficit calculator. And follow @gainsfromgeebs, a new one drops every Tuesday.\n\n#fitness #fatloss #nutrition #calorieDeficit #gymmotivation #musclegain #gainsfromgeebs",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#busyprofessional",
+          "#desk",
+          "#titanforgefitness"
+        ],
+        "caption": "For guys glued to a desk and a phone: what matters most about staying healthy at a desk?\n\nThis is the staying healthy with a desk job question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://titanforgefit.com/\n\n#busyprofessional #desk #titanforgefitness"
+      },
+      {
+        "day": "Wednesday",
+        "format": "carousel",
+        "theme": "Muscle & hypertrophy",
+        "pillar": "muscle-hypertrophy",
+        "topic": "10 building muscle findings the research actually backs.",
+        "reason": "Muscle & hypertrophy is the fixed Wednesday theme; this week's topic was selected from carousel_topic_engine score 83.8. Signals: how to build muscle; hypertrophy training; muscle growth peptides; How do people survive on less than 1700 calories",
+        "reason_public": "Muscle & hypertrophy is the fixed Wednesday theme. This week's angle comes from what people keep asking us: how to build muscle, hypertrophy training, muscle growth peptides.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "cardio-10-contrarian-v8",
+        "deck_caption": "Hours of cardio were never the point. 10 cardio findings.\n\n10 peer-reviewed findings on what cardio really does for fat, muscle and life span (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Any running beat none, even once a week\n2. Fitness showed no ceiling on the benefit\n3. Intervals bought the same fat loss in 40% less time\n4. Running cut fat. Cycling did not\n5. Short hard intervals did not melt more fat\n6. Intervals did build fitness fast\n7. Sedentary adults gained about 6 points of fitness\n8. Lifting plus cardio still beat cardio alone for muscle\n9. At the fiber level, running cost a little growth\n10. Walking or jogging cut depression scores\n\nWhat the research says:\n- 232,149 adults across 6 cohorts: running went with 27% lower all cause mortality, and no weekly dose beat any other (HR 0.73).\n- 122,007 treadmill tested adults: the fittest group had one fifth the risk of dying of the least fit group (HR 0.20).\n\nSources:\n1. Any running beat none, with no dose trend: Pedisic 2020, Br J Sports Med. PMID 31685526.\n2. Fitness had no upper limit of benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Intervals matched moderate cardio for fat loss in less time: Wewege 2017, Obes Rev. PMID 28401638.\n4. Running cut fat mass, cycling did not: Wewege 2017, Obes Rev. PMID 28401638.\n5. Low volume HIIT did not change fat mass: Sultana 2019, Sports Med. PMID 31401727.\n6. Interval training raised VO2max: Bacon 2013, PLoS One. PMID 24066036.\n7. HIIT raised fitness and trimmed waist in sedentary adults: Strauss 2026, Cochrane Database Syst Rev. PMID 41810896.\n8. Concurrent training still built muscle, mostly with running as the cost: Wilson 2012, J Strength Cond Res. PMID 22002517.\n9. Running had a small cost on type I fiber growth: Lundberg 2022, Sports Med. PMID 35476184.\n10. Walking or jogging reduced depression scores: Noetel 2024, BMJ. PMID 38355154.\n\nThis is not an anti-cardio or pro-cardio post. Several of these are observational: running and fitness tracked with longer lives, they do not prove cardio caused it. Intervals were a time saver, not a fat loss shortcut.\n\nSave this for your next cardio day. And send it to the lifter who skips cardio because he thinks it kills his gains.\n\nComment BUSY and I'll send you my busy week training plan, free.\n\n#cardio #hiit #fatloss #gymscience",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#buildmuscle",
+          "#muscle",
+          "#gainsfromgeebs"
+        ],
+        "caption": "10 building muscle findings the research actually backs.\n\nI get asked about building muscle constantly, so here is the straight answer without the hype.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#buildmuscle #muscle #gainsfromgeebs"
+      },
+      {
+        "day": "Wednesday",
+        "format": "carousel",
+        "theme": "Muscle & hypertrophy",
+        "pillar": "muscle-hypertrophy",
+        "topic": "10 building muscle findings the research actually backs.",
+        "reason": "Muscle & hypertrophy is the fixed Wednesday theme; this week's topic was selected from carousel_topic_engine score 83.8. Signals: how to build muscle; hypertrophy training; muscle growth peptides; How do people survive on less than 1700 calories",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "cardio-10-contrarian-v8",
+        "deck_caption": "Hours of cardio were never the point. 10 cardio findings.\n\n10 peer-reviewed findings on what cardio really does for fat, muscle and life span (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Any running beat none, even once a week\n2. Fitness showed no ceiling on the benefit\n3. Intervals bought the same fat loss in 40% less time\n4. Running cut fat. Cycling did not\n5. Short hard intervals did not melt more fat\n6. Intervals did build fitness fast\n7. Sedentary adults gained about 6 points of fitness\n8. Lifting plus cardio still beat cardio alone for muscle\n9. At the fiber level, running cost a little growth\n10. Walking or jogging cut depression scores\n\nWhat the research says:\n- 232,149 adults across 6 cohorts: running went with 27% lower all cause mortality, and no weekly dose beat any other (HR 0.73).\n- 122,007 treadmill tested adults: the fittest group had one fifth the risk of dying of the least fit group (HR 0.20).\n\nSources:\n1. Any running beat none, with no dose trend: Pedisic 2020, Br J Sports Med. PMID 31685526.\n2. Fitness had no upper limit of benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Intervals matched moderate cardio for fat loss in less time: Wewege 2017, Obes Rev. PMID 28401638.\n4. Running cut fat mass, cycling did not: Wewege 2017, Obes Rev. PMID 28401638.\n5. Low volume HIIT did not change fat mass: Sultana 2019, Sports Med. PMID 31401727.\n6. Interval training raised VO2max: Bacon 2013, PLoS One. PMID 24066036.\n7. HIIT raised fitness and trimmed waist in sedentary adults: Strauss 2026, Cochrane Database Syst Rev. PMID 41810896.\n8. Concurrent training still built muscle, mostly with running as the cost: Wilson 2012, J Strength Cond Res. PMID 22002517.\n9. Running had a small cost on type I fiber growth: Lundberg 2022, Sports Med. PMID 35476184.\n10. Walking or jogging reduced depression scores: Noetel 2024, BMJ. PMID 38355154.\n\nThis is not an anti-cardio or pro-cardio post. Several of these are observational: running and fitness tracked with longer lives, they do not prove cardio caused it. Intervals were a time saver, not a fat loss shortcut.\n\nSave this for your next cardio day. And send it to the lifter who skips cardio because he thinks it kills his gains.\n\nComment BUSY and I'll send you my busy week training plan, free.\n\n#cardio #hiit #fatloss #gymscience",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/blog/2026-08-09-hypertrophy-vs-strength-what-actually-builds-muscle-for-beginners",
+        "resource_kind": "article",
+        "post_kind": "education",
+        "hashtags": [
+          "#buildmuscle",
+          "#muscle",
+          "#titanforgefitness"
+        ],
+        "caption": "10 building muscle findings the research actually backs.\n\nThis is the building muscle question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://titanforgefit.com/blog/2026-08-09-hypertrophy-vs-strength-what-actually-builds-muscle-for-beginners\n\n#buildmuscle #muscle #titanforgefitness"
+      },
+      {
+        "day": "Thursday",
+        "format": "talking head",
+        "theme": "Recovery & sleep",
+        "pillar": "recovery-sleep",
+        "topic": "A practical guide to recovery and sleep for under-recovered busy men.",
+        "reason": "Recovery & sleep is the fixed Thursday theme; this week's topic was selected from carousel_topic_engine score 49.6. Signals: how to sleep better at night; sleep and muscle growth; recovery between workouts; I\u2019m so tired of failing at weight loss. I know what to do, so why can\u2019t I stay consistent?",
+        "reason_public": "Recovery & sleep is the fixed Thursday theme. This week's angle comes from what people keep asking us: how to sleep better at night, sleep and muscle growth, recovery between workouts.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "testosterone-10-contrarian-v8",
+        "deck_caption": "Testosterone is not the muscle switch the ads sell. 10 findings.\n\n10 peer-reviewed findings on testosterone, training and what actually moves it (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. The post workout hormone spike predicted nothing\n2. Losing weight raised testosterone\n3. A short night did not crash it. A missed night did\n4. Low fat diets lowered it\n5. Soy did not lower testosterone\n6. Low testosterone needs symptoms, not just a number\n7. Very high doses did build muscle. Normal levels were never the test\n8. Replacing it matched placebo on heart events\n9. Treatment cut diabetes risk, with a catch\n10. A supplement moved the number, not the stress\n\nWhat the research says:\n- 49 resistance trained men, 12 weeks: no link between the acute post workout rise in any anabolic hormone and the change in strength or muscle.\n- 24 studies: losing weight raised total testosterone, by 2.87 nmol/L on a low calorie diet and 8.73 after bariatric surgery.\n\nSources:\n1. Post workout hormone rises did not predict gains: Morton 2016, J Appl Physiol. PMID 27174923.\n2. Weight loss raised testosterone: Corona 2013, Eur J Endocrinol. PMID 23482592.\n3. Total sleep loss lowered testosterone, partial did not: Su 2021, Sleep Med. PMID 34801825.\n4. Low fat diets lowered testosterone: Whittaker 2021, J Steroid Biochem Mol Biol. PMID 33741447.\n5. Soy did not change male hormones: Reed 2021, Reprod Toxicol. PMID 33383165.\n6. Low testosterone was defined by symptoms plus a cutoff: Wu 2010, N Engl J Med. PMID 20554979.\n7. Supraphysiologic doses built muscle, lifting added more: Bhasin 1996, N Engl J Med. PMID 8637535.\n8. Testosterone therapy matched placebo on cardiac events: Lincoff 2023, N Engl J Med. PMID 37326322.\n9. Testosterone cut diabetes risk, raised haematocrit: Wittert 2021, Lancet Diabetes Endocrinol. PMID 33338415.\n10. Ashwagandha raised free testosterone, not stress relief: Smith 2023, J Psychopharmacol. PMID 37740662.\n\nThis is not an anti-testosterone post. Treatment helps men with a diagnosed deficiency. The point is that workout spikes and boosters are not what builds your muscle.\n\nSave this for the next time an ad promises a hormone fix. And send it to the guy at your gym who buys testosterone boosters.\n\nComment RECOMP and I'll send you my recomp breakdown, free.\n\n#testosterone #mensHealth #musclebuilding #gymscience",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#recovery",
+          "#sleep",
+          "#gainsfromgeebs"
+        ],
+        "caption": "A practical guide to recovery and sleep for under-recovered busy men.\n\nI get asked about sleep and recovery constantly, so here is the straight answer without the hype.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#recovery #sleep #gainsfromgeebs"
+      },
+      {
+        "day": "Thursday",
+        "format": "talking head",
+        "theme": "Recovery & sleep",
+        "pillar": "recovery-sleep",
+        "topic": "A practical guide to recovery and sleep for under-recovered busy men.",
+        "reason": "Recovery & sleep is the fixed Thursday theme; this week's topic was selected from carousel_topic_engine score 49.6. Signals: how to sleep better at night; sleep and muscle growth; recovery between workouts; I\u2019m so tired of failing at weight loss. I know what to do, so why can\u2019t I stay consistent?",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "testosterone-10-contrarian-v8",
+        "deck_caption": "Testosterone is not the muscle switch the ads sell. 10 findings.\n\n10 peer-reviewed findings on testosterone, training and what actually moves it (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. The post workout hormone spike predicted nothing\n2. Losing weight raised testosterone\n3. A short night did not crash it. A missed night did\n4. Low fat diets lowered it\n5. Soy did not lower testosterone\n6. Low testosterone needs symptoms, not just a number\n7. Very high doses did build muscle. Normal levels were never the test\n8. Replacing it matched placebo on heart events\n9. Treatment cut diabetes risk, with a catch\n10. A supplement moved the number, not the stress\n\nWhat the research says:\n- 49 resistance trained men, 12 weeks: no link between the acute post workout rise in any anabolic hormone and the change in strength or muscle.\n- 24 studies: losing weight raised total testosterone, by 2.87 nmol/L on a low calorie diet and 8.73 after bariatric surgery.\n\nSources:\n1. Post workout hormone rises did not predict gains: Morton 2016, J Appl Physiol. PMID 27174923.\n2. Weight loss raised testosterone: Corona 2013, Eur J Endocrinol. PMID 23482592.\n3. Total sleep loss lowered testosterone, partial did not: Su 2021, Sleep Med. PMID 34801825.\n4. Low fat diets lowered testosterone: Whittaker 2021, J Steroid Biochem Mol Biol. PMID 33741447.\n5. Soy did not change male hormones: Reed 2021, Reprod Toxicol. PMID 33383165.\n6. Low testosterone was defined by symptoms plus a cutoff: Wu 2010, N Engl J Med. PMID 20554979.\n7. Supraphysiologic doses built muscle, lifting added more: Bhasin 1996, N Engl J Med. PMID 8637535.\n8. Testosterone therapy matched placebo on cardiac events: Lincoff 2023, N Engl J Med. PMID 37326322.\n9. Testosterone cut diabetes risk, raised haematocrit: Wittert 2021, Lancet Diabetes Endocrinol. PMID 33338415.\n10. Ashwagandha raised free testosterone, not stress relief: Smith 2023, J Psychopharmacol. PMID 37740662.\n\nThis is not an anti-testosterone post. Treatment helps men with a diagnosed deficiency. The point is that workout spikes and boosters are not what builds your muscle.\n\nSave this for the next time an ad promises a hormone fix. And send it to the guy at your gym who buys testosterone boosters.\n\nComment RECOMP and I'll send you my recomp breakdown, free.\n\n#testosterone #mensHealth #musclebuilding #gymscience",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/blog/2026-08-09-sleep-and-recovery-protocols-for-high-performers",
+        "resource_kind": "article",
+        "post_kind": "education",
+        "hashtags": [
+          "#recovery",
+          "#sleep",
+          "#titanforgefitness"
+        ],
+        "caption": "A practical guide to recovery and sleep for under-recovered busy men.\n\nThis is the sleep and recovery question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://titanforgefit.com/blog/2026-08-09-sleep-and-recovery-protocols-for-high-performers\n\n#recovery #sleep #titanforgefitness"
+      },
+      {
+        "day": "Friday",
+        "format": "talking head",
+        "theme": "Supplements",
+        "pillar": "supplements",
+        "topic": "10 things guys wasting money on supplements get wrong about supplements \u2014 backed by 2026 studies.",
+        "reason": "Supplements is the fixed Friday theme; this week's topic was selected from carousel_topic_engine score 57.5. Signals: does creatine work; best supplements for muscle growth; is preworkout bad for your heart; Ground beef, sweet potatoes, spinach, and rice as a meal. Is it livable?",
+        "reason_public": "Supplements is the fixed Friday theme. This week's angle comes from what people keep asking us: does creatine work, best supplements for muscle growth, is preworkout bad for your heart.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "consistency-10-contrarian-v8",
+        "deck_caption": "Motivation never made anyone consistent. 10 findings.\n\n10 peer-reviewed findings on what keeps people training (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Wanting it more barely changed what people did\n2. A when and where plan helped\n3. Self-monitoring worked best with a feedback loop\n4. A tracker added about 1,800 steps a day\n5. Paying people worked, for a while\n6. A habit took about two months, but ranged from 4 days to 335\n7. How a session felt predicted whether people came back\n8. Liking it beat forcing it, long term\n9. Twice a week per muscle beat once a week\n10. More days was not always better\n\nWhat the research says:\n- 11 randomised trials: raising intention moved behavior by only d 0.15, a third of the change in intention itself (d 0.45).\n- 122 evaluations, 44,747 adults: self-monitoring plus a feedback loop reached an effect of 0.42, vs 0.26 for programs without it.\n\nSources:\n1. Raising intention barely moved behavior: Rhodes 2012, Health Psychol. PMID 22390739.\n2. If-then plans raised physical activity: Silva 2018, PLoS One. PMID 30427874.\n3. Self-monitoring plus a feedback loop worked best: Michie 2009, Health Psychol. PMID 19916637.\n4. Activity trackers added steps: Ferguson 2022, Lancet Digit Health. PMID 35868813.\n5. Financial incentives raised attendance short term: Mitchell 2013, Am J Prev Med. PMID 24139781.\n6. Habits took about two months with huge variation: Singh 2024, Healthcare. PMID 39685110.\n7. Feeling good during exercise predicted future activity: Rhodes 2015, Ann Behav Med. PMID 25921307.\n8. Intrinsic motivation predicted long term adherence: Teixeira 2012, Int J Behav Nutr Phys Act. PMID 22726453.\n9. Training a muscle twice a week beat once: Schoenfeld 2016, Sports Med. PMID 27102172.\n10. Three to five sessions a week had the largest mental health link: Chekroud 2018, Lancet Psychiatry. PMID 30099000.\n\nThis is not an anti-motivation post. Several of these are observational, and effect sizes come from different reviews and measures. The point is that systems did more than a good mood.\n\nSave this for the next time you fall off. And send it to the friend who restarts every Monday.\n\nComment STICK and I'll send you my consistency breakdown, free.\n\n#consistency #habits #gymmotivation #gymscience",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#supplements",
+          "#gainsfromgeebs"
+        ],
+        "caption": "10 things guys wasting money on supplements get wrong about supplements.\n\nI get asked about supplements constantly, so here is the straight answer without the hype.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#supplements #gainsfromgeebs"
+      },
+      {
+        "day": "Friday",
+        "format": "talking head",
+        "theme": "Supplements",
+        "pillar": "supplements",
+        "topic": "10 things guys wasting money on supplements get wrong about supplements \u2014 backed by 2026 studies.",
+        "reason": "Supplements is the fixed Friday theme; this week's topic was selected from carousel_topic_engine score 57.5. Signals: does creatine work; best supplements for muscle growth; is preworkout bad for your heart; Ground beef, sweet potatoes, spinach, and rice as a meal. Is it livable?",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "consistency-10-contrarian-v8",
+        "deck_caption": "Motivation never made anyone consistent. 10 findings.\n\n10 peer-reviewed findings on what keeps people training (November 2026). No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Wanting it more barely changed what people did\n2. A when and where plan helped\n3. Self-monitoring worked best with a feedback loop\n4. A tracker added about 1,800 steps a day\n5. Paying people worked, for a while\n6. A habit took about two months, but ranged from 4 days to 335\n7. How a session felt predicted whether people came back\n8. Liking it beat forcing it, long term\n9. Twice a week per muscle beat once a week\n10. More days was not always better\n\nWhat the research says:\n- 11 randomised trials: raising intention moved behavior by only d 0.15, a third of the change in intention itself (d 0.45).\n- 122 evaluations, 44,747 adults: self-monitoring plus a feedback loop reached an effect of 0.42, vs 0.26 for programs without it.\n\nSources:\n1. Raising intention barely moved behavior: Rhodes 2012, Health Psychol. PMID 22390739.\n2. If-then plans raised physical activity: Silva 2018, PLoS One. PMID 30427874.\n3. Self-monitoring plus a feedback loop worked best: Michie 2009, Health Psychol. PMID 19916637.\n4. Activity trackers added steps: Ferguson 2022, Lancet Digit Health. PMID 35868813.\n5. Financial incentives raised attendance short term: Mitchell 2013, Am J Prev Med. PMID 24139781.\n6. Habits took about two months with huge variation: Singh 2024, Healthcare. PMID 39685110.\n7. Feeling good during exercise predicted future activity: Rhodes 2015, Ann Behav Med. PMID 25921307.\n8. Intrinsic motivation predicted long term adherence: Teixeira 2012, Int J Behav Nutr Phys Act. PMID 22726453.\n9. Training a muscle twice a week beat once: Schoenfeld 2016, Sports Med. PMID 27102172.\n10. Three to five sessions a week had the largest mental health link: Chekroud 2018, Lancet Psychiatry. PMID 30099000.\n\nThis is not an anti-motivation post. Several of these are observational, and effect sizes come from different reviews and measures. The point is that systems did more than a good mood.\n\nSave this for the next time you fall off. And send it to the friend who restarts every Monday.\n\nComment STICK and I'll send you my consistency breakdown, free.\n\n#consistency #habits #gymmotivation #gymscience",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/blog/2026-08-09-the-truth-about-foundation-supplements-creatine-protein-and-pre-workout",
+        "resource_kind": "article",
+        "post_kind": "education",
+        "hashtags": [
+          "#supplements",
+          "#titanforgefitness"
+        ],
+        "caption": "10 things guys wasting money on supplements get wrong about supplements.\n\nThis is the supplements question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSave this and send it to someone who needs to hear it.\n\nFull breakdown: https://titanforgefit.com/blog/2026-08-09-the-truth-about-foundation-supplements-creatine-protein-and-pre-workout\n\n#supplements #titanforgefitness"
+      },
+      {
+        "day": "Saturday",
+        "format": "carousel",
+        "theme": "Nutrition (whole-diet)",
+        "pillar": "nutrition",
+        "topic": "Start here with nutrition: a guide for guys who overcomplicate food.",
+        "reason": "Nutrition (whole-diet) is the fixed Saturday theme; this week's topic was selected from carousel_topic_engine score 52.9. Signals: how much protein per day to lose weight for a woman; is seed oil bad for you; ultra processed food; Just learned that 95% of Americans don't get our recommended amount of fiber, while almost all of us get more protein than we need.  What's with our society's obsession with protein?  What are some easy swaps to get more fiber while still hitting our protein goals?",
+        "reason_public": "Nutrition (whole-diet) is the fixed Saturday theme. This week's angle comes from what people keep asking us: how much protein per day to lose weight for a woman, is seed oil bad for you, ultra processed food.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/science",
+        "resource_kind": "hub",
+        "post_kind": "education",
+        "hashtags": [
+          "#nutrition",
+          "#food",
+          "#gainsfromgeebs"
+        ],
+        "caption": "Start here with nutrition: a guide for guys who overcomplicate food.\n\nI get asked about eating well without overcomplicating it constantly, so here is the straight answer without the hype.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://gainsfromgeebs.com/science\n\n#nutrition #food #gainsfromgeebs"
+      },
+      {
+        "day": "Saturday",
+        "format": "carousel",
+        "theme": "Nutrition (whole-diet)",
+        "pillar": "nutrition",
+        "topic": "Start here with nutrition: a guide for guys who overcomplicate food.",
+        "reason": "Nutrition (whole-diet) is the fixed Saturday theme; this week's topic was selected from carousel_topic_engine score 52.9. Signals: how much protein per day to lose weight for a woman; is seed oil bad for you; ultra processed food; Just learned that 95% of Americans don't get our recommended amount of fiber, while almost all of us get more protein than we need.  What's with our society's obsession with protein?  What are some easy swaps to get more fiber while still hitting our protein goals?",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": false,
+        "carousel_photos": true,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/blog/2026-10-27-high-protein-fast-food-guide",
+        "resource_kind": "article",
+        "post_kind": "education",
+        "hashtags": [
+          "#nutrition",
+          "#food",
+          "#titanforgefitness"
+        ],
+        "caption": "Start here with nutrition: a guide for guys who overcomplicate food.\n\nThis is the eating well without overcomplicating it question I answer most with clients, and the evidence is clearer than the internet makes it sound.\n\nSwipe through, then save it for the next time this comes up.\n\nFull breakdown: https://titanforgefit.com/blog/2026-10-27-high-protein-fast-food-guide\n\n#nutrition #food #titanforgefitness"
+      },
+      {
+        "day": "Sunday",
+        "format": "reel",
+        "theme": "Client proof and next step",
+        "pillar": "client-proof",
+        "topic": "What a coached week actually looks like, using a real client result already published with permission",
+        "reason": "Sunday is the fixed proof and offer slot. It is the only post of the week that asks for a next step. The topic does not refresh from demand data: it points at permissioned proof on the results page and one direct action.",
+        "reason_public": "Sunday is the fixed proof and offer slot. It is the only post of the week that asks for a next step. The topic does not refresh from demand data: it points at permissioned proof on the results page and one direct action.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "longevity-10-contrarian-v8",
+        "deck_caption": "10 longevity findings. Not one of them is about your weight.\n\n10 peer-reviewed findings on what actually predicts a long life. No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Being fit beat being thin\n2. Low fitness carried the same risk as smoking\n3. The fittest found no ceiling on the benefit\n4. Grip strength predicted death better than blood pressure\n5. A strong grip did not prevent falls or fractures\n6. Strength counted even after cardio was accounted for\n7. Lifting plus cardio tracked with the biggest drop\n8. 40 push-ups marked the lowest heart risk\n9. Needing your hands to get off the floor flagged higher risk\n10. Failing a one-leg stand tracked with nearly double the risk\n\nWhat the research says:\n- 33 studies, 102,980 people: each 1 MET higher fitness, about 1 km/h faster running pace, went with 13% lower risk of dying (RR 0.87).\n- 502,293 UK adults: every 5 kg lower grip carried HR 1.16 in men and 1.20 in women. Weakness meant a grip under 26 kg for men.\n\nSources:\n1. Being fit beat being thin: Barry 2014, Prog Cardiovasc Dis. PMID 24438729.\n2. Low fitness matched smoking, and no ceiling on the benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Grip beat blood pressure, but did not prevent falls: Leong 2015, Lancet. PMID 25982160.\n4. Strength counted beyond cardio: Ruiz 2008, BMJ. PMID 18595904.\n5. Lifting plus cardio: Saeidifard 2019, Eur J Prev Cardiol. PMID 31104484.\n6. 40 push-ups: Yang 2019, JAMA Netw Open. PMID 30768197.\n7. Sit and rise test: Brito 2014, Eur J Prev Cardiol. PMID 23242910.\n8. 10 seconds on one leg: Araujo 2022, Br J Sports Med. PMID 35728834.\n9. Each step up in fitness: Kodama 2009, JAMA. PMID 19454641.\n10. Grip in 502,293 adults: Celis-Morales 2018, BMJ. PMID 29739772.\n\nThis isn't an anti weight loss post. These are mostly observational studies: fitness and strength tracked with a longer life, they do not prove training caused it. I still bet on training.\n\nSave this for your next birthday. And send it to the friend who skips the gym because he's already skinny.\n\nComment LIFT and I'll send you my 1RM calculator, free.\n\n#longevity #healthspan #strengthtraining #gymscience",
+        "talent": "Kris",
+        "brand": "geebs",
+        "brand_name": "Gains From Geebs",
+        "resource_url": "https://gainsfromgeebs.com/results",
+        "resource_kind": "proof",
+        "post_kind": "proof-offer",
+        "hashtags": [
+          "#coaching",
+          "#gainsfromgeebs"
+        ],
+        "cta_url": "https://gainsfromgeebs.com/apply",
+        "caption": "People ask me what actually changes when you start coaching.\n\nNot the before and after shot. The week. What the check ins look like, what gets adjusted, what happens when the plan meets a real schedule.\n\nReal client results and how they happened: https://gainsfromgeebs.com/results\n\nIf you want that for yourself, start here: https://gainsfromgeebs.com/apply\n\n#coaching #gainsfromgeebs"
+      },
+      {
+        "day": "Sunday",
+        "format": "reel",
+        "theme": "Client proof and next step",
+        "pillar": "client-proof",
+        "topic": "What a coached week actually looks like, using a real client result already published with permission",
+        "reason": "Sunday is the fixed proof and offer slot. It is the only post of the week that asks for a next step. The topic does not refresh from demand data: it points at permissioned proof on the results page and one direct action.",
+        "reason_public": "A topic to explain to Titan Forge's audience, inspired by the shared weekly question research. This is not a measurement of Titan Forge's own audience.",
+        "talking_head": true,
+        "carousel_photos": false,
+        "drive_link": "[Prepared deck in Drive \u2014 open when posting]",
+        "deck_slug": "longevity-10-contrarian-v8",
+        "deck_caption": "10 longevity findings. Not one of them is about your weight.\n\n10 peer-reviewed findings on what actually predicts a long life. No gurus, no bro-science. Every claim on the slides is cited below. Save it.\n\n1. Being fit beat being thin\n2. Low fitness carried the same risk as smoking\n3. The fittest found no ceiling on the benefit\n4. Grip strength predicted death better than blood pressure\n5. A strong grip did not prevent falls or fractures\n6. Strength counted even after cardio was accounted for\n7. Lifting plus cardio tracked with the biggest drop\n8. 40 push-ups marked the lowest heart risk\n9. Needing your hands to get off the floor flagged higher risk\n10. Failing a one-leg stand tracked with nearly double the risk\n\nWhat the research says:\n- 33 studies, 102,980 people: each 1 MET higher fitness, about 1 km/h faster running pace, went with 13% lower risk of dying (RR 0.87).\n- 502,293 UK adults: every 5 kg lower grip carried HR 1.16 in men and 1.20 in women. Weakness meant a grip under 26 kg for men.\n\nSources:\n1. Being fit beat being thin: Barry 2014, Prog Cardiovasc Dis. PMID 24438729.\n2. Low fitness matched smoking, and no ceiling on the benefit: Mandsager 2018, JAMA Netw Open. PMID 30646252.\n3. Grip beat blood pressure, but did not prevent falls: Leong 2015, Lancet. PMID 25982160.\n4. Strength counted beyond cardio: Ruiz 2008, BMJ. PMID 18595904.\n5. Lifting plus cardio: Saeidifard 2019, Eur J Prev Cardiol. PMID 31104484.\n6. 40 push-ups: Yang 2019, JAMA Netw Open. PMID 30768197.\n7. Sit and rise test: Brito 2014, Eur J Prev Cardiol. PMID 23242910.\n8. 10 seconds on one leg: Araujo 2022, Br J Sports Med. PMID 35728834.\n9. Each step up in fitness: Kodama 2009, JAMA. PMID 19454641.\n10. Grip in 502,293 adults: Celis-Morales 2018, BMJ. PMID 29739772.\n\nThis isn't an anti weight loss post. These are mostly observational studies: fitness and strength tracked with a longer life, they do not prove training caused it. I still bet on training.\n\nSave this for your next birthday. And send it to the friend who skips the gym because he's already skinny.\n\nComment LIFT and I'll send you my 1RM calculator, free.\n\n#longevity #healthspan #strengthtraining #gymscience",
+        "talent": "Steve",
+        "brand": "titanforge",
+        "brand_name": "Titan Forge Fitness",
+        "resource_url": "https://titanforgefit.com/results",
+        "resource_kind": "proof",
+        "post_kind": "proof-offer",
+        "hashtags": [
+          "#coaching",
+          "#titanforgefitness"
+        ],
+        "cta_url": "https://titanforgefit.com/apply",
+        "caption": "People ask what a coached week actually looks like.\n\nNot the transformation photo. The process. What gets measured, what gets changed because of it, and why the plan moves when the data does.\n\nReal client results and how they happened: https://titanforgefit.com/results\n\nIf you want that for yourself, start here: https://titanforgefit.com/apply\n\n#coaching #titanforgefitness"
+      }
+    ],
+    "availability_note": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule."
+  },
+  "what_to_record": {
+    "type": "WhatToRecordSection",
+    "title": "What to record this Sunday shoot",
+    "intro": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule. Shot requests tied to this week's themes. Carousel days ask for a set of situations with a count and a real place, because a deck needs its own footage. Shoot them as they happen in a normal day, not as a studio set. 37 shots in total this week.",
+    "sources": {
+      "reddit_topic_queue": {
+        "name": "reddit_topic_queue",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+        "generated_at": "2026-10-23T23:27:00+00:00",
+        "age_days": 11,
+        "status": "stale",
+        "max_age_days": 7
+      },
+      "dm_topic_demand": {
+        "name": "dm_topic_demand",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/dm-topic-demand.json",
+        "generated_at": "2026-11-03T10:36:17+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      },
+      "carousel_topics": {
+        "name": "carousel_topics",
+        "path": "/Users/gonzalo/.local/share/titan-geebs/geebs-carousel-topics.json",
+        "generated_at": "2026-11-03T11:05:44+00:00",
+        "age_days": 0,
+        "status": "fresh",
+        "max_age_days": 7
+      }
+    },
+    "assets": [
+      {
+        "what": "3 shots: the restaurant table",
+        "where": "Sat down, menu open, plate arriving. Phone at chest height, no flatlay staging",
+        "why": "The 'eating out ruins it' objection is the most common one in the DMs and we have no footage of it.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Monday",
+        "source_theme": "Fat loss"
+      },
+      {
+        "what": "2 shots: the takeout counter",
+        "where": "Ordering, or the bag on the passenger seat",
+        "why": "Covers the weeknight version of the same objection.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Monday",
+        "source_theme": "Fat loss"
+      },
+      {
+        "what": "2 shots: the kitchen scale",
+        "where": "Weighing something ordinary like rice or peanut butter, hands in frame",
+        "why": "Makes a deficit look like a small habit instead of a diet.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Monday",
+        "source_theme": "Fat loss"
+      },
+      {
+        "what": "2 shots: late evening kitchen",
+        "where": "Fridge open after dinner, or standing at the counter with a snack",
+        "why": "Evening eating is where most weeks actually break.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Monday",
+        "source_theme": "Fat loss"
+      },
+      {
+        "what": "Desk-day movement check",
+        "where": "Office, laptop, car, or workday transition; quick walk/stretch/check-in",
+        "why": "Matches busy-life/remote-work demand from the audience.",
+        "usage": "Talking head + reel B-roll",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Tuesday",
+        "source_theme": "Modern life: remote work, screens, AI & health"
+      },
+      {
+        "what": "4 shots: the working set",
+        "where": "Mid set on a main lift. One from the side, one from the front, one close on the grip, one of the rack or plates",
+        "why": "Body slides currently reuse the cover image; a deck needs its own angles.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Wednesday",
+        "source_theme": "Muscle & hypertrophy"
+      },
+      {
+        "what": "2 shots: the correct rep vs the common mistake",
+        "where": "Same exercise, same angle, filmed back to back",
+        "why": "The single most reusable teaching visual we do not have.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Wednesday",
+        "source_theme": "Muscle & hypertrophy"
+      },
+      {
+        "what": "2 shots: the logbook or phone",
+        "where": "Writing or typing the set down, gym in the background",
+        "why": "Makes progressive overload visible instead of abstract.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Wednesday",
+        "source_theme": "Muscle & hypertrophy"
+      },
+      {
+        "what": "2 shots: between sets",
+        "where": "Sat on the bench, breathing, checking the clock",
+        "why": "Real gym texture for filler slides.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Wednesday",
+        "source_theme": "Muscle & hypertrophy"
+      },
+      {
+        "what": "Post-work recovery routine",
+        "where": "Home or office; stretching, walk, sleep wind-down, massage gun, or caffeine cutoff",
+        "why": "Answers recovery questions with a repeatable visual routine.",
+        "usage": "Talking head + reel B-roll",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Thursday",
+        "source_theme": "Recovery & sleep"
+      },
+      {
+        "what": "Supplement shelf reality check",
+        "where": "Kitchen counter, store aisle, or cabinet; show what is useful vs skippable",
+        "why": "Supports Friday supplement Q&A without sounding like a sales pitch.",
+        "usage": "Talking head + reel B-roll",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Friday",
+        "source_theme": "Supplements"
+      },
+      {
+        "what": "4 shots: the supermarket aisle",
+        "where": "Two similar products held side by side, label readable. Dairy, bread, sauces, snacks",
+        "why": "Label comparisons are the most saved format and we reuse the same two photos.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Saturday",
+        "source_theme": "Nutrition (whole-diet)"
+      },
+      {
+        "what": "2 shots: the trolley or basket",
+        "where": "Half full, real shop, not a styled haul",
+        "why": "Grounds the advice in a normal weekly shop.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Saturday",
+        "source_theme": "Nutrition (whole-diet)"
+      },
+      {
+        "what": "2 shots: the finished plate",
+        "where": "Overhead and at eye level, at a real table",
+        "why": "Lets a slide show a portion instead of describing it.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Saturday",
+        "source_theme": "Nutrition (whole-diet)"
+      },
+      {
+        "what": "2 shots: the lunchbox or prep container",
+        "where": "Being filled, or open at a desk",
+        "why": "Covers the prep question without a full meal-prep set.",
+        "usage": "Carousel photo set + story",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Saturday",
+        "source_theme": "Nutrition (whole-diet)"
+      },
+      {
+        "what": "3 shots: the check in happening",
+        "where": "Phone with the message thread open, or a call on a laptop. No client faces or names on screen",
+        "why": "The proof post needs a picture of the process, not a transformation photo.",
+        "usage": "Talking head + reel B-roll",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Sunday",
+        "source_theme": "Client proof and next step"
+      },
+      {
+        "what": "2 shots: the plan being changed",
+        "where": "Writing an adjustment, editing the app, crossing something out",
+        "why": "Shows the coaching, which is the part being sold.",
+        "usage": "Talking head + reel B-roll",
+        "priority": "high",
+        "talent": "Kris",
+        "source_day": "Sunday",
+        "source_theme": "Client proof and next step"
+      }
+    ],
+    "shot_total": 37,
+    "availability_note": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule."
+  },
+  "reddit_quora": {
+    "type": "RedditQuoraScouting",
+    "title": "Reddit/Quora: what people are actually asking",
+    "intro": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule. Top 10 questions by demand score from r/fitness, r/loseit, r/gainit, r/WorkoutRoutines. Feeds blog topics + FAQ + carousel ideas.",
+    "top_questions": [
+      [
+        "Just learned that 95% of Americans don't get our recommended amount of fiber, while almost all of us get more protein than we need.  What's with our society's obsession with protein?  What are some easy swaps to get more fiber while still hitting our protein goals?",
+        "nutrition",
+        "702 upvotes",
+        "score 5.548; lane science-question; pillar unmapped; coverage 0.04"
+      ],
+      [
+        "Apparently exercise is controversial now???",
+        "loseit",
+        "1335 upvotes",
+        "score 5.253; lane science-question; pillar unmapped; coverage 0.25"
+      ],
+      [
+        "How do people survive on less than 1700 calories",
+        "loseit",
+        "343 upvotes",
+        "score 4.78; lane blog; pillar unmapped; coverage 0.17"
+      ],
+      [
+        "I\u2019m so tired of failing at weight loss. I know what to do, so why can\u2019t I stay consistent?",
+        "loseit",
+        "265 upvotes",
+        "score 4.19; lane science-question; pillar fat-loss; coverage 0.2"
+      ],
+      [
+        "Ground beef, sweet potatoes, spinach, and rice as a meal. Is it livable?",
+        "nutrition",
+        "150 upvotes",
+        "score 4.024; lane science-question; pillar unmapped; coverage 0.11"
+      ],
+      [
+        "Lowest cal highest protein foods?",
+        "nutrition",
+        "141 upvotes",
+        "score 3.847; lane science-question; pillar unmapped; coverage 0.2"
+      ],
+      [
+        "How my body has changed in the past 3 years. Still a long way to go but I'll get there \ud83c\udfcb\ud83c\udffb\ud83d\udcaa\ud83c\udffb",
+        "fitness30plus",
+        "268 upvotes",
+        "score 3.837; lane blog; pillar unmapped; coverage 0.14"
+      ],
+      [
+        "Has anyone tried Kefir milk?",
+        "nutrition",
+        "49 upvotes",
+        "score 3.805; lane science-question; pillar unmapped; coverage 0.0"
+      ],
+      [
+        "Is prioritizing fiber worth it?",
+        "nutrition",
+        "207 upvotes",
+        "score 3.741; lane science-question; pillar unmapped; coverage 0.33"
+      ],
+      [
+        "Is adding fiber to low-fiber carbs any different from eating foods naturally high in fiber",
+        "nutrition",
+        "104 upvotes",
+        "score 3.733; lane blog; pillar unmapped; coverage 0.09"
+      ]
+    ],
+    "freshness": "stale \u00b7 generated 2026-10-23T23:27:00+00:00 \u00b7 age 11d",
+    "source": {
+      "name": "reddit_topic_queue",
+      "path": "/Users/gonzalo/.local/share/titan-geebs/reddit-topic-queue.json",
+      "generated_at": "2026-10-23T23:27:00+00:00",
+      "age_days": 11,
+      "status": "stale",
+      "max_age_days": 7
+    },
+    "lane_note": "Top items feed next blog batch, FAQ, carousel hooks, and coach talking-head prompts. No Reddit posting/commenting implied.",
+    "availability_note": "Research awaiting an update (public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule."
+  },
+  "availability": {
+    "status": "limited",
+    "note": "Research awaiting an update (competitor observations: last available 2026-10-10; public questions: last available 2026-10-23). Suggestions use the last available material or the recurring content schedule."
+  }
+}
