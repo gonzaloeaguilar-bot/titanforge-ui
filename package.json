@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/verify-ui-integrity.mjs && next build",
+    "build": "node scripts/verify-ui-integrity.mjs && node scripts/build-app-bundle.mjs && next build",
     "start": "next start",
     "verify:ui-integrity": "node scripts/verify-ui-integrity.mjs",
-    "test": "node scripts/verify-ui-integrity.mjs"
+    "test": "node scripts/verify-ui-integrity.mjs",
+    "build:app": "node scripts/build-app-bundle.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
